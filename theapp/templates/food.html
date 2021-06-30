@@ -1,0 +1,94 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>food</title>
+    <!-- 합쳐지고 최소화된 최신 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- 부가적인 테마 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    
+    <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="{% static 'css/second.css' %}">
+
+</head>
+<body>
+    <div id = "haeyo">
+            <span>해요</span>
+    </div>
+    <nav>
+            <a id="nav1" href="About.html">소개</a> 
+            <a id="nav2" href="Find.html">매장찾기</a> 
+            <a id="nav3" href="Mypage.html">마이페이지</a>
+    </nav>
+    <div class="box">
+        <div class="container-1">
+            <span><img id ="search_icon" src="/image/search.png"></span>
+            <input type="search" id="search" placeholder="매장명을 검색해보세요." />
+        </div>
+    </div>
+    
+    <svg class="house_icon" viewBox="0 0 55 55">
+        <path id="house_icon" d="M 55 55 L 54.99899291992188 55 L 37.99961471557617 54.9990348815918 L 37.99961471557617 35.70121383666992 L 17.9994068145752 35.70121383666992 L 17.9994068145752 54.9990348815918 L 0 54.9990348815918 L 0 22.84613800048828 L 27.5 -1.13686837721616e-13 L 55 22.84613800048828 L 55 54.9990348815918 L 55 55 Z">
+        </path>
+    </svg>
+    <div id="profile_img">
+        <img src = https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzO6wlUE3xt9U7LbJa4qi3_siXBnkrrNxVLl2V_itSdGFwLlw_rlEpHV3oWhVU6x9tS7c&usqp=CAU width="50" height="50">
+    </div>
+        <div id="profile_name">
+            <span>김수아 님</span>
+    </div>
+
+    <div class="text1" > 
+        <button id="cafe1">카페</button>
+    </div>
+    <div class="text2">
+       <button id="food1">음식</button>
+    </div>
+    <div class="text3">
+        <button id="movie1">영화관</button>
+    </div>
+
+    </div>
+    <div class="box2"> &nbsp 
+    </div>
+
+
+        <br>
+        <br>
+        <div id="사진">
+            <label for="맥도날드">
+            &emsp;<img id="맥도날드" src="/image/201.png" alt="맥도날드" height="196px" width="196px"> &emsp;
+            <p id="mc">맥도날드</p>
+            </label>
+            
+            <label for="롯데리아">
+            &emsp;<img id="롯데리아" src="/image/202.png" alt="롯데리아" height="196px" width="196px"> &emsp;
+            <p id="lotte">롯데리아</p>
+            </label>
+
+            <label for="버거킹">
+            &emsp;<img id="버거킹" src="/image/203.png" alt="버거킹" height="196px" width="196px"> &emsp;
+            <p id="king">버거킹</p>
+            </label>
+
+            <label for="KFC">
+            &emsp;<img id="케이에프씨" src="/image/204.png" alt="케이에프씨" height="196px" width="196px"> &emsp;
+            <p id="KFC">KFC</p>
+            </label>
+
+            <label for="맘스터치">
+            &emsp;<img id="맘스터치" src="/image/205.png" alt="맘스터치" height="196px" width="196px"> &emsp;
+            <p id="mom">맘스터치</p>
+            </label>
+
+            <label for="배스킨라빈스">
+            &emsp;<img id="배스킨라빈스" src="/image/206.png" alt="배스킨라빈스" height="196px" width="196px"> &emsp;
+            <p id="br">배스킨라빈스</p>
+            </label>
+</body>
+</html>

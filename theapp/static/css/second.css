@@ -1,0 +1,1449 @@
+
+        /* 수아님 */
+        body
+        {
+            background: #FFF0D6;
+        }
+        #haeyo 
+        {
+            filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+            left: 72px;
+            top: 64px;
+            position: absolute;
+            width: 145px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: BR B;
+            font-size: 80px;
+            color: rgba(255,186,0,1);
+	    }
+        #nav1
+        {
+            left: 342px;
+            top: 90px;
+            position: absolute;
+            width: 58px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: KoreanYNSJG4R;
+            font-size: 30px;
+            color: rgba(0,0,0,1);
+            text-decoration:none 
+        }
+
+        #nav2
+        {
+            left: 533px;
+            top: 90px;
+            position: absolute;
+            width: 58px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: KoreanYNSJG4R;
+            font-size: 30px;
+            color: rgba(0,0,0,1);
+            text-decoration:none 
+        }
+
+        #nav3
+        {
+            left: 776px;
+            top: 90px;
+            position: absolute;
+            width: 58px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: KoreanYNSJG4R;
+            font-size: 30px;
+            color: rgba(0,0,0,1);
+            text-decoration:none 
+        }
+
+        .box
+        {
+            left: 1376px;
+            top: 90px;
+            position: absolute;
+        }
+
+        .container-1 input#search
+        {
+            width: 300px;
+            height: 50px;
+            background: #09090921;
+            border: none;
+            font-size: 15pt;
+            font-family: KoreanYNSJG3R;
+            padding-left: 65px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+        }
+        #search_icon
+        {
+            left: 10px;
+            top: 2px;
+            position: absolute;
+        }
+
+        #house_icon
+        {
+		    fill: rgba(0,0,0,1);
+	    }
+	    .house_icon
+        {
+            overflow: visible;
+            position: absolute;
+            width: 44px;
+            height: 44px;
+            left: 1454px;
+            top: 155px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+
+        #profile_img
+        {
+            left: 1519px;
+            top: 156px;
+            position: absolute;
+        }
+    
+        #profile_name
+        {
+            left: 1575px;
+            top: 167px;
+            position: absolute;
+            overflow: visible;
+            width: 100px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: KoreanYNSJG3R;
+            font-size: 24px;
+            color: rgb(0, 0, 0);
+	    }
+
+
+        /* 카페 영화관 음식점 공통 */
+        body{background-color: rgba(255,240,214,1);}
+
+        .text1{
+            float:left;
+            width:150px;
+            text-align:center;
+            padding:10px;
+            border:1px solid #E7DBDB;
+            background-color: #E7DBDB;
+            left : 180px;
+            top : 220px;
+            position: absolute;
+            font-size: 35px;
+        }
+
+
+        .text2{
+            float:left;
+            width:150px;
+            text-align:center;
+            padding:10px;
+            border:1px solid #F2D6BC;
+            background-color: #F2D6BC;
+            left: 330px;
+            top: 220px;
+            position: absolute;
+            font-size: 35px;
+        }
+
+        .text3{
+            float:left;
+            width:150px;
+            text-align:center;
+            padding:10px;
+            border:1px solid #F5C8A1;
+            background-color: #F5C8A1;
+            left: 480px;
+            top: 220px;
+            position: absolute;
+            font-size: 35px;
+        }
+
+        #cafe1{
+            background-color: #E7DBDB;
+            border: none;
+        }
+
+        #food1{
+            background-color: #F2D6BC;
+            border: none;
+        }
+
+        #movie1{
+            background-color: #F5C8A1;
+            border: none;
+        }
+
+
+        /* cafe.html*/
+        
+        #mega{
+            left: 300px;
+            top: 590px;
+            position: absolute;
+            font-family: KoreanYNSJG2R;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 35px;
+        }
+    
+        #ediya{
+            left: 555px;
+            top: 590px;
+            position: absolute;
+            font-family: KoreanYNSJG2R;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 35px;
+        }
+    
+        #angel{
+            left: 754px;
+            top: 590px;
+            position: absolute;
+            font-family: KoreanYNSJG2R;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 35px;
+        }
+    
+        #coffee{
+            left: 1028px;
+            top: 590px;
+            position: absolute;
+            font-family: KoreanYNSJG2R;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 35px;
+        }
+    
+        #tomn{
+            left: 1249px;
+            top: 590px;
+            position: absolute;
+            font-family: KoreanYNSJG2R;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 35px;
+        }
+    
+        #star{
+            left: 1485px;
+            top: 590px;
+            position: absolute;
+            font-family: KoreanYNSJG2R;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 35px;
+        }
+    
+        #bb{
+            left: 300px;
+            top: 905px;
+            position: absolute;
+            font-family: KoreanYNSJG2R;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 35px;
+        }
+    
+        #two{
+            left: 506px;
+            top: 905px;
+            position: absolute;
+            font-family: KoreanYNSJG2R;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 35px;
+        }
+        #hollys{
+            left: 754px;
+            top:  905px;
+            position: absolute;
+            font-family: KoreanYNSJG2R;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 35px;
+        }
+        
+        #yoger{
+            left: 995px;
+            top:  905px;
+            position: absolute;
+            font-family: KoreanYNSJG2R;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 35px;
+        }
+        
+        #gong{
+            left: 1282px;
+            top:  905px;
+            position: absolute;
+            font-family: KoreanYNSJG2R;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 35px;
+        }
+        
+        #pas{
+            left: 1485px;
+            top: 905px;
+            position: absolute;
+            font-family: KoreanYNSJG2R;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 35px;
+        }
+       
+  
+
+    
+        
+            #메가{
+                left: 271px;
+                top: 362px;
+                position: absolute;
+            }
+    
+            #이디야{
+                left: 507px;
+                top: 362px;
+                position: absolute;
+            }
+    
+            #엔젤{
+                left: 744px;
+                top: 362px;
+                position: absolute;
+            }
+    
+            #커피빈{
+                left: 980px;
+                top: 362px;
+                position: absolute;
+            }
+    
+            #탐탐{
+                left: 1217px;
+                top: 362px;
+                position: absolute;
+            }
+    
+            #스벅{
+                left: 1453px;
+                top: 362px;
+                position: absolute;
+            }
+    
+            #빽다방{
+                left: 271px;
+                top: 677px;
+                position: absolute;
+            }
+    
+            #투썸{
+                left: 507px;
+                top: 677px;
+                position: absolute;
+            }
+    
+            #할리스{
+                left: 744px;
+                top: 677px;
+                position: absolute;
+            }
+    
+            #요거프레소{
+                left: 980px;
+                top: 677px;
+                position: absolute;
+            }
+    
+            #공차{
+                left: 1217px;
+                top: 677px;
+                position: absolute;
+            }
+    
+            #파스쿠찌{
+                left: 1453px;
+                top: 677px;
+                position: absolute;
+            }
+
+            .box1{
+                float:left;
+                width: 1550px;
+                text-align:center;
+                padding:330px;
+                border:1px solid #E7DBDB;
+                background-color: #E7DBDB;
+                left: 180px;
+                top: 295px;
+                height: 1000;
+                position: absolute;
+                font-size: 35px;
+                z-index: 0;
+            }
+    
+        /*food.html*/
+
+        .box2{
+            float:left;
+            width: 1550px;
+            text-align:center;
+            padding:330px;
+            border:1px solid #F2D6BC;
+            background-color: #F2D6BC;
+            left: 180px;
+            top: 295px;
+            height: 1000;
+            position: absolute;
+            font-size: 35px;
+            z-index: 0;
+        }
+
+   
+        #맥도날드{
+            left: 265px;
+            top: 510px;
+            position: absolute;
+        }
+
+        #롯데리아{
+            left: 501px;
+            top: 510px;
+            position: absolute;
+        }
+
+        #버거킹{
+            left: 738px;
+            top: 510px;
+            position: absolute;
+        }
+
+        #케이에프씨{
+            left: 974px;
+            top: 510px;
+            position: absolute;
+        }
+
+        #맘스터치{
+            left: 1211px;
+            top: 510px;
+            position: absolute;
+        }
+
+        #배스킨라빈스{
+            left: 1447px;
+            top: 510px;
+            position: absolute;
+        }
+
+        #mc{
+            left: 297px;
+            top: 738px;
+            position: absolute;
+            font-family: KoreanYNSJG2R;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 35px;
+          }
+    
+        #lotte{
+            left:531px;
+            top: 738px;
+            position: absolute;
+            font-family: KoreanYNSJG2R;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 35px;       
+        }
+    
+        #king{
+            left: 786px;
+            top: 738px;
+            position: absolute;
+            font-family: KoreanYNSJG2R;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 35px;
+        }
+    
+        #KFC{
+            left: 1038px;
+            top: 738px;
+            position: absolute;
+            font-family: KoreanYNSJG2R;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 35px;
+        }
+    
+        #mom{
+            left: 1243px;
+            top: 738px;
+            position: absolute;
+            font-family: KoreanYNSJG2R;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 35px;
+        }
+    
+        #br{
+            left: 1457px;
+            top: 738px;
+            position: absolute;
+            font-family: KoreanYNSJG2R;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 35px;
+        }
+
+        /* movie.html */
+        #CGV{
+            left: 690px;
+            top: 742px;
+            position: absolute;
+            font-family: KoreanYNSJG2R;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 35px;
+          }
+        
+        #box{
+            left: 897px;
+            top: 742px;
+            position: absolute;
+            font-family: KoreanYNSJG2R;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 35px;
+        }
+    
+        #cinema{
+            left: 1114px;
+            top: 742px;
+            position: absolute;
+            font-family: KoreanYNSJG2R;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 35px;
+        }
+    
+        #씨지브이{
+            left: 626px;
+            top: 514px;
+            position: absolute;
+        }
+    
+        #메가박스{
+            left: 862px;
+            top: 514px;
+            position: absolute;
+        }
+    
+        #롯데시네마{
+            left: 1099px;
+            top: 514px;
+            position: absolute;
+        }
+        
+        .box3{
+            float:left;
+            width: 1550px;
+            text-align:center;
+            padding:330px;
+            border:1px solid #F5C8A1;
+            background-color: #F5C8A1;
+            left: 180px;
+            top: 295px;
+            height: 1000;
+            position: absolute;
+            font-size: 35px;
+            z-index: 0;
+        }
+
+        /* mypage.html */
+
+            #mypage_name
+            {left: 730px;
+             top: 439px;
+             position: absolute;
+             font-size: 30px;
+             color: black;
+            }
+    
+            #mypage_box1{
+                float:left;
+                width: 170px;
+                text-align:center;
+                padding:0;
+                border:1px solid #E7DBDB;
+                background-color: #E7DBDB;
+                left: 1711px;
+                top: 478px;
+                height: 170px;
+                position: absolute;
+                font-size: 35px;
+                z-index: 0;
+            }
+    
+            #mypage_box2{
+                float:left;
+                width: 170px;
+                text-align:center;
+                padding:0;
+                border:1px solid #FFCECB;
+                background-color: #FFCECB;
+                left: 1711px;
+                top: 668px;
+                height: 170px;
+                position: absolute;
+                font-size: 35px;
+                z-index: 0;
+            }
+    
+            #mypage_box3{
+                float:left;
+                width: 170px;
+                text-align:center;
+                padding:0;
+                border:1px solid #E7DBDB;
+                background-color: #E7DBDB;
+                left: 1711px;
+                top: 860px;
+                height: 170px;
+                position: absolute;
+                font-size: 35px;
+                z-index: 0;
+            }
+
+            #mypage_human{
+                left: 730px;
+                top: 290px;
+                position: absolute;
+                overflow: visible;
+                width: 130px;
+                height: 130px;
+            }
+    
+            #mypage_map{
+                left: 117px;
+                top: 625px;
+                position: absolute;
+                overflow: visible;
+                width: 705px;
+                height: 340px;
+                
+            }
+    
+            #우이동{
+            
+                float:left;
+                width:184px;
+                text-align:center;
+                padding:10px;
+                border:1px solid white;
+                background-color: white;
+                left: 117px;
+                top: 530px;
+                position: absolute;
+                font-size: 30px;
+                border-radius: 15px;
+                z-index: 0;
+            }
+    
+    
+            #변경{
+                left: 1755px;
+                top: 500px;
+                position: absolute;
+                overflow: visible;
+                width: 90px;
+                height: 90px;
+            }
+    
+            #mypage_change{
+            left: 1726px;
+            top: 570px;
+            position: absolute;
+            font-family: KoreanYNSJG2R;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 25px;
+            }
+    
+            #찾기{
+                left: 1755px;
+                top: 690px;
+                position: absolute;
+                overflow: visible;
+                width: 90px;
+                height: 90px;
+            }
+    
+            #mypage_find{
+            left: 1715px;
+            top: 760px;
+            position: absolute;
+            font-family: KoreanYNSJG2R;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 25px;
+        }
+    
+            #목록{
+                left: 1755px;
+                top: 880px;
+                position: absolute;
+                overflow: visible;
+                width: 90px;
+                height: 90px;
+            }
+    
+            #mypage_list{
+            left: 1718px;
+            top: 958px;
+            position: absolute;
+            font-family: KoreanYNSJG2R;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 25px;
+        }
+    
+            #위치우이동{
+                left: 128px;
+                top: 542px;
+                position: absolute;
+                width: 40px;
+                height: 40px;
+                z-index: 1;
+        }
+    
+            .register1{
+                float:left;
+                width:184px;
+                text-align:center;
+                padding:10px;
+                border:1px solid #FF6F6F;
+                background-color: #FF6F6F;
+                left: 1200px;
+                top: 630px;
+                position: absolute;
+                font-size: 35px;
+            }
+    
+            #mypage_register1{
+                background-color: #FF6F6F;
+                border: none;
+                font-size: 25px;
+                color: white;
+            }
+    
+            .register2{
+                float:left;
+                width:184px;
+                text-align:center;
+                padding:10px;
+                border:1px solid #FF6F6F;
+                background-color: #FF6F6F;
+                left: 1200px;
+                top: 740px;
+                position: absolute;
+                font-size: 35px;
+                overflow: hidden;
+            }
+    
+            #mypage_register2{
+                background-color: #FF6F6F;
+                border: none;
+                font-size: 25px;
+                color: white;
+                overflow: visible;
+            }
+    
+            .register3{
+                float:left;
+                width:184px;
+                text-align:center;
+                padding:10px;
+                border:1px solid #FF6F6F;
+                background-color: #FF6F6F;
+                left: 1200px;
+                top: 850px;
+                position: absolute;
+                font-size: 35px;
+    
+            }
+    
+            #mypage_register3{
+                background-color: #FF6F6F;
+                border: none;
+                font-size: 25px;
+                color: white;
+            }
+    
+            .kiosk1{
+                float:left;
+                width:184px;
+                text-align:center;
+                padding:10px;
+                border:1px solid #FFBA00;
+                background-color: #FFBA00;
+                left: 1440px;
+                top: 630px;
+                position: absolute;
+                font-size: 35px;
+    
+            }
+    
+            #mypage_kiosk1{
+                background-color: #FFBA00;
+                border: none;
+                font-size: 25px;
+                color: white;
+            }
+    
+    
+            .kiosk2{
+                float:left;
+                width:184px;
+                text-align:center;
+                padding:10px;
+                border:1px solid #FFBA00;
+                background-color: #FFBA00;
+                left: 1440px;
+                top: 740px;
+                position: absolute;
+                font-size: 35px;
+    
+            }
+    
+            #mypage_kiosk2{
+                background-color: #FFBA00;
+                border: none;
+                font-size: 25px;
+                color: white;
+            }
+    
+            .kiosk3{
+                float:left;
+                width:184px;
+                text-align:center;
+                padding:10px;
+                border:1px solid #FFBA00;
+                background-color: #FFBA00;
+                left: 1440px;
+                top: 850px;
+                position: absolute;
+                font-size: 35px;
+    
+            }
+    
+            #mypage_kiosk3{
+                background-color: #FFBA00;
+                border: none;
+                font-size: 25px;
+                color: white;
+            }
+    
+            #mypage_mega{
+                left: 850px;
+                top: 650px;
+                position: absolute;
+                font-family: KoreanYNSJG4R;
+                font-size: 30px;
+                color: rgba(0,0,0,1);
+            }
+    
+            #mypage_kfc{
+                left: 850px;
+                top: 760px;
+                position: absolute;
+                font-family: KoreanYNSJG4R;
+                font-size: 30px;
+                color: rgba(0,0,0,1);
+            }
+    
+            #mypage_tt{
+                left: 850px;
+                top: 870px;
+                position: absolute;
+                font-family: KoreanYNSJG4R;
+                font-size: 30px;
+                color: rgba(0,0,0,1);
+            }
+
+            /*로그인 박스*/
+            #login-form {
+                position: absolute;
+                width: 425px;
+                height: 272px;
+                left: 1433px;
+                top: 174px;
+                overflow: visible;
+                --web-animation: fadein 0.3s ease-out;
+                --web-action-type: page;
+                --web-action-target: ____.html;
+                cursor: pointer;
+            }
+            #login-title {
+                left: 32px;
+                top: 30px;
+                position: absolute;
+                overflow: visible;
+                width: 92px;
+                white-space: nowrap;
+                text-align: left;
+                font-family: photo;
+                font-size: 32px;
+                color: rgba(255,255,255,1);
+            }
+            #login-id {
+                left: 42px;
+                top: 92px;
+                position: absolute;
+                overflow: visible;
+                width: 69px;
+                white-space: nowrap;
+                text-align: left;
+                font-family: KoreanYNSJG3R;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 24px;
+                color: rgba(123,113,113,1);
+            }
+            #login-pw {
+                left: 42px;
+                top: 157px;
+                position: absolute;
+                overflow: visible;
+                width: 92px;
+                white-space: nowrap;
+                text-align: left;
+                font-family: KoreanYNSJG3R;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 24px;
+                color: rgba(123,113,113,1);
+            }
+            #login-link-1 {
+                left: 32px;
+                top: 211px;
+                position: absolute;
+                overflow: visible;
+                width: 92px;
+                white-space: nowrap;
+                text-align: left;
+                font-family: KoreanYNSJG3R;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 24px;
+                color: rgba(123,113,113,1);
+            }
+            #login-link-2 {
+                left: 154px;
+                top: 211px;
+                position: absolute;
+                overflow: visible;
+                width: 228px;
+                white-space: nowrap;
+                text-align: left;
+                font-family: KoreanYNSJG3R;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 24px;
+                color: rgba(123,113,113,1);
+            }
+            
+            #login-button {
+                left: 306px;
+                top: 127px;
+                position: absolute;
+                overflow: visible;
+                width: 69px;
+                white-space: nowrap;
+                text-align: left;
+                font-family: photo;
+                font-size: 24px;
+                color: rgba(255,255,255,1);
+            }
+            .login-box-1 {
+                position: absolute;
+                overflow: visible;
+                width: 425px;
+                height: 272px;
+                left: 0px;
+                top: 0px;
+            }
+            #login-box-1 {
+                fill: rgba(250,163,144,1);
+            }
+            .login-box-2 {
+                position: absolute;
+                overflow: visible;
+                width: 228px;
+                height: 43px;
+                left: 32px;
+                top: 83px;
+            }
+            #login-box-2 {
+                fill: rgba(255,255,255,1);
+            }
+            .login-box-3 {
+                position: absolute;
+                overflow: visible;
+                width: 228px;
+                height: 43px;
+                left: 32px;
+                top: 147px;
+            }
+            #login-box-3 {
+                fill: rgba(255,255,255,1);
+            }
+            .login-box-4 {
+                position: absolute;
+                overflow: visible;
+                width: 115px;
+                height: 107px;
+                left: 283px;
+                top: 83px;
+            }
+            #login-box-4 {
+                fill: rgba(117,79,68,1);
+            }
+            /*login.html 로그인 박스*/
+            
+            #login-box {
+                position: absolute;
+                width: 425px;
+                height: 272px;
+                left: 1429px;
+                top: 170px;
+                overflow: visible;
+            }
+            .login-box-one {
+                overflow: visible;
+                position: absolute;
+                width: 425px;
+                height: 272px;
+                left: 0px;
+                top: 0px;
+                transform: matrix(1,0,0,1,0,0);
+            }
+            #login-box-one {fill: rgba(250,163,144,1);}
+            
+            #welcome-box {
+                position: absolute;
+                width: 344.337px;
+                height: 113.5px;
+                left: 1469px;
+                top: 249px;
+                overflow: visible;
+            }
+            .welcome-talk {
+                overflow: visible;
+                position: absolute;
+                width: 344.337px;
+                height: 67px;
+                left: 0px;
+                top: 0px;
+                transform: matrix(1,0,0,1,0,0);
+            }
+            #welcome-talk {
+                fill: rgba(254,223,171,1);
+            }
+            #welcome-text {
+                left: 104px;
+                top: 22.001px;
+                position: absolute;
+                overflow: visible;
+                width: 213px;
+                white-space: nowrap;
+                text-align: left;
+                font-family: KoreanYNSJG3R;
+                font-weight: bold;
+                font-size: 24px;
+                color: rgba(123,113,113,1);
+            }
+            .profile-image-position {
+                position: absolute;
+                overflow: visible;
+                width: 57px;
+                height: 57px;
+                left: 32px;
+                top: 5.001px;
+            }
+            #profile-image-position {
+                fill: rgba(60,60,60,0.8);
+            }
+            .profile-image {
+                overflow: visible;
+                position: absolute;
+                width: 43px;
+                height: 44.999px;
+                left: 39px;
+                top: 17.001px;
+                transform: matrix(1,0,0,1,0,0);
+            }
+            #login-link-one {
+                left: 24.668px;
+                top: 89.5px;
+                position: absolute;
+                overflow: visible;
+                width: 92px;
+                white-space: nowrap;
+                text-align: left;
+                font-family: KoreanYNSJG3R;
+                font-weight: bold;
+                font-size: 24px;
+                color: rgba(123,113,113,1);
+            }
+            #login-link-two {
+                left: 168.668px;
+                top: 89.5px;
+                position: absolute;
+                overflow: visible;
+                width: 153px;
+                white-space: nowrap;
+                text-align: left;
+                font-family: KoreanYNSJG3R;
+                font-weight: bold;
+                font-size: 24px;
+                color: rgba(123,113,113,1);
+            }
+            /*회원가입 박스*/
+            .register-title {
+                position: absolute;
+                overflow: visible;
+                width: 463px;
+                height: 87px;
+                left: 367px;
+                top: 275px;
+            }
+            #register-title {
+                fill: rgba(255,195,195,0.51);
+            }
+            #register-title-text {
+                left: 530px;
+                top: 299px;
+                position: absolute;
+                overflow: visible;
+                width: 134px;
+                white-space: nowrap;
+                text-align: left;
+                font-family: KoreanYNSJG3R;
+                font-size: 35px;
+                color: rgba(0,0,0,1);
+            }
+            .register-form {
+                display: block;
+                width: 500px;      
+                margin-top: 370px;
+                margin-left: 350px;
+                padding: 20px;
+                border-radius: 5px;
+            }
+            
+            .text-field {
+                width: 100%;
+                height: 80px;
+                border: none;
+                font-size: 35px;
+                padding: 10px;
+                border-radius: 10px;
+                margin-bottom: 40px;
+            }
+            
+            .submit-btn {
+                width: 100%;
+                border: none;
+                background-color:rgba(244,168,141,1);
+                font-family: KoreanYNSJG3R;
+                font-size: 35px;
+                margin-top: 40px;
+                padding: 20px;
+                border-radius: 10px;
+                margin-bottom: 30px;
+            
+            }
+            .submit-btn:hover {
+                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.50);
+            }
+           
+            
+                        
+            #register_name {
+                left: 111px;
+                top: 408px;
+                position: absolute;
+                width: 101px;
+                white-space: nowrap;
+                text-align: left;
+                font-family: KoreanYNSJG4R;
+                font-size: 35px;
+                color: rgba(0,0,0,1);
+            }
+            #register_tel {
+                left: 111px;
+                top: 550px;
+                position: absolute;
+                width: 134px;
+                white-space: nowrap;
+                text-align: left;
+                font-family: KoreanYNSJG4R;
+                font-size: 35px;
+                color: rgba(0,0,0,1);
+            }
+            #register_email {
+                left: 111px;
+                top: 684px;
+                position: absolute;
+                width: 211px;
+                white-space: nowrap;
+                text-align: left;
+                font-family: KoreanYNSJG4R;
+                font-size: 35px;
+                color: rgba(0,0,0,1);
+            }
+            #register_nowpw {
+                left: 111px;
+                top: 825px;
+                position: absolute;
+                width: 211px;
+                white-space: nowrap;
+                text-align: left;
+                font-family: KoreanYNSJG4R;
+                font-size: 35px;
+                color: rgba(0,0,0,1);
+            }
+            #register_changepw {
+                left: 111px;
+                top: 965px;
+                position: absolute;
+                width: 211px;
+                white-space: nowrap;
+                text-align: left;
+                font-family: KoreanYNSJG4R;
+                font-size: 35px;
+                color: rgba(0,0,0,1);
+            }
+            #register_address {
+                left: 111px;
+                top: 1100px;
+                position: absolute;
+                width: 211px;
+                white-space: nowrap;
+                text-align: left;
+                font-family: KoreanYNSJG4R;
+                font-size: 35px;
+                color: rgba(0,0,0,1);
+            }
+                 
+            #register_all
+            {
+                top: 310px;
+                left: 100px;
+                position: relative;
+            }
+    
+            /*메뉴*/
+            #menu {
+                text-align: center;
+                margin-top: 410px;
+                margin-bottom: 60px;
+                margin-left: 100px;
+                height: 30px;
+            
+            }
+            #menu a {
+                margin-left: 10px;
+                padding-right: 90px;
+                font-size: 32px;
+                text-decoration: none;
+                font-family: KoreanYNSJG4R;
+                color: rgba(0,0,0,1);
+            
+            }
+            #nav1
+            {
+                left: 342px;
+                top: 90px;
+                position: absolute;
+                width: 58px;
+                white-space: nowrap;
+                text-align: left;
+                font-family: KoreanYNSJG4R;
+                font-size: 30px;
+                color: rgba(0,0,0,1);
+                text-decoration:none 
+            }
+            
+            #nav2
+            {
+                left: 533px;
+                top: 90px;
+                position: absolute;
+                width: 58px;
+                white-space: nowrap;
+                text-align: left;
+                font-family: KoreanYNSJG4R;
+                font-size: 30px;
+                color: rgba(0,0,0,1);
+                text-decoration:none 
+            }
+            
+            #nav3
+            {
+                left: 776px;
+                top: 90px;
+                position: absolute;
+                width: 58px;
+                white-space: nowrap;
+                text-align: left;
+                font-family: KoreanYNSJG4R;
+                font-size: 30px;
+                color: rgba(0,0,0,1);
+                text-decoration:none 
+            }
+            /*내비게이션 및 풀다운 메뉴 구성하기*/
+            #main-navigation{
+                text-align: center;
+                margin-top: 410px;
+                margin-right: 566px;
+                margin-left: 600px;
+                height: 60px;
+                margin-bottom: 20px;
+            }
+            #main-navigation a {
+                margin-left: 10px;
+                padding-right: 90px;
+                font-size: 32px;
+                text-decoration: none;
+                font-family: KoreanYNSJG4R;
+                color: rgba(0,0,0,1);
+            
+            }
+            .outer-menu-item {
+                float: left;
+                position: relative;
+                text-align: center;
+            
+            }
+            .outer-menu-item:hover {
+                background: white;
+                height: 50px;
+                border-radius: 50px;
+            }
+            
+            .menu-title {
+                display: block;
+                height: 40px; 
+            
+                text-align: center;
+                padding: 5px 20px;
+            }
+            
+            .inner-menu { 
+                display: none;
+                position: absolute;
+                top: 50px; left: 0px;
+                width: 200px; 
+                background: white;
+                z-index: 1000;
+                text-align: left;
+                border-radius: 44px;
+            
+            }
+            .inner-menu-item > a {
+                display: inline-block;
+                padding: 5px 10px;
+                color: white;
+                width: 190px;
+            
+            }
+            
+            .inner-menu-item > a:hover {
+                background: rgba(250,163,144,1);
+                color: white;
+                border-radius: 44px;
+            }
+            
+            /*배너*/
+            .main-banner {
+                position: absolute;
+                overflow: visible;
+                width: 1796px;
+                height: 523px;
+                left: 62px;
+                top: 492px;
+            }
+            #main-banner {
+                fill: rgba(253,214,146,0.631);
+            }
+            #main-banner-img {
+                position: absolute;
+                width: 749px;
+                height: 523px;
+                left: 62px;
+                top: 492px;
+                overflow: visible;
+            }
+            .left-button {
+                overflow: visible;
+                position: absolute;
+                width: 38.885px;
+                height: 55.382px;
+                left: 71.959px;
+                top: 725.809px;
+                transform: matrix(1,0,0,1,0,0);
+            }
+            #left-button {
+                fill: rgba(255,255,255,0.62);
+            }
+            .right-button {
+                overflow: visible;
+                position: absolute;
+                width: 38.885px;
+                height: 55.382px;
+                transform: matrix(1,0,0,1,1808.9595,725.8091) rotate( 
+            180deg
+            );
+                transform-origin: center;
+                left: 0px;
+                top: 0px;
+            }
+            #right-button {
+                fill: rgba(255,255,255,0.62);
+            }
+            #main-banner-text {
+                left: 920px;
+                top: 712px;
+                position: absolute;
+                overflow: visible;
+                width: 844px;
+                white-space: nowrap;
+                text-align: left;
+                font-family: KoreanYNSJG4R;
+                font-weight: bold;
+                font-size: 35px;
+                color: rgba(0,0,0,1);
+            }
+
+            .change_position
+            {
+                left: 150px;
+                top: 300px;
+                position: absolute;
+
+            }
+        
