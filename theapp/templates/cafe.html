@@ -1,0 +1,130 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cafe</title>
+    <!-- 합쳐지고 최소화된 최신 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- 부가적인 테마 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="{% static 'css/second.css' %}">
+
+
+</head>
+<body>
+    <div id = "haeyo">
+        <span>해요</span>
+    </div>
+    <nav>
+        <a id="nav1" href="about.html">소개</a> 
+        <a id="nav2" href="find.html">매장찾기</a> 
+        <a id="nav3" href="mypage.html">마이페이지</a>
+    </nav>
+    <div class="box">
+        <div class="container-1">
+            <span><img id ="search_icon" src="{% static '/image/search.png' %}"></span>
+            <input type="search" id="search" placeholder="매장명을 검색해보세요." />
+        </div>
+    </div>
+
+    <svg class="house_icon" viewBox="0 0 55 55">
+		<path id="house_icon" d="M 55 55 L 54.99899291992188 55 L 37.99961471557617 54.9990348815918 L 37.99961471557617 35.70121383666992 L 17.9994068145752 35.70121383666992 L 17.9994068145752 54.9990348815918 L 0 54.9990348815918 L 0 22.84613800048828 L 27.5 -1.13686837721616e-13 L 55 22.84613800048828 L 55 54.9990348815918 L 55 55 Z">
+		</path>
+	</svg>
+    <div id="profile_img">
+        <img src = https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzO6wlUE3xt9U7LbJa4qi3_siXBnkrrNxVLl2V_itSdGFwLlw_rlEpHV3oWhVU6x9tS7c&usqp=CAU width="50" height="50">
+    </div>
+    <div id="profile_name">
+        <span>김수아 님</span>
+    </div>
+
+    <div class="text1" > 
+        <button id="cafe1"> 카페 </button>
+    </div>
+    <div class="text2">
+       <button id="food1">음식</button>
+    </div>
+    <div class="text3">
+        <button id="movie1">영화관</button>
+    </div>
+    <div class="box1"> &nbsp 
+    </div>
+
+    </div>
+    </div>
+
+    <div id="사진">
+        <label for="메가">
+        &emsp;<img id="메가" src="{% static '/image/101.png' %}" alt="메가" height="196px" width="196px"> &emsp;
+        <p id="mega">메가커피</p>
+        </label>
+
+        <label for="이디야">
+            <img id="이디야" src="{% static '/image/102.png' %}" alt="이디야" height="196px" width="196px"> &emsp;
+            <p id="ediya">이디야</p>
+        </label>
+    
+        <label for="엔젤">
+            <img id="엔젤" src="{% static '/image/103.png' %}" alt="엔젤" height="196px" width="196px"> &emsp;
+            <p id="angel">엔젤리너스</p>
+        </label>
+
+        <label for="커피빈">
+            <img id="커피빈" src="{% static '/image/104.png' %}" alt="커피빈" height="196px" width="196px"> &emsp;
+            <p id="coffee">커피빈</p>
+        </label>
+
+        <label for="탐탐">
+            <img id="탐탐" src="{% static '/image/105.png' %}" alt="탐앤탐스" height="196px" width="196px"> &emsp;
+            <p id="tomn">탐앤탐스</p>
+        </label>
+
+        <label for="스벅">
+            <img id="스벅" src="{% static '/image/106.png' %}" alt="스벅" height="196px" width="196px"> 
+            <p id="star">스타벅스</p>
+        </label>
+        <br>
+
+        <br>
+        <br>
+        <br>
+        <label for="빽다방">
+            
+        &emsp;<img id="빽다방" src="{% static '/image/107.png' %}" alt="빽다방" height="196px" width="196px"> &emsp;
+            <p id="bb">빽다방</p>
+        </label>
+
+        <label for="투썸">
+            <img id="투썸" src="{% static '/image/108.png' %}" alt="투썸" height="196px" width="196px"> &emsp;
+            <p id="two">투썸플레이스</p>
+        </label>
+
+        <label for="할리스">
+            <img id="할리스" src="{% static '/image/109.png' %}" alt="할리스" height="196px" width="196px"> &emsp;
+            <p id="hollys">할리스커피</p>
+        </label>
+
+        <label for="요거">
+            <img id="요거프레소" src="{% static '/image/110.png' %}" alt="요거" height="196px" width="196px"> &emsp;
+            <p id="yoger">요거프레소</p>
+        </label>
+
+        <label for="공차">
+            <img id="공차" src="{% static '/image/111.png' %}" alt="공차" height="196px" width="196px"> &emsp;
+            <p id="gong">공차</p>
+        </label>
+        
+        <label for="파스쿠찌">
+            <img id="파스쿠찌" src="{% static '/image/112.png' %}" alt="파스쿠찌" height="196px" width="196px">
+            <p id="pas">파스쿠찌</p>
+        </label>
+    </div>
+
+</body>
+</html>

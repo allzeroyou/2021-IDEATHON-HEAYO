@@ -1,0 +1,129 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>change</title>
+    <link rel="stylesheet" href="{% static 'css/second.css' %}">
+
+</head>
+<body>
+    <div id = "haeyo">
+        <span>해요</span>
+    </div>
+    <nav>
+        <a id="nav1" href="About.html">소개</a> 
+        <a id="nav2" href="Find.html">매장찾기</a> 
+        <a id="nav3" href="Mypage.html">마이페이지</a>
+    </nav>
+    <div class="box">
+        <div class="container-1">
+            <span><img id ="search_icon" src="{% static 'image/search.png' %}"></span>
+            <input type="search" id="search" placeholder="매장명을 검색해보세요." />
+        </div>
+    </div>
+
+<div id="register_all">
+    <div id="register_name">
+        <span>성명</span>
+      </div>
+      <div id="register_tel">
+        <span>전화번호</span>
+      </div>
+      <div id="register_email">
+        <span>이메일</span>
+      </div>
+      <div id="register_nowpw">
+        <span>현재 비밀번호</span>
+      </div>
+      <div id="register_changepw">
+        <span>변경할 비밀번호</span>
+      </div>
+      <div id="register_address">
+        <span>주소</span>
+      </div>
+  </div>
+
+
+    <svg class="house_icon" viewBox="0 0 55 55">
+        <path id="house_icon" d="M 55 55 L 54.99899291992188 55 L 37.99961471557617 54.9990348815918 L 37.99961471557617 35.70121383666992 L 17.9994068145752 35.70121383666992 L 17.9994068145752 54.9990348815918 L 0 54.9990348815918 L 0 22.84613800048828 L 27.5 -1.13686837721616e-13 L 55 22.84613800048828 L 55 54.9990348815918 L 55 55 Z">
+        </path>
+    </svg>
+    <div id="profile_img">
+        <img src = https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzO6wlUE3xt9U7LbJa4qi3_siXBnkrrNxVLl2V_itSdGFwLlw_rlEpHV3oWhVU6x9tS7c&usqp=CAU width="50" height="50">
+    </div>
+    <div id="profile_name">
+        <span>김수아 님</span>
+    </div>
+
+    <div>
+        <img id="mypage_human" src="{% static '/image/501.png' %}" height="196px" width="196px">
+    </div>
+
+    <div id="mypage_name">
+        <span>김수아 님</span>
+    </div>
+
+    
+    <div id="mypage_box1">
+        &nbsp 
+    </div>
+
+    <div id="mypage_box2">
+        &nbsp 
+    </div>
+
+    <div id="mypage_box3">
+        &nbsp 
+    </div>
+
+    <div id="followquick">
+    <div>
+    <label for="변경">
+        <img id="변경" src="{% static '/image/change.png' %}" alt="변경" height="196px" width="196px"> &emsp;
+        <p id="mypage_change">내 정보 변경</p>
+    </label>
+    </div>
+
+    <div>
+        <label for="찾기">
+            <img id="찾기" src="{% static '/image/find.png' %}" alt="찾기" height="196px" width="196px"> &emsp;
+            <p id="mypage_find">주변 매장 찾기</p>
+        </label>
+    </div>
+
+    <div>
+        <label for="목록">
+            <img id="목록" src="{% static '/image/heart.png' %}" alt="목록" height="196px" width="196px"> &emsp;
+            <p id="mypage_list">즐겨찾기 목록</p>
+        </label>
+    </div>
+    </div>
+
+    <div class="change_position">
+
+        <div id="page-wrapper" style="transform-origin: 0px 0px;">
+ 
+          <!--회원가입 박스-->
+          <div class="register-form">
+            <form>
+              <input type="text" name="name" class="text-field" placeholder="성명">
+              <input type="tel" name="phonenumber" class="text-field" placeholder="전화번호">
+              <input type="email" name="e-mail" class="text-field" placeholder="이메일">
+              <input type="password" name="password" class="text-field" placeholder="현재 비밀번호">
+              <input type="password" name="change-password" class="text-field" placeholder="변경할 비밀번호">
+              <input type="address" name="address" class="text-field" placeholder="주소">
+              <input type="submit" value="수정하기" class="submit-btn">
+            </form>
+            <svg class="register-title">
+              <rect id="register-title" rx="43.5" ry="43.5" x="0" y="0" width="520" height="87"></rect>
+            </svg>
+            <div id="register-title-text">
+              <span>내 정보 변경</span>
+            </div>
+            </div>
+        </div>
+    </div>
+        
+</body>
+</html>

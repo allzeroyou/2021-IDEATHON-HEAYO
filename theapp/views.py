@@ -7,3 +7,18 @@ def main(request):
 def login(request):
     return render(request, 'Login_page.html')
     
+
+def cafe(request):
+    return render(request, 'cafe.html')
+
+def food(request):
+    return render(request, 'food.html')
+
+def movie(request):
+    return render(request, 'movie.html')
+
+def mypage(request):
+    return render(request, 'mypage.html')
+
+def change(request):
+    return render(request, 'change.html')
