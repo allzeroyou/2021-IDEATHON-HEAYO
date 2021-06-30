@@ -1,0 +1,963 @@
+/*공통*/
+
+body
+        {
+            background: #FFF0D6;
+        }
+        #haeyo 
+        {
+            filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+            left: 72px;
+            top: 64px;
+            position: absolute;
+            width: 145px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: BR B;
+            font-size: 80px;
+            color: rgba(255,186,0,1);
+	    }
+        #nav1
+        {
+            left: 342px;
+            top: 90px;
+            position: absolute;
+            width: 58px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: KoreanYNSJG4R;
+            font-size: 30px;
+            color: rgba(0,0,0,1);
+            text-decoration:none 
+        }
+
+        #nav2
+        {
+            left: 533px;
+            top: 90px;
+            position: absolute;
+            width: 58px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: KoreanYNSJG4R;
+            font-size: 30px;
+            color: rgba(0,0,0,1);
+            text-decoration:none 
+        }
+
+        #nav3
+        {
+            left: 776px;
+            top: 90px;
+            position: absolute;
+            width: 58px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: KoreanYNSJG4R;
+            font-size: 30px;
+            color: rgba(0,0,0,1);
+            text-decoration:none 
+        }
+
+        .box
+        {
+            left: 1376px;
+            top: 90px;
+            position: absolute;
+        }
+
+        .container-1 input#search
+        {
+            width: 300px;
+            height: 50px;
+            background: #09090921;
+            border: none;
+            font-size: 15pt;
+            font-family: KoreanYNSJG3R;
+            padding-left: 65px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+        }
+        #search_icon
+        {
+            left: 10px;
+            top: 2px;
+            position: absolute;
+        }
+
+        #house_icon
+        {
+		    fill: rgba(0,0,0,1);
+	    }
+	    .house_icon
+        {
+            overflow: visible;
+            position: absolute;
+            width: 44px;
+            height: 44px;
+            left: 1454px;
+            top: 155px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+
+        #profile_img
+        {
+            left: 1519px;
+            top: 156px;
+            position: absolute;
+        }
+    
+        #profile_name
+        {
+            left: 1575px;
+            top: 167px;
+            position: absolute;
+            overflow: visible;
+            width: 100px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: KoreanYNSJG3R;
+            font-size: 24px;
+            color: rgb(0, 0, 0);
+	    }
+
+
+@font-face {
+  font-family: photo;
+  src: url("./font/a옛날사진관2.ttf");
+}
+/*초기화*/
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'photo','맑은고딕', sans-serif;
+  box-sizing: border-box;
+  border: none;
+}
+a {text-decoration: none; }
+
+li {list-style: none; }
+
+element.style {
+  transform-origin: 0px 0px;
+}
+#page-wrapper {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  background-color: rgba(255,240,214,1);
+  overflow: hidden;
+  --web-view-name: 해요 대문 페이지;
+  --web-view-id: _;
+  --web-scale-on-resize: true;
+  --web-enable-deep-linking: true;
+}
+
+/*메인로고-이미지ver*/
+#main-logo {
+  position: absolute;
+  width: 232px;
+  height: 232px;
+  left: 844px;
+  top: 110px;
+  overflow: visible;
+}
+/*메인로고-텍스트ver*/
+#logo-text {
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+  left: 72px;
+  top: 47px;
+  position: absolute;
+  overflow: visible;
+  width: 161px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: BR B;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  color: rgba(255,186,0,1);
+}
+/*로그인 박스*/
+#login-form {
+  position: absolute;
+  width: 425px;
+  height: 272px;
+  left: 1433px;
+  top: 174px;
+  overflow: visible;
+  --web-animation: fadein 0.3s ease-out;
+  --web-action-type: page;
+  --web-action-target: ____.html;
+  cursor: pointer;
+}
+#login-title {
+  left: 32px;
+  top: 30px;
+  position: absolute;
+  overflow: visible;
+  width: 92px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: photo;
+  font-size: 32px;
+  color: rgba(255,255,255,1);
+}
+#login-id {
+  left: 42px;
+  top: 92px;
+  position: absolute;
+  overflow: visible;
+  width: 69px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: KoreanYNSJG3R;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: rgba(123,113,113,1);
+}
+#login-pw {
+  left: 42px;
+  top: 157px;
+  position: absolute;
+  overflow: visible;
+  width: 92px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: KoreanYNSJG3R;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: rgba(123,113,113,1);
+}
+#login-link-1 {
+  left: 32px;
+  top: 211px;
+  position: absolute;
+  overflow: visible;
+  width: 92px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: KoreanYNSJG3R;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: rgba(123,113,113,1);
+}
+#login-link-2 {
+  left: 154px;
+  top: 211px;
+  position: absolute;
+  overflow: visible;
+  width: 228px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: KoreanYNSJG3R;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: rgba(123,113,113,1);
+}
+
+#login-button {
+  left: 306px;
+  top: 127px;
+  position: absolute;
+  overflow: visible;
+  width: 69px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: photo;
+  font-size: 24px;
+  color: rgba(255,255,255,1);
+}
+.login-box-1 {
+  position: absolute;
+  overflow: visible;
+  width: 425px;
+  height: 272px;
+  left: 0px;
+  top: 0px;
+}
+#login-box-1 {
+  fill: rgba(250,163,144,1);
+}
+.login-box-2 {
+  position: absolute;
+  overflow: visible;
+  width: 228px;
+  height: 43px;
+  left: 32px;
+  top: 83px;
+}
+#login-box-2 {
+  fill: rgba(255,255,255,1);
+}
+.login-box-3 {
+  position: absolute;
+  overflow: visible;
+  width: 228px;
+  height: 43px;
+  left: 32px;
+  top: 147px;
+}
+#login-box-3 {
+  fill: rgba(255,255,255,1);
+}
+.login-box-4 {
+  position: absolute;
+  overflow: visible;
+  width: 115px;
+  height: 107px;
+  left: 283px;
+  top: 83px;
+}
+#login-box-4 {
+  fill: rgba(117,79,68,1);
+}
+/*login.html 로그인 박스*/
+
+#login-box {
+  position: absolute;
+  width: 425px;
+  height: 272px;
+  left: 1429px;
+  top: 170px;
+  overflow: visible;
+}
+.login-box-one {
+  overflow: visible;
+  position: absolute;
+  width: 425px;
+  height: 272px;
+  left: 0px;
+  top: 0px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#login-box-one {fill: rgba(250,163,144,1);}
+
+#welcome-box {
+  position: absolute;
+  width: 344.337px;
+  height: 113.5px;
+  left: 1469px;
+  top: 249px;
+  overflow: visible;
+}
+.welcome-talk {
+  overflow: visible;
+  position: absolute;
+  width: 344.337px;
+  height: 67px;
+  left: 0px;
+  top: 0px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#welcome-talk {
+  fill: rgba(254,223,171,1);
+}
+#welcome-text {
+  left: 104px;
+  top: 22.001px;
+  position: absolute;
+  overflow: visible;
+  width: 213px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: KoreanYNSJG3R;
+  font-weight: bold;
+  font-size: 24px;
+  color: rgba(123,113,113,1);
+}
+.profile-image-position {
+  position: absolute;
+  overflow: visible;
+  width: 57px;
+  height: 57px;
+  left: 32px;
+  top: 5.001px;
+}
+#profile-image-position {
+  fill: rgba(60,60,60,0.8);
+}
+.profile-image {
+  overflow: visible;
+  position: absolute;
+  width: 43px;
+  height: 44.999px;
+  left: 39px;
+  top: 17.001px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#login-link-one {
+  left: 24.668px;
+  top: 89.5px;
+  position: absolute;
+  overflow: visible;
+  width: 92px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: KoreanYNSJG3R;
+  font-weight: bold;
+  font-size: 24px;
+  color: rgba(123,113,113,1);
+}
+#login-link-two {
+  left: 168.668px;
+  top: 89.5px;
+  position: absolute;
+  overflow: visible;
+  width: 153px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: KoreanYNSJG3R;
+  font-weight: bold;
+  font-size: 24px;
+  color: rgba(123,113,113,1);
+}
+/*회원가입 박스*/
+.register-title {
+  position: absolute;
+  overflow: visible;
+  width: 463px;
+  height: 87px;
+  left: 367px;
+  top: 275px;
+}
+#register-title {
+  fill: rgba(255,195,195,0.51);
+}
+#register-title-text {
+  left: 533px;
+  top: 299px;
+  position: absolute;
+  overflow: visible;
+  width: 134px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: KoreanYNSJG3R;
+  font-weight: bold;
+  font-size: 35px;
+  color: rgba(0,0,0,1);
+}
+.register-form {
+  display: block;
+  width: 500px;      
+  margin-top: 370px;
+  margin-left: 350px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.text-field {
+  width: 100%;
+  height: 80px;
+  border: none;
+  font-size: 35px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.submit-btn {
+  width: 100%;
+  border: none;
+  background-color:rgba(244,168,141,1);
+  font-family: KoreanYNSJG3R;
+  font-size: 35px;
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+ 
+}
+.submit-btn:hover {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.50);
+}
+#_z {
+  left: 111px;
+  top: 415px;
+  position: absolute;
+  overflow: visible;
+  width: 101px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: KoreanYNSJG4R;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  color: rgba(0,0,0,1);
+}
+#_ba {
+  left: 111px;
+  top: 546px;
+  position: absolute;
+  overflow: visible;
+  width: 134px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: KoreanYNSJG4R;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  color: rgba(0,0,0,1);
+}
+#__ {
+  left: 111px;
+  top: 677px;
+  position: absolute;
+  overflow: visible;
+  width: 211px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: KoreanYNSJG4R;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  color: rgba(0,0,0,1);
+}
+
+
+/*검색바*/
+.search-bar-box {
+  position: absolute;
+  overflow: visible;
+  width: 425px;
+  height: 62px;
+  left: 1433px;
+  top: 48px;
+}
+#search-bar-box{
+  fill: rgba(9,9,9,0.169);
+}
+#search-bar{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 1456px;
+    top: 57px;
+    overflow: visible;
+}
+#search-bar-text {
+  left: 1517px;
+  top: 66px;
+  position: absolute;
+  overflow: visible;
+  width: 295px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: KoreanYNSJG2R;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(0,0,0,0.369);
+}
+/*sns 회원가입*/
+.register-apple {
+  position: absolute;
+  overflow: visible;
+  width: 616px;
+  height: 75px;
+  left: 960px;
+  top: 390px;
+}
+#register-apple {
+  fill: rgba(0,0,0,1);
+}
+#apple-logo {
+  position: absolute;
+  width: 43px;
+  height: 36px;
+  left: 1125.464px;
+  top: 409.866px;
+  overflow: visible;
+}
+#apple-text {
+  left: 1184.303px;
+  top: 415.77px;
+  position: absolute;
+  overflow: visible;
+  width: 199px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: KoreanYNSJG3R;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  color: rgba(255,255,255,1);
+}
+.register-kakao {
+  position: absolute;
+  overflow: visible;
+  width: 616px;
+  height: 75px;
+  left: 960px;
+  top: 501px;
+}
+#register-kakao {
+  fill: rgba(255,223,0,1);
+}
+
+#kakao-logo {
+  position: absolute;
+  width: 41.587px;
+  height: 40.732px;
+  left: 1118.123px;
+  top: 518.134px;
+  overflow: visible;
+}
+.kakao-logo {
+  overflow: visible;
+  position: absolute;
+  width: 38px;
+  height: 35px;
+  left: 0px;
+  top: 0px;
+  transform: matrix(1,0,0,1,0,0);
+  background-color: rgba(255,223,0,1);
+}
+#kakao-text {
+  left: 1180.803px;
+  top: 524.5px;
+  position: absolute;
+  overflow: visible;
+  width: 198px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: KoreanYNSJG3R;
+  font-weight: bold;
+  font-size: 25px;
+  color: rgba(0,0,0,1);
+}
+.register-facebook {
+  position: absolute;
+  overflow: visible;
+  width: 616px;
+  height: 75px;
+  left: 960px;
+  top: 615px;
+}
+#register-facebook {
+  fill: rgba(52,94,161,1);
+}
+#facebook-logo{
+  position: absolute;
+  width: 17.452px;
+  height: 33.332px;
+  left: 1100.464px;
+  top: 634.55px;
+  overflow: visible;
+  background-color: rgba(52,94,161,1);
+}
+
+.facebook-logo{
+  overflow: visible;
+  position: absolute;
+  width: px;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+  transform: matrix(1,0,0,1,0,0);
+}
+
+#facebook-text {
+  left: 1156.803px;
+  top: 640px;
+  position: absolute;
+  overflow: visible;
+  width: 246px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: KoreanYNSJG3R;
+  font-size: 25px;
+  color: rgba(255,255,255,1);
+}
+
+/*홈 아이콘*/
+#house-icon {
+  overflow: visible;
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  left: 1574px;
+  top: 145px;
+  transform: matrix(1,0,0,1,0,0);
+  fill: rgba(0,0,0,1);
+}
+/*로그인 하기 아이콘*/
+#profile-box {
+  position: absolute;
+  width: 193px;
+  height: 57px;
+  left: 1680px;
+  top: 144.001px;
+  overflow: visible;
+}
+
+#profile-text{
+  left: 72px;
+  top: 17px;
+  position: absolute;
+  overflow: visible;
+  width: 122px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: KoreanYNSJG3R;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: rgba(123,113,113,1);
+}
+#profile-img{
+  position: absolute;
+  overflow: visible;
+  width: 57px;
+  height: 57px;
+  left: 0px;
+  top: 0px;
+}
+
+.profile-img {
+  position: absolute;
+  width: 193px;
+  height: 57px;
+  left: 1670px;
+  top: 144.001px;
+  overflow: visible;
+}
+
+
+
+/*메뉴*/
+#menu {
+  text-align: center;
+  margin-top: 410px;
+  margin-bottom: 60px;
+  margin-left: 100px;
+  height: 30px;
+
+}
+#menu a {
+  margin-left: 10px;
+  padding-right: 90px;
+  font-size: 32px;
+  text-decoration: none;
+  font-family: KoreanYNSJG4R;
+  color: rgba(0,0,0,1);
+
+}
+#nav1
+{
+    left: 342px;
+    top: 90px;
+    position: absolute;
+    width: 58px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: KoreanYNSJG4R;
+    font-size: 30px;
+    color: rgba(0,0,0,1);
+    text-decoration:none 
+}
+
+#nav2
+{
+    left: 533px;
+    top: 90px;
+    position: absolute;
+    width: 58px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: KoreanYNSJG4R;
+    font-size: 30px;
+    color: rgba(0,0,0,1);
+    text-decoration:none 
+}
+
+#nav3
+{
+    left: 776px;
+    top: 90px;
+    position: absolute;
+    width: 58px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: KoreanYNSJG4R;
+    font-size: 30px;
+    color: rgba(0,0,0,1);
+    text-decoration:none 
+}
+/*내비게이션 및 풀다운 메뉴 구성하기*/
+#main-navigation{
+  text-align: center;
+  margin-top: 410px;
+  margin-right: 566px;
+  margin-left: 600px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+#main-navigation a {
+  margin-left: 10px;
+  padding-right: 90px;
+  font-size: 32px;
+  text-decoration: none;
+  font-family: KoreanYNSJG4R;
+  color: rgba(0,0,0,1);
+
+}
+.outer-menu-item {
+  float: left;
+  position: relative;
+  text-align: center;
+
+}
+.outer-menu-item:hover {
+  background: white;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.menu-title {
+  display: block;
+  height: 40px; 
+
+  text-align: center;
+  padding: 5px 20px;
+}
+
+.inner-menu { 
+  display: none;
+  position: absolute;
+  top: 50px; left: 0px;
+  width: 200px; 
+  background: white;
+  z-index: 1000;
+  text-align: left;
+  border-radius: 44px;
+
+}
+.inner-menu-item > a {
+  display: inline-block;
+  padding: 10px 5px;
+  color: white;
+  width: 190px;
+
+}
+
+.inner-menu-item > a:hover {
+  background: rgba(250,163,144,1);
+  color: white;
+  border-radius: 44px;
+}
+
+/*배너*/
+.main-banner {
+  position: absolute;
+  overflow: visible;
+  width: 1796px;
+  height: 523px;
+  left: 62px;
+  top: 492px;
+}
+#main-banner {
+  fill: rgba(253,214,146,0.631);
+}
+#main-banner-img {
+  position: absolute;
+  width: 749px;
+  height: 523px;
+  left: 62px;
+  top: 492px;
+  overflow: visible;
+}
+.left-button {
+  overflow: visible;
+  position: absolute;
+  width: 38.885px;
+  height: 55.382px;
+  left: 71.959px;
+  top: 725.809px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#left-button {
+  fill: rgba(255,255,255,0.62);
+}
+.right-button {
+  overflow: visible;
+  position: absolute;
+  width: 38.885px;
+  height: 55.382px;
+  transform: matrix(1,0,0,1,1808.9595,725.8091) rotate( 
+180deg
+);
+  transform-origin: center;
+  left: 0px;
+  top: 0px;
+}
+#right-button {
+  fill: rgba(255,255,255,0.62);
+}
+#main-banner-text {
+  left: 920px;
+  top: 712px;
+  position: absolute;
+  overflow: visible;
+  width: 844px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: KoreanYNSJG4R;
+  font-weight: bold;
+  font-size: 35px;
+  color: rgba(0,0,0,1);
+}
+/*소개박스*/
+#about-img {
+  position: absolute;
+  width: 232px;
+  height: 232px;
+  left: 62px;
+  top: 198px;
+  overflow: visible;
+}
+.about-box {
+  position: absolute;
+  overflow: visible;
+  width: 1796px;
+  height: 585px;
+  left: 62px;
+  top: 430px;
+}
+#about-box {
+  fill: rgba(253,214,146,0.631);
+}
+#about-text{
+  left: 119px;
+  top: 489px;
+  position: absolute;
+  overflow: visible;
+  width: 1573px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: KoreanYNSJG3R;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  color: rgba(0,0,0,1);
+}
+#about-title {
+  left: 300px;
+  top: 339px;
+  position: absolute;
+  overflow: visible;
+  width: 181px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: KoreanYNSJG4R;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
