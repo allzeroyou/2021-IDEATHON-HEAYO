@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="{% static 'css/first.css' %}">
   <script src="script.js"></script>
-  <title>해요 메뉴</title>
+  <title>해요 메뉴-로그인된 상태</title>
   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
   <script>
       $(document).ready(function () {
@@ -16,49 +16,45 @@
           });
         });
   </script>
+
 </head>
 <body>
   <div id="page-wrapper" style="transform-origin: 0px 0px;">
     <!--메인로고-->
-      <img id="main-logo" src="{% static 'image/logo.png' %}">
+      <img id="main-logo" src="image/logo.png">
     <!--로그인박스-->
-      <div onClick="application.goToTargetView(event)" id="login-form">
-        <svg class="login-box-1">
-          <rect id="login-box-1" rx="58" x="0" y="0" width="425" height="272"></rect>
-        </svg>
-        <svg class="login-box-2">
-          <rect id="login-box-2" rx="8" x="0" y="0" width="228" height="43"></rect>
-        </svg>
-        <svg class="login-box-3">
-          <rect id="login-box-3" rx="8" ry="8" x="0" y="0" width="228" height="43"></rect>
-        </svg>
-        <svg class="login-box-4">
-          <rect id="login-box-4" rx="8" ry="8" x="0" y="0" width="115" height="107"></rect>
-        </svg>
-        <div id="login-title">
-          <span>로그인</span>
-        </div>
-        <div id="login-button">
-          <span>로그인</span>
-        </div>
-        <div id="login-id">
-          <span>아이디</span>
-        </div>
-        <div id="login-pw">
-          <span>비밀번호</span>
-        </div>
-        <div id="login-link-1">
-          <span>회원가입</span>
-        </div>
-        <div id="login-link-2">
-          <span>아이디/비밀번호 찾기</span>
-        </div>
+    <div id="login-box">
+      <svg class="login-box-one">
+        <rect id="login-box-one" rx="58" x="0" y="0" width="425" height="272"></rect>
+      </svg>
+    </div>
+
+    <div id="welcome-box">
+      <svg class="welcome-talk" viewBox="-7346 202.999 344.337 67">
+        <path id="welcome-talk" d="M -7312.5 269.9993286132812 C -7331.00048828125 269.9993286132812 -7346 255.0016326904297 -7346 236.4992370605469 C -7346 217.9986724853516 -7331.00048828125 202.9991149902344 -7312.5 202.9991149902344 L -7040.50048828125 202.9991149902344 C -7032.8935546875 202.9991149902344 -7025.87890625 205.5343933105469 -7020.255859375 209.8060760498047 L -7001.6630859375 209.7706756591797 L -7011.9375 218.9854736328125 C -7008.80615234375 224.0814971923828 -7007 230.0798187255859 -7007 236.4992370605469 C -7007 255.0016326904297 -7021.998046875 269.9993286132812 -7040.50048828125 269.9993286132812 L -7312.5 269.9993286132812 Z">
+        </path>
+      </svg>
+      <div id="welcome-text">
+        <span>김수아님 환영합니다</span>
       </div>
+    
+      <svg class="profile-image-position">
+        <rect id="profile-image-position" rx="8" ry="8" x="0" y="0" width="57" height="57"></rect>
+      </svg>
+      <img class="profile-image" src="image/login.png">
+
+      <div id="login-link-one">
+        <span>로그아웃</span>
+      </div>
+      <div id="login-link-two">
+        <span>자주 찾는 매장</span>
+      </div>
+    </div>
     <!--검색바-->
       <svg class ="search-bar-box">
         <rect id="search-bar-box" rx="10" ry="10" x="0" y="0" width="425" height="62"></rect>
       </svg>
-      <img id="search-bar" src="{% static 'image/search.png' %}">
+      <img id="search-bar" src="image/search.png">
       <div id="search-bar-text">
         <span>매장명을 검색해보세요</span>
       </div>
@@ -66,7 +62,7 @@
       <svg class="main-banner">
         <rect id="main-banner" rx="0" ry="0" x="0" y="0" width="1796" height="523"></rect>  
         </svg>
-        <img id="main-banner-img" src="{% static 'image/mainimg.png' %}">
+        <img id="main-banner-img" src="image/mainimg.png">
         <svg class="left-button" viewBox="-1979.949 10.142 38.885 55.382">
           <path id="left-button" d="M -1953.291748046875 63.86492538452148 L -1977.04150390625 44.6804313659668 C -1979.169677734375 42.96138763427734 -1980.166015625 40.29935455322266 -1979.91015625 37.71250152587891 C -1980.085693359375 35.21205520629883 -1979.091552734375 32.66977310180664 -1977.03759765625 31.01074600219727 L -1953.244873046875 11.79158687591553 C -1949.9697265625 9.146184921264648 -1945.2392578125 9.746200561523438 -1942.68017578125 13.13295269012451 C -1940.1220703125 16.51837539672852 -1940.702880859375 21.4091682434082 -1943.97802734375 24.0545654296875 L -1960.9853515625 37.79266738891602 L -1943.973876953125 51.53393936157227 C -1940.6806640625 54.19401168823242 -1940.09619140625 59.11146926879883 -1942.669677734375 62.51556015014648 C -1944.162353515625 64.49076080322266 -1946.38916015625 65.52351379394531 -1948.638671875 65.52353668212891 C -1950.267578125 65.52355194091797 -1951.908447265625 64.98211669921875 -1953.291748046875 63.86492538452148 Z">
           </path>

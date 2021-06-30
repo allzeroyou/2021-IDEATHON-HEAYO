@@ -1,0 +1,121 @@
+body
+        {
+            background: #FFF0D6;
+        }
+        #haeyo 
+        {
+            filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+            left: 72px;
+            top: 64px;
+            position: absolute;
+            width: 145px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: BR B;
+            font-size: 80px;
+            color: rgba(255,186,0,1);
+	    }
+        #nav1
+        {
+            left: 342px;
+            top: 90px;
+            position: absolute;
+            width: 58px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: KoreanYNSJG4R;
+            font-size: 30px;
+            color: rgba(0,0,0,1);
+            text-decoration:none 
+        }
+
+        #nav2
+        {
+            left: 533px;
+            top: 90px;
+            position: absolute;
+            width: 58px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: KoreanYNSJG4R;
+            font-size: 30px;
+            color: rgba(0,0,0,1);
+            text-decoration:none 
+        }
+
+        #nav3
+        {
+            left: 776px;
+            top: 90px;
+            position: absolute;
+            width: 58px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: KoreanYNSJG4R;
+            font-size: 30px;
+            color: rgba(0,0,0,1);
+            text-decoration:none 
+        }
+
+        .box
+        {
+            left: 1376px;
+            top: 90px;
+            position: absolute;
+        }
+
+        .container-1 input#search
+        {
+            width: 300px;
+            height: 50px;
+            background: #09090921;
+            border: none;
+            font-size: 15pt;
+            font-family: KoreanYNSJG3R;
+            padding-left: 65px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+        }
+        #search_icon
+        {
+            left: 10px;
+            top: 2px;
+            position: absolute;
+        }
+
+        #house_icon
+        {
+		    fill: rgba(0,0,0,1);
+	    }
+	    .house_icon
+        {
+            overflow: visible;
+            position: absolute;
+            width: 44px;
+            height: 44px;
+            left: 1454px;
+            top: 155px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+
+        #profile_img
+        {
+            left: 1519px;
+            top: 156px;
+            position: absolute;
+        }
+    
+        #profile_name
+        {
+            left: 1575px;
+            top: 167px;
+            position: absolute;
+            overflow: visible;
+            width: 100px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: KoreanYNSJG3R;
+            font-size: 24px;
+            color: rgb(0, 0, 0);
+	    }
