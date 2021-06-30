@@ -19,7 +19,7 @@
     </nav>
     <div class="box">
         <div class="container-1">
-            <span><img id ="search_icon" src="image/search.png"></span>
+            <span><img id ="search_icon" src="{% static 'image/search.png' %}"></span>
             <input type="search" id="search" placeholder="매장명을 검색해보세요." />
         </div>
     </div>
@@ -54,32 +54,32 @@
     <div id="followquick">
     <div>
     <label for="변경">
-        <img id="변경" src="/image/change.png" alt="변경" height="196px" width="196px"> &emsp;
+        <img id="변경" src="{% static '/image/change.png' %}" alt="변경" height="196px" width="196px"> &emsp;
         <p id="mypage_change">내 정보 변경</p>
     </label>
     </div>
 
     <div>
         <label for="찾기">
-            <img id="찾기" src="/image/find.png" alt="찾기" height="196px" width="196px"> &emsp;
+            <img id="찾기" src="{% static '/image/find.png' %}" alt="찾기" height="196px" width="196px"> &emsp;
             <p id="mypage_find">주변 매장 찾기</p>
         </label>
     </div>
 
     <div>
         <label for="목록">
-            <img id="목록" src="/image/heart.png" alt="목록" height="196px" width="196px"> &emsp;
+            <img id="목록" src="{% static '/image/heart.png' %}" alt="목록" height="196px" width="196px"> &emsp;
             <p id="mypage_list">즐겨찾기 목록</p>
         </label>
     </div>
     </div>
 
     <div>
-        <img id="mypage_human" src="/image/501.png" height="196px" width="196px">
+        <img id="mypage_human" src="{% static '/image/501.png' %}" height="196px" width="196px">
     </div>
 
     <div>
-        <img id="mypage_map" src="/image/502.png" height="196px" width="196px">
+        <img id="mypage_map" src="{% static '/image/502.png' %}" height="196px" width="196px">
     </div>
 
 
@@ -108,7 +108,7 @@
     </div>
     
     <div>
-        <img id="위치우이동" src="image/position.png" height="196px" width="196px">
+        <img id="위치우이동" src="{% static 'image/position.png' %}" height="196px" width="196px">
     </div>
     <div id="mypage_mega">
         <span>1. 메가커피 우이점</span>
