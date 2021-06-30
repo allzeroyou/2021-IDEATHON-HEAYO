@@ -1,0 +1,129 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>mypage</title>
+
+
+    <link rel="stylesheet" href="{% static 'css/second.css' %}">
+</head>
+<body>
+    <div id = "haeyo">
+        <span>해요</span>
+    </div>
+    <nav>
+        <a id="nav1" href="About.html">소개</a> 
+        <a id="nav2" href="Find.html">매장찾기</a> 
+        <a id="nav3" href="Mypage.html">마이페이지</a>
+    </nav>
+    <div class="box">
+        <div class="container-1">
+            <span><img id ="search_icon" src="image/search.png"></span>
+            <input type="search" id="search" placeholder="매장명을 검색해보세요." />
+        </div>
+    </div>
+
+    <svg class="house_icon" viewBox="0 0 55 55">
+		<path id="house_icon" d="M 55 55 L 54.99899291992188 55 L 37.99961471557617 54.9990348815918 L 37.99961471557617 35.70121383666992 L 17.9994068145752 35.70121383666992 L 17.9994068145752 54.9990348815918 L 0 54.9990348815918 L 0 22.84613800048828 L 27.5 -1.13686837721616e-13 L 55 22.84613800048828 L 55 54.9990348815918 L 55 55 Z">
+		</path>
+	</svg>
+    <div id="profile_img">
+        <img src = https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzO6wlUE3xt9U7LbJa4qi3_siXBnkrrNxVLl2V_itSdGFwLlw_rlEpHV3oWhVU6x9tS7c&usqp=CAU width="50" height="50">
+    </div>
+    <div id="profile_name">
+        <span>김수아 님</span>
+    </div>
+
+    <div id="mypage_name">
+        <span>김수아 님</span>
+    </div>
+
+    <div id="mypage_box1">
+        &nbsp 
+    </div>
+
+    <div id="mypage_box2">
+        &nbsp 
+    </div>
+
+    <div id="mypage_box3">
+        &nbsp 
+    </div>
+
+    <div id="followquick">
+    <div>
+    <label for="변경">
+        <img id="변경" src="/image/change.png" alt="변경" height="196px" width="196px"> &emsp;
+        <p id="mypage_change">내 정보 변경</p>
+    </label>
+    </div>
+
+    <div>
+        <label for="찾기">
+            <img id="찾기" src="/image/find.png" alt="찾기" height="196px" width="196px"> &emsp;
+            <p id="mypage_find">주변 매장 찾기</p>
+        </label>
+    </div>
+
+    <div>
+        <label for="목록">
+            <img id="목록" src="/image/heart.png" alt="목록" height="196px" width="196px"> &emsp;
+            <p id="mypage_list">즐겨찾기 목록</p>
+        </label>
+    </div>
+    </div>
+
+    <div>
+        <img id="mypage_human" src="/image/501.png" height="196px" width="196px">
+    </div>
+
+    <div>
+        <img id="mypage_map" src="/image/502.png" height="196px" width="196px">
+    </div>
+
+
+    <div class="register1"> 
+        <button id="mypage_register1"> 즐겨찾기 등록</button>
+    </div>
+
+    <div class="register2"> 
+        <button id="mypage_register2"> 즐겨찾기 등록</button>
+    </div>
+
+    <div class="register3"> 
+        <button id="mypage_register3"> 즐겨찾기 등록</button>
+    </div>
+
+    <div class="kiosk1">
+        <button id="mypage_kiosk1"> 키오스크 찾기</button>
+    </div>
+
+    <div class="kiosk2">
+        <button id="mypage_kiosk2"> 키오스크 찾기</button>
+    </div>
+
+    <div class="kiosk3">
+        <button id="mypage_kiosk3"> 키오스크 찾기</button>
+    </div>
+    
+    <div>
+        <img id="위치우이동" src="image/position.png" height="196px" width="196px">
+    </div>
+    <div id="mypage_mega">
+        <span>1. 메가커피 우이점</span>
+    </div>
+
+    <div id="mypage_kfc">
+        <span>2. KFC 우이점</span>
+    </div>
+
+    <div id="mypage_tt">
+        <span>3. 탐앤탐스 우이점</span>
+    </div>
+
+    <div id="우이동">
+        <span>우이동</span>
+    </div>
+</body>
+</html>
