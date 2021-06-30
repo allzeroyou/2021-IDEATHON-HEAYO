@@ -22,3 +22,6 @@ def mypage(request):
 
 def change(request):
     return render(request, 'change.html')
+
+def about(request):
+    return render(request, 'About.html')
