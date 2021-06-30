@@ -6,3 +6,4 @@ def main(request):
 
 def login(request):
     return render(request, 'Login_page.html')
+    
