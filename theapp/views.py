@@ -6,6 +6,7 @@ def main(request):
 
 def login(request):
     return render(request, 'Login_page.html')
+    
 
 def cafe(request):
     return render(request, 'cafe.html')
@@ -21,3 +22,6 @@ def mypage(request):
 
 def change(request):
     return render(request, 'change.html')
+
+def about(request):
+    return render(request, 'About.html')

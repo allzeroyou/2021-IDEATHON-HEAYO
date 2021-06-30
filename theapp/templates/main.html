@@ -85,12 +85,12 @@
       <nav id="main-navigation">
         <ul class="outer-menu">
           <li class="outer-menu-item">
-            <span class="menu-title"><a href="./About.html">소개</a></span>
+            <span class="menu-title"><a href="{% url 'about' %}">소개</a></span>
           </li>
           <li class="outer-menu-item">
             <span class="menu-title"><a href="./cafe.html">매장찾기</a></span>
             <ul class="inner-menu">
-              <li class="inner-menu-item"><a href="#">카페</a></li>
+              <li class="inner-menu-item"><a href="{% url 'cafe' %}">카페</a></li>
               <li class="inner-menu-item"><a href="#">음식</a></li>
               <li class="inner-menu-item"><a href="#">영화관</a></li>
             </ul>
