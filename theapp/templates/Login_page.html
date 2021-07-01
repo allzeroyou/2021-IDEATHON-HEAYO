@@ -62,7 +62,7 @@
       <svg class="main-banner">
         <rect id="main-banner" rx="0" ry="0" x="0" y="0" width="1796" height="523"></rect>  
         </svg>
-        <img id="main-banner-img" src="image/mainimg.png">
+        <img id="main-banner-img" src="{% static 'image/mainimg.png' %}">
         <svg class="left-button" viewBox="-1979.949 10.142 38.885 55.382">
           <path id="left-button" d="M -1953.291748046875 63.86492538452148 L -1977.04150390625 44.6804313659668 C -1979.169677734375 42.96138763427734 -1980.166015625 40.29935455322266 -1979.91015625 37.71250152587891 C -1980.085693359375 35.21205520629883 -1979.091552734375 32.66977310180664 -1977.03759765625 31.01074600219727 L -1953.244873046875 11.79158687591553 C -1949.9697265625 9.146184921264648 -1945.2392578125 9.746200561523438 -1942.68017578125 13.13295269012451 C -1940.1220703125 16.51837539672852 -1940.702880859375 21.4091682434082 -1943.97802734375 24.0545654296875 L -1960.9853515625 37.79266738891602 L -1943.973876953125 51.53393936157227 C -1940.6806640625 54.19401168823242 -1940.09619140625 59.11146926879883 -1942.669677734375 62.51556015014648 C -1944.162353515625 64.49076080322266 -1946.38916015625 65.52351379394531 -1948.638671875 65.52353668212891 C -1950.267578125 65.52355194091797 -1951.908447265625 64.98211669921875 -1953.291748046875 63.86492538452148 Z">
           </path>
@@ -81,10 +81,10 @@
       <nav id="main-navigation">
         <ul class="outer-menu">
           <li class="outer-menu-item">
-            <span class="menu-title"><a href="./About.html">소개</a></span>
+            <span class="menu-title"><a href="{% url 'about' %}">소개</a></span>
           </li>
           <li class="outer-menu-item">
-            <span class="menu-title"><a href="./cafe.html">매장찾기</a></span>
+            <span class="menu-title"><a href="{% url 'cafe' %}">매장찾기</a></span>
             <ul class="inner-menu">
               <li class="inner-menu-item"><a href="#">카페</a></li>
               <li class="inner-menu-item"><a href="#">음식</a></li>
@@ -92,10 +92,9 @@
             </ul>
           </li>
           <li class="outer-menu-item">
-            <span class="menu-title"><a href="./MyPage.html">마이페이지</a></span>
+            <span class="menu-title"><a href="{% url 'mypage' %}">마이페이지</a></span>
           </li>
         </ul>
-
       </nav>
 
   </div>

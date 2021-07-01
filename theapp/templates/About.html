@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -20,25 +21,22 @@
       <span>
         <span>'해요' 는 키오스크 주문을 힘들어하는 사람들을 위해 카페, 음식점, 영화관의 매장별 자세한 주문방법과<br/>
           우리말로 바꾼 메뉴, 알레르기 영양 성분에 대한 설명을 통해 쉽게 주문하도록 도와주는 웹사이트입니다.<br/><br/>
-          매장별로 부여된 QR코드를 인식하면 "해요"의 해당 매장 안내 페이지로 입장하게 됩니다.<br/>
+          매장별로 부여된 QR코드를 인식하면 '해요' 의 해당 매장 안내 페이지로 입장하게 됩니다.<br/>
           저희 웹사이트에 나와있는 주문 방법을 따라하면서 주문해보세요!<br>
           보다 쉽고 빠르게 주문이 가능해집니다.
         </span>
-    </div>
-
-
-        
+    </div>   
         <div id = "haeyo">
           <span>해요</span>
       </div>
       <nav>
-          <a id="nav1" href="{% url 'about' %}">소개</a> 
-          <a id="nav2" href="{% url 'find' %}">매장찾기</a> 
-          <a id="nav3" href="{% url 'mypage' %}">마이페이지</a>
+        <a id="nav1" href="{% url 'about' %}">소개</a> 
+        <a id="nav2" href="{% url 'cafe' %}">매장찾기</a> 
+        <a id="nav3" href="{% url 'mypage' %}">마이페이지</a>
       </nav>
       <div class="box">
           <div class="container-1">
-              <span><img id ="search_icon" src="{% static 'image/search.png'}"></span>
+              <span><img id ="search_icon" src="{% static 'image/search.png' %}"></span>
               <input type="search" id="search" placeholder="매장명을 검색해보세요." />
           </div>
       </div>
