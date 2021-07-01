@@ -27,5 +27,6 @@ urlpatterns = [
     path('mypage/',views.mypage, name="mypage"),
     path('change/',views.change, name="change"),
     path('about/',views.about, name="about"),
+    path('kiosk_1/',views.kiosk_1, name="kiosk_1"),
     
 ]

@@ -25,4 +25,25 @@ def change(request):
 
 def about(request):
     return render(request, 'About.html')
+
+def kiosk_1(request):
+    return render(request, 'kiosk_1.html')
+
+def kiosk_2(request):
+    return render(request, 'kiosk_2.html')
+
+def kiosk_3(request):
+    return render(request, 'kiosk_3.html')
+
+def kiosk_4(request):
+    return render(request, 'kiosk_4.html')
+
+def kiosk_5(request):
+    return render(request, 'kiosk_5.html')
+
+def kiosk_6(request):
+    return render(request, 'kiosk_6.html')
+
+def kiosk_7(request):
+    return render(request, 'kiosk_7.html')
     
