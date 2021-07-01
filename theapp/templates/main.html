@@ -88,18 +88,17 @@
             <span class="menu-title"><a href="{% url 'about' %}">소개</a></span>
           </li>
           <li class="outer-menu-item">
-            <span class="menu-title"><a href="./cafe.html">매장찾기</a></span>
+            <span class="menu-title"><a href="{% url 'cafe' %}">매장찾기</a></span>
             <ul class="inner-menu">
               <li class="inner-menu-item"><a href="{% url 'cafe' %}">카페</a></li>
-              <li class="inner-menu-item"><a href="#">음식</a></li>
-              <li class="inner-menu-item"><a href="#">영화관</a></li>
+              <li class="inner-menu-item"><a href="{% url 'food' %}">음식</a></li>
+              <li class="inner-menu-item"><a href="{% url 'movie' %}">영화관</a></li>
             </ul>
           </li>
           <li class="outer-menu-item">
-            <span class="menu-title"><a href="./MyPage.html">마이페이지</a></span>
+            <span class="menu-title"><a href="{% url 'mypage' %}">마이페이지</a></span>
           </li>
         </ul>
-
       </nav>
 
   </div>

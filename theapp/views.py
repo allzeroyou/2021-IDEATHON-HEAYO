@@ -25,3 +25,4 @@ def change(request):
 
 def about(request):
     return render(request, 'About.html')
+    
