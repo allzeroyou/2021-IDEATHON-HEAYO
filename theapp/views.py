@@ -4,8 +4,8 @@ from django.shortcuts import render
 def main(request):
     return render(request, 'main.html')
 
-def logged(request):
-    return render(request, 'logged.html')
+def login(request):
+    return render(request, 'login.html')
 
 def register(request):
     return render(request, 'register.html')
