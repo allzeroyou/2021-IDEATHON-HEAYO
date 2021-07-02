@@ -1,0 +1,219 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>키오스크-4</title>
+    <link rel="stylesheet" href="{% static 'css/Third.css' %}">
+</head>
+<body>
+    <div id = "haeyo">
+        <span>해요</span>
+    </div>
+    <nav>
+        <a id="nav1" href="{% url 'about' %}">소개</a> 
+        <a id="nav2" href="{% url 'cafe' %}">매장찾기</a> 
+        <a id="nav3" href="{% url 'mypage' %}">마이페이지</a>
+    </nav>
+    <div class="box">
+        <div class="container-1">
+            <span><img id ="search_icon" src="{% static '/image/search.png' %}"></span>
+            <input type="search" id="search" placeholder="매장명을 검색해보세요." />
+        </div>
+    </div>
+    <svg class="house_icon" viewBox="0 0 55 55">
+		<path id="house_icon" d="M 55 55 L 54.99899291992188 55 L 37.99961471557617 54.9990348815918 L 37.99961471557617 35.70121383666992 L 17.9994068145752 35.70121383666992 L 17.9994068145752 54.9990348815918 L 0 54.9990348815918 L 0 22.84613800048828 L 27.5 -1.13686837721616e-13 L 55 22.84613800048828 L 55 54.9990348815918 L 55 55 Z">
+		</path>
+	</svg>
+    <div id="profile_img">
+        <img src = https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzO6wlUE3xt9U7LbJa4qi3_siXBnkrrNxVLl2V_itSdGFwLlw_rlEpHV3oWhVU6x9tS7c&usqp=CAU width="50" height="50">
+    </div>
+    <div id="profile_name">
+        <span>김수아 님</span>
+    </div>
+
+    <article>
+        <svg class="kiosk_rect">
+            <rect id="kiosk_rect" rx="105" ry="105" x="0" y="0" width="826" height="1030">
+            </rect>
+        </svg>
+        <svg class="kiosk_upper_name">
+            <rect id="kiosk_upper_name" rx="33.5" ry="33.5" x="0" y="0" width="283" height="67">
+            </rect>
+        </svg>
+        <div id="kiosk_name">
+            <span>메가커피</span>
+        </div>
+
+        <div id="kiosk_second_all">
+
+            <svg class="option_base_1">
+                <rect id="option_base_1" rx="0" ry="0" x="0" y="0" width="610" height="883">
+                </rect>
+            </svg>
+            <svg class="option_base_2">
+                <rect id="option_base_2" rx="0" ry="0" x="0" y="0" width="610" height="245">
+                </rect>
+            </svg>
+            <svg class="option_base_3">
+                <rect id="option_base_3" rx="0" ry="0" x="0" y="0" width="610" height="207">
+                </rect>
+            </svg>
+            <svg class="option_base_4">
+                <rect id="option_base_4" rx="0" ry="0" x="0" y="0" width="610" height="210">
+                </rect>
+            </svg>
+            <div id="option_select_text">
+                <span>선택하신 상품의 옵션상품들을 모두 선택해주세요</span>
+            </div>
+            <div id="option_x_btn">
+                <svg class="option_x_btn_1" viewBox="0 0 23 25">
+                    <path id="option_x_btn_1" d="M 0 0 L 23 25">
+                    </path>
+                </svg>
+                <svg class="option_x_btn_2" viewBox="0 0 23 25">
+                    <path id="option_x_btn_2" d="M 23 0 L 0 25">
+                    </path>
+                </svg>
+            </div>
+            <img id="option_카페라떼_img" src="{% static '/image/카페라떼.png' %}">
+                
+            <div id="option_카페라떼_text">
+                <span>(HOT) 카페라떼</span>
+            </div>
+            <div id="option_카페라떼_price">
+                <span>2,700원</span>
+            </div>
+            <svg class="option_density_base_1">
+                <rect id="option_density_base_1" rx="5" ry="5" x="0" y="0" width="148" height="150">
+                </rect>
+            </svg>
+            <svg class="option_density_base_2">
+                <ellipse id="option_density_base_2" rx="45" ry="45" cx="45" cy="45">
+                </ellipse>
+            </svg>
+            <div id="option_density_base">
+                <svg class="option_density_base_3" viewBox="0 0 51 54">
+                    <path id="option_density_base_3" d="M 0 0 L 51 54">
+                    </path>
+                </svg>
+                <svg class="option_density_base_4" viewBox="0 0 51 54">
+                    <path id="option_density_base_4" d="M 51 0 L 0 54">
+                    </path>
+                </svg>
+            </div>
+            <div id="option_density_text">
+                <span>농도</span>
+            </div>
+            <svg class="option_detail" viewBox="0 0 71 37">
+                <path id="option_detail" d="M 35.5 0 L 71 37 L 0 37 Z">
+                </path>
+            </svg>
+            <svg class="option_select_base_1">
+                <rect id="option_select_base_1" rx="5" ry="5" x="0" y="0" width="148" height="157">
+                </rect>
+            </svg>
+            <svg class="option_select_base_1-2">
+                <ellipse id="option_select_base_1-2" rx="45" ry="45" cx="45" cy="45">
+                </ellipse>
+            </svg>
+            <div id="option_select_base_1-3">
+                <svg class="option_select_base_1-3-1" viewBox="0 0 51 54">
+                    <path id="option_select_base_1-3-1" d="M 0 0 L 51 54">
+                    </path>
+                </svg>
+                <svg class="option_select_base_1-3-2" viewBox="0 0 51 54">
+                    <path id="option_select_base_1-3-2" d="M 51 0 L 0 54">
+                    </path>
+                </svg>
+            </div>
+            <div id="option_select_base_1-text">
+                <span>농도</span>
+            </div>
+            <svg class="option_select_base_2">
+                <rect id="option_select_base_2" rx="5" ry="5" x="0" y="0" width="148" height="157">
+                </rect>
+            </svg>
+            <img id="option_select_base_2_img" src="{% static '/image/연하게.png' %}">
+                
+            <svg class="option_select_base_3">
+                <rect id="option_select_base_3" rx="5" ry="5" x="0" y="0" width="148" height="157">
+                </rect>
+            </svg>
+            <img id="option_select_base_3_img" src="{% static '/image/샷추가.png' %}">
+                
+            <svg class="option_select_base_4">
+                <rect id="option_select_base_4" rx="5" ry="5" x="0" y="0" width="40" height="157">
+                </rect>
+            </svg>
+            <div id="option_select_base_1_price">
+                <span>+0원</span>
+            </div>
+            <div id="option_select_base_2_text">
+                <span>연하게</span>
+            </div>
+            <div id="option_select_base_2_price">
+                <span>+0원</span>
+            </div>
+            <svg class="option_under">
+                <rect id="_490" rx="0" ry="0" x="0" y="0" width="610" height="138">
+                </rect>
+            </svg>
+            <div id="option_select_base_3_text">
+                <span>샷추가</span>
+            </div>
+            <div id="option_select_base_3_price">
+                <span>+500원</span>
+            </div>
+            <div id="option_next_text">
+                <span>더 많은 상품을 확인하시려면 옆으로 넘겨주세요.</span>
+            </div>
+            <svg class="option_next_btn" viewBox="0 0 13.482 19.202">
+                <path id="option_next_btn" d="M 9.242712020874023 0.5750683546066284 L 1.008262634277344 7.226677417755127 C 0.270383894443512 7.822700977325439 -0.07504071295261383 8.74567699432373 0.0136544406414032 9.642584800720215 C -0.04722212255001068 10.50953388214111 0.2974539995193481 11.39098930358887 1.009634852409363 11.96620273590088 L 9.258970260620117 18.62982940673828 C 10.39450168609619 19.54703712463379 12.03461360931396 19.33900260925293 12.92189788818359 18.16475486755371 C 13.8088493347168 16.990966796875 13.60746574401855 15.29524230957031 12.4719352722168 14.37803554534912 L 6.575203895568848 9.614789962768555 L 12.47334861755371 4.850443840026855 C 13.615159034729 3.928148508071899 13.81783103942871 2.223178386688232 12.92555713653564 1.042920470237732 C 12.4080228805542 0.3580812215805054 11.63594245910645 7.796164936735295e-06 10.85602378845215 -5.257865254293392e-10 C 10.29125213623047 -5.198319740884472e-06 9.722322463989258 0.1877183318138123 9.242712020874023 0.5750683546066284 Z">
+                </path>
+            </svg>
+            <svg class="option_cancel_base">
+                <rect id="option_cancel_base" rx="0" ry="0" x="0" y="0" width="253" height="68">
+                </rect>
+            </svg>
+            <div id="option_cancel_text">
+                <span>취소</span>
+            </div>
+            <div onclick="application.goToTargetView(event)" id="option_add_click">
+                <svg class="option_add_base">
+                    <rect id="option_add_base" rx="0" ry="0" x="0" y="0" width="253" height="68">
+                    </rect>
+                </svg>
+                <div id="option_add_text">
+                    <span>주문 담기</span>
+                </div>
+            </div>
+            <svg class="right_speech_bybble_6" viewBox="0.001 -0.001 696.491 215">
+                <path id="right_speech_bybble_6" d="M 77.00040435791016 214.9992065429688 C 34.47450256347656 214.9992065429688 0.0009000000427477062 180.5256042480469 0.0009000000427477062 137.9997100830078 L 0.0009000000427477062 76.99950408935547 C 0.0009000000427477062 34.47360229492188 34.47450256347656 -0.0009000000427477062 77.00040435791016 -0.0009000000427477062 L 398.7270202636719 -0.0009000000427477062 C 441.2538146972656 -0.0009000000427477062 475.7274169921875 34.47360229492188 475.7274169921875 76.99950408935547 L 475.7274169921875 98.52294921875 L 696.4920043945312 130.4217071533203 L 473.9139404296875 154.6885833740234 C 466.2896118164062 189.1903991699219 435.5226745605469 214.9992065429688 398.7270202636719 214.9992065429688 L 77.00040435791016 214.9992065429688 Z">
+                </path>
+            </svg>
+            <div id="right_speech_bybble_6_text">
+                <span>다 고르셨다면 주문 담기를 <br/>눌러주세요.</span>
+            </div>
+            <svg class="left_speech_bybble_4" viewBox="-5970 -1340.042 669.312 311.518">
+                <path id="left_speech_bybble_4" d="M -5892.99951171875 -1028.523681640625 C -5935.5263671875 -1028.523681640625 -5970.00048828125 -1062.997436523438 -5970.00048828125 -1105.522827148438 L -5970.00048828125 -1188.739990234375 C -5970.00048828125 -1231.265380859375 -5935.5263671875 -1265.739135742188 -5892.99951171875 -1265.739135742188 L -5546.23486328125 -1265.739135742188 L -5300.68896484375 -1340.04150390625 L -5465.17041015625 -1240.569946289062 C -5452.71044921875 -1226.889282226562 -5445.115234375 -1208.702270507812 -5445.115234375 -1188.739990234375 L -5445.115234375 -1105.522827148438 C -5445.115234375 -1062.997436523438 -5479.5888671875 -1028.523681640625 -5522.1142578125 -1028.523681640625 L -5892.99951171875 -1028.523681640625 Z">
+                </path>
+            </svg>
+            <div id="left_speech_bybble_4_text">
+                <span>커피의 진한 정도를 고를 수 있습니다.<br/>더 진한 커피를 원하신다면 샷추가를 <br/>눌러주세요.</span>
+            </div>  
+        </div>
+
+        <a href="{% url 'kiosk_3' %}"><svg class="left_html" viewBox="-1979.95 10.142 79.156 112.739">
+            <path onclick="application.goToTargetView(event)" id="left_html" d="M -1925.683349609375 119.5042266845703 L -1974.030029296875 80.45094299316406 C -1978.3623046875 76.9515380859375 -1980.390380859375 71.53251647949219 -1979.86962890625 66.26654052734375 C -1980.22705078125 61.17646408081055 -1978.203369140625 56.00121688842773 -1974.02197265625 52.62398910522461 L -1925.587890625 13.50014686584473 C -1918.9208984375 8.114984512329102 -1909.291259765625 9.336416244506836 -1904.081787109375 16.23072242736816 C -1898.874267578125 23.12232208251953 -1900.056640625 33.0783576965332 -1906.7236328125 38.46350860595703 L -1941.344970703125 66.42973327636719 L -1906.71533203125 94.40242004394531 C -1900.011474609375 99.81744384765625 -1898.821533203125 109.8277587890625 -1904.060302734375 116.7573547363281 C -1907.098876953125 120.7782135009766 -1911.632080078125 122.8805541992188 -1916.211181640625 122.8805999755859 C -1919.527099609375 122.8806304931641 -1922.867431640625 121.7784576416016 -1925.683349609375 119.5042266845703 Z">
+            </path>
+        </svg></a>
+        <a href="{% url 'kiosk_5' %}"><svg class="right_html" viewBox="0 0 79.156 112.739">
+            <path onclick="application.goToTargetView(event)" id="right_html" d="M 54.2662353515625 3.376373291015625 L 5.919677734375 42.42967224121094 C 1.58740234375 45.9290771484375 -0.440673828125 51.34810638427734 0.080078125 56.61408233642578 C -0.27734375 61.70415878295898 1.746337890625 66.87940979003906 5.927734375 70.25663757324219 L 54.3616943359375 109.3804931640625 C 61.0286865234375 114.7656555175781 70.658203125 113.5442276000977 75.86767578125 106.6499176025391 C 81.0751953125 99.75831604003906 79.892822265625 89.80227661132812 73.225830078125 84.41712188720703 L 38.6046142578125 56.45088958740234 L 73.234130859375 28.47819519042969 C 79.93798828125 23.06316375732422 81.1279296875 13.05284881591797 75.88916015625 6.123252868652344 C 72.8505859375 2.102386474609375 68.3175048828125 4.57763671875e-05 63.7384033203125 0 C 60.4224853515625 -3.0517578125e-05 57.0821533203125 1.102142333984375 54.2662353515625 3.376373291015625 Z">
+            </path>
+        </svg></a>
+    </article>  
+
+</body>

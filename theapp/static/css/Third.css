@@ -1,0 +1,3417 @@
+         /*<공통>*/
+         body
+         {
+             background: #FFF0D6;
+         }
+         #haeyo 
+         {
+             filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+             left: 72px;
+             top: 64px;
+             position: absolute;
+             width: 145px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: BR B;
+             font-size: 80px;
+             color: rgba(255,186,0,1);
+       }
+         #nav1
+         {
+             left: 342px;
+             top: 90px;
+             position: absolute;
+             width: 58px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG4R;
+             font-size: 30px;
+             color: rgba(0,0,0,1);
+             text-decoration:none 
+         }
+ 
+         #nav2
+         {
+             left: 533px;
+             top: 90px;
+             position: absolute;
+             width: 58px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG4R;
+             font-size: 30px;
+             color: rgba(0,0,0,1);
+             text-decoration:none 
+         }
+ 
+         #nav3
+         {
+             left: 776px;
+             top: 90px;
+             position: absolute;
+             width: 58px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG4R;
+             font-size: 30px;
+             color: rgba(0,0,0,1);
+             text-decoration:none 
+         }
+ 
+         .box
+         {
+             left: 1376px;
+             top: 90px;
+             position: absolute;
+         }
+ 
+         .container-1 input#search
+         {
+             width: 300px;
+             height: 50px;
+             background: #09090921;
+             border: none;
+             font-size: 15pt;
+             font-family: KoreanYNSJG3R;
+             padding-left: 65px;
+             -webkit-border-radius: 5px;
+             -moz-border-radius: 5px;
+             border-radius: 5px;
+         }
+         #search_icon
+         {
+             left: 10px;
+             top: 2px;
+             position: absolute;
+         }
+ 
+         #house_icon
+         {
+         fill: rgba(0,0,0,1);
+       }
+       .house_icon
+         {
+             overflow: visible;
+             position: absolute;
+             width: 44px;
+             height: 44px;
+             left: 1454px;
+             top: 155px;
+             transform: matrix(1,0,0,1,0,0);
+         }
+ 
+         #profile_img
+         {
+             left: 1519px;
+             top: 156px;
+             position: absolute;
+         }
+     
+         #profile_name
+         {
+             left: 1575px;
+             top: 167px;
+             position: absolute;
+             overflow: visible;
+             width: 100px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 24px;
+             color: rgb(0, 0, 0);
+       }
+ 
+         /*<Kiosk-1>*/
+ 
+         #kiosk_rect {
+             fill: rgba(0,0,0,1);
+         }
+         .kiosk_rect {
+             position: absolute;
+             overflow: visible;
+             width: 826px;
+             height: 1030px;
+             left: 552.599px;
+             top: 234.001px;
+         }
+         
+         #kiosk_inner {
+             position: absolute;
+             width: 610px;
+             height: 883px;
+             left: 660.599px;
+             top: 305.001px;
+             overflow: visible;
+         }
+         #kiosk_under_base {
+             fill: rgba(50,66,83,0.761);
+         }
+         .kiosk_under_base {
+             position: absolute;
+             overflow: visible;
+             width: 576px;
+             height: 141px;
+             left: 677.599px;
+             top: 1017.001px;
+         }
+         #kiosk_upper_name {
+             fill: rgba(254,220,0,1);
+             stroke: rgba(112,112,112,1);
+             stroke-width: 1px;
+             stroke-linejoin: miter;
+             stroke-linecap: butt;
+             stroke-miterlimit: 4;
+             shape-rendering: auto;
+         }
+         .kiosk_upper_name {
+             position: absolute;
+             overflow: visible;
+             width: 283px;
+             height: 67px;
+             left: 830.599px;
+             top: 224.001px;
+         }
+         #kiosk_name {
+             left: 905.599px;
+             top: 240.001px;
+             position: absolute;
+             overflow: visible;
+             width: 134px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG4R;
+             font-style: normal;
+             font-weight: normal;
+             font-size: 35px;
+             color: rgba(0,0,0,1);
+         }
+         #kiosk_under_right {
+             fill: rgba(94,100,114,0.702);
+             stroke: rgba(255,255,255,1);
+             stroke-width: 1px;
+             stroke-linejoin: miter;
+             stroke-linecap: butt;
+             stroke-dasharray: 3;
+             stroke-dashoffset: 0;
+             stroke-miterlimit: 4;
+             shape-rendering: auto;
+         }
+         .kiosk_under_right {
+             position: absolute;
+             overflow: visible;
+             width: 262px;
+             height: 103px;
+             left: 971.599px;
+             top: 1036.001px;
+         }
+         #kiosk_under_left_click {
+             position: absolute;
+             width: 262px;
+             height: 103px;
+             left: 695.599px;
+             top: 1036.001px;
+             overflow: visible;
+             --web-animation: fadein 0.3s ease-out;
+             --web-action-type: page;
+             --web-action-target: __________2___1.html;
+             cursor: pointer;
+         }
+         #kiosk_under_right_click {
+             overflow: visible;
+             --web-animation: fadein 0.3s ease-out;
+             --web-action-type: page;
+             --web-action-target: __________2___1.html;
+             cursor: pointer;
+         }
+         #kiosk_under_left {
+             fill: rgba(94,100,114,0.702);
+             stroke: rgba(255,255,255,1);
+             stroke-width: 1px;
+             stroke-linejoin: miter;
+             stroke-linecap: butt;
+             stroke-dasharray: 3;
+             stroke-dashoffset: 0;
+             stroke-miterlimit: 4;
+             shape-rendering: auto;
+         }
+         .kiosk_under_left {
+             position: absolute;
+             overflow: visible;
+             width: 262px;
+             height: 103px;
+             left: 0px;
+             top: 0px;
+         }
+         #kiosk_under_left_text
+          {
+             left: 63px;
+             top: 36px;
+             position: absolute;
+             overflow: visible;
+             width: 126px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-style: normal;
+             font-weight: normal;
+             font-size: 33px;
+             color: rgba(255,255,255,1);
+         }
+         #kiosk_under_right_text {
+             left: 1036.599px;
+             top: 1072.001px;
+             position: absolute;
+             overflow: visible;
+             width: 126px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-style: normal;
+             font-weight: normal;
+             font-size: 33px;
+             color: rgba(255,255,255,1);
+         }
+         #kiosk_under_left_btn {
+             fill: rgba(255,255,255,1);
+         }
+         .kiosk_under_left_btn {
+             overflow: visible;
+             position: absolute;
+             width: 20.364px;
+             height: 34.925px;
+             transform: matrix(1,0,0,1,904.8185,1070.0754) rotate(180deg);
+             transform-origin: center;
+             left: 0px;
+             top: 0px;
+         }
+         #kiosk_under_right_btn {
+             fill: rgba(255,255,255,1);
+         }
+         .kiosk_under_right_btn {
+             overflow: visible;
+             position: absolute;
+             width: 20.364px;
+             height: 34.925px;
+             transform: matrix(1,0,0,1,1182.8185,1071.0007) rotate(180deg);
+             transform-origin: center;
+             left: 0px;
+             top: 0px;
+         }
+         #left_speech_bubble {
+             fill: rgba(255,255,255,1);
+         }
+         .left_speech_bubble {
+             filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+             overflow: visible;
+             position: absolute;
+             width: 631.521px;
+             height: 232.999px;
+             left: 82.079px;
+             top: 909.501px;
+             transform: matrix(1,0,0,1,0,0);
+         }
+         #left_speech_bubble_text {
+             left: 165.599px;
+             top: 976.001px;
+             position: absolute;
+             overflow: visible;
+             width: 333px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG4R;
+             font-style: normal;
+             font-weight: normal;
+             font-size: 35px;
+             color: rgba(0,0,0,1);
+         }
+         #right_speech_bubble {
+             fill: rgba(255,255,255,1);
+         }
+         .right_speech_bubble {
+             filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+             overflow: visible;
+             position: absolute;
+             width: 613.519px;
+             height: 215px;
+             transform: matrix(1,0,0,1,1224.4021,909.5001) rotate(180deg);
+             transform-origin: center;
+             left: 0px;
+             top: 0px;
+         }
+         #right_speech_bubble_text {
+             left: 1438.599px;
+             top: 975.001px;
+             position: absolute;
+             overflow: visible;
+             width: 333px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG4R;
+             font-size: 35px;
+             color: rgba(0,0,0,1);
+         }
+         
+         /*<Kiosk-2>*/
+ 
+         #kiosk_inner {
+             fill: rgba(54,54,65,1);
+             stroke: rgba(112,112,112,1);
+             stroke-width: 1px;
+             stroke-linejoin: miter;
+             stroke-linecap: butt;
+             stroke-miterlimit: 4;
+             shape-rendering: auto;
+         }
+         #kiosk_second_all
+         {
+             position: absolute;
+             width: 610px;
+             height: 883px;
+             top: 205.001px;
+             overflow: visible;
+         }
+ 
+         .kiosk_inner {
+             position: absolute;
+             overflow: visible;
+             width: 610px;
+             height: 883px;
+             left: 655px;
+             top: 96px;
+         }
+         
+         #kiosk_inner_base {
+             fill: rgba(255,255,255,1);
+         }
+         .kiosk_inner_base {
+             overflow: visible;
+             position: absolute;
+             width: 610px;
+             height: 606.001px;
+             left: 655px;
+             top: 146px;
+             transform: matrix(1,0,0,1,0,0);
+         }
+         #coffee_base {
+             fill: rgba(98,98,118,1);
+         }
+         .coffee_base {
+             position: absolute;
+             overflow: visible;
+             width: 126px;
+             height: 68px;
+             left: 834px;
+             top: 146px;
+         }
+         #beverage_base {
+             fill: rgba(98,98,118,1);
+         }
+         .beverage_base {
+             position: absolute;
+             overflow: visible;
+             width: 126px;
+             height: 68px;
+             left: 960px;
+             top: 146px;
+         }
+         #smoodee_base {
+             fill: rgba(98,98,118,1);
+         }
+         .smoodee_base {
+             position: absolute;
+             overflow: visible;
+             width: 126px;
+             height: 68px;
+             left: 1086px;
+             top: 146px;
+         }
+         #left_btn {
+             fill: rgba(95,107,129,1);
+         }
+         .left_btn {
+             position: absolute;
+             overflow: visible;
+             width: 41px;
+             height: 41px;
+             left: 661px;
+             top: 164px;
+         }
+         #left_inner {
+             fill: rgba(54,54,65,1);
+         }
+         .left_inner {
+             overflow: visible;
+             position: absolute;
+             width: 16.374px;
+             height: 28.081px;
+             left: 672.313px;
+             top: 170.46px;
+             transform: matrix(1,0,0,1,0,0);
+         }
+         #right_btn {
+             fill: rgba(255,178,23,1);
+         }
+         .right_btn {
+             position: absolute;
+             overflow: visible;
+             width: 41px;
+             height: 41px;
+             left: 1218px;
+             top: 164px;
+         }
+         #right_inner {
+             fill: rgba(255,255,255,1);
+         }
+         .right_inner {
+             overflow: visible;
+             position: absolute;
+             width: 16.374px;
+             height: 28.081px;
+             transform: matrix(1,0,0,1,1231.3132,170.46) rotate(180deg);
+             transform-origin: center;
+             left: 0px;
+             top: 0px;
+         }
+         #kiosk_home {
+             fill: rgba(255,255,255,1);
+         }
+         .kiosk_home {
+             overflow: visible;
+             position: absolute;
+             width: 22px;
+             height: 22px;
+             left: 663px;
+             top: 105px;
+             transform: matrix(1,0,0,1,0,0);
+         }
+         #kiosk_home_text{
+             left: 692px;
+             top: 111px;
+             position: absolute;
+             overflow: visible;
+             width: 62px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 16px;
+             color: rgba(255,255,255,1);
+         }
+         #HOT {
+             left: 727px;
+             top: 171px;
+             position: absolute;
+             overflow: visible;
+             width: 84px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG5R;
+             font-size: 18px;
+             color: rgba(54,54,65,1);
+         }
+         #ICE {
+             left: 859px;
+             top: 171px;
+             position: absolute;
+             overflow: visible;
+             width: 76px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG5R;
+             font-size: 18px;
+             color: rgba(255,255,255,1);
+         }
+         #BEVERAGE {
+             left: 976px;
+             top: 171px;
+             position: absolute;
+             overflow: visible;
+             width: 96px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG5R;
+             font-size: 18px;
+             color: rgba(255,255,255,1);
+         }
+         #SMOODEE {
+             left: 1098px;
+             top: 171px;
+             position: absolute;
+             overflow: visible;
+             width: 103px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG5R;
+             font-size: 18px;
+             color: rgba(255,255,255,1);
+         }
+         #kiosk_1-1 {
+             fill: rgba(255,255,255,1);
+             stroke: rgba(112,112,112,1);
+             stroke-width: 1px;
+             stroke-linejoin: miter;
+             stroke-linecap: butt;
+             stroke-miterlimit: 4;
+             shape-rendering: auto;
+         }
+         .kiosk_1-1 {
+             position: absolute;
+             overflow: visible;
+             width: 142px;
+             height: 151px;
+             left: 663px;
+             top: 225px;
+         }
+         #kiosk_1-1_under {
+             fill: rgba(145,197,206,0.31);
+         }
+         .kiosk_1-1_under {
+             position: absolute;
+             overflow: visible;
+             width: 142px;
+             height: 48px;
+             left: 663px;
+             top: 328px;
+         }
+         #kiosk_1-2 {
+             fill: rgba(255,255,255,1);
+             stroke: rgba(112,112,112,1);
+             stroke-width: 1px;
+             stroke-linejoin: miter;
+             stroke-linecap: butt;
+             stroke-miterlimit: 4;
+             shape-rendering: auto;
+         }
+         .kiosk_1-2 {
+             position: absolute;
+             overflow: visible;
+             width: 142px;
+             height: 151px;
+             left: 814px;
+             top: 225px;
+         }
+         #kiosk_1-2_under {
+             fill: rgba(145,197,206,0.31);
+         }
+         .kiosk_1-2_under {
+             position: absolute;
+             overflow: visible;
+             width: 142px;
+             height: 48px;
+             left: 814px;
+             top: 328px;
+         }
+         #kiosk_1-4 {
+             fill: rgba(255,255,255,1);
+             stroke: rgba(112,112,112,1);
+             stroke-width: 1px;
+             stroke-linejoin: miter;
+             stroke-linecap: butt;
+             stroke-miterlimit: 4;
+             shape-rendering: auto;
+         }
+         .kiosk_1-4 {
+             position: absolute;
+             overflow: visible;
+             width: 142px;
+             height: 151px;
+             left: 1115px;
+             top: 225px;
+         }
+         #kiosk_1-4_under {
+             fill: rgba(145,197,206,0.31);
+         }
+         .kiosk_1-4_under {
+             position: absolute;
+             overflow: visible;
+             width: 142px;
+             height: 48px;
+             left: 1115px;
+             top: 328px;
+         }
+         #kiosk_2-1 {
+             fill: rgba(255,255,255,1);
+             stroke: rgba(112,112,112,1);
+             stroke-width: 1px;
+             stroke-linejoin: miter;
+             stroke-linecap: butt;
+             stroke-miterlimit: 4;
+             shape-rendering: auto;
+         }
+         .kiosk_2-1 {
+             position: absolute;
+             overflow: visible;
+             width: 142px;
+             height: 151px;
+             left: 663px;
+             top: 384px;
+         }
+         #kiosk_2-1_under {
+             fill: rgba(145,197,206,0.31);
+         }
+         .kiosk_2-1_under {
+             position: absolute;
+             overflow: visible;
+             width: 142px;
+             height: 48px;
+             left: 663px;
+             top: 487px;
+         }
+         #kiosk_2-2 {
+             fill: rgba(255,255,255,1);
+             stroke: rgba(112,112,112,1);
+             stroke-width: 1px;
+             stroke-linejoin: miter;
+             stroke-linecap: butt;
+             stroke-miterlimit: 4;
+             shape-rendering: auto;
+         }
+         .kiosk_2-2 {
+             position: absolute;
+             overflow: visible;
+             width: 142px;
+             height: 151px;
+             left: 814px;
+             top: 384px;
+         }
+         #kiosk_2-2_under {
+             fill: rgba(145,197,206,0.31);
+         }
+         .kiosk_2-2_under{
+             position: absolute;
+             overflow: visible;
+             width: 142px;
+             height: 48px;
+             left: 814px;
+             top: 487px;
+         }
+         #kiosk_2-3 {
+             fill: rgba(255,255,255,1);
+             stroke: rgba(112,112,112,1);
+             stroke-width: 1px;
+             stroke-linejoin: miter;
+             stroke-linecap: butt;
+             stroke-miterlimit: 4;
+             shape-rendering: auto;
+         }
+         .kiosk_2-3 {
+             position: absolute;
+             overflow: visible;
+             width: 142px;
+             height: 151px;
+             left: 964px;
+             top: 384px;
+         }
+         #kiosk_2-3_under {
+             fill: rgba(145,197,206,0.31);
+         }
+         .kiosk_2-3_under {
+             position: absolute;
+             overflow: visible;
+             width: 142px;
+             height: 48px;
+             left: 964px;
+             top: 487px;
+         }
+         #kiosk_2-4 {
+             fill: rgba(255,255,255,1);
+             stroke: rgba(112,112,112,1);
+             stroke-width: 1px;
+             stroke-linejoin: miter;
+             stroke-linecap: butt;
+             stroke-miterlimit: 4;
+             shape-rendering: auto;
+         }
+         .kiosk_2-4 {
+             position: absolute;
+             overflow: visible;
+             width: 142px;
+             height: 151px;
+             left: 1115px;
+             top: 384px;
+         }
+         #kiosk_2-4_under {
+             fill: rgba(145,197,206,0.31);
+         }
+         .kiosk_2-4_under {
+             position: absolute;
+             overflow: visible;
+             width: 142px;
+             height: 48px;
+             left: 1115px;
+             top: 487px;
+         }
+         #kiosk_3-1 {
+             fill: rgba(255,255,255,1);
+             stroke: rgba(112,112,112,1);
+             stroke-width: 1px;
+             stroke-linejoin: miter;
+             stroke-linecap: butt;
+             stroke-miterlimit: 4;
+             shape-rendering: auto;
+         }
+         .kiosk_3-1 {
+             position: absolute;
+             overflow: visible;
+             width: 142px;
+             height: 151px;
+             left: 663px;
+             top: 543px;
+         }
+         #kiosk_3-1_under {
+             fill: rgba(145,197,206,0.31);
+         }
+         .kiosk_3-1_under {
+             position: absolute;
+             overflow: visible;
+             width: 142px;
+             height: 48px;
+             left: 663px;
+             top: 646px;
+         }
+         #kiosk_3-2 {
+             fill: rgba(255,255,255,1);
+             stroke: rgba(112,112,112,1);
+             stroke-width: 1px;
+             stroke-linejoin: miter;
+             stroke-linecap: butt;
+             stroke-miterlimit: 4;
+             shape-rendering: auto;
+         }
+         .kiosk_3-2 {
+             position: absolute;
+             overflow: visible;
+             width: 142px;
+             height: 151px;
+             left: 814px;
+             top: 543px;
+         }
+         #kiosk_3-2_under {
+             fill: rgba(145,197,206,0.31);
+         }
+         .kiosk_3-2_under {
+             position: absolute;
+             overflow: visible;
+             width: 142px;
+             height: 48px;
+             left: 814px;
+             top: 646px;
+         }
+         #kiosk_4-3 {
+             fill: rgba(255,255,255,1);
+             stroke: rgba(112,112,112,1);
+             stroke-width: 1px;
+             stroke-linejoin: miter;
+             stroke-linecap: butt;
+             stroke-miterlimit: 4;
+             shape-rendering: auto;
+         }
+         .kiosk_4-3 {
+             position: absolute;
+             overflow: visible;
+             width: 142px;
+             height: 151px;
+             left: 964px;
+             top: 543px;
+         }
+         #kiosk_4-3_under {
+             fill: rgba(145,197,206,0.31);
+         }
+         .kiosk_4-3_under {
+             position: absolute;
+             overflow: visible;
+             width: 142px;
+             height: 48px;
+             left: 964px;
+             top: 646px;
+         }
+         #kiosk_4-4 {
+             fill: rgba(255,255,255,1);
+             stroke: rgba(112,112,112,1);
+             stroke-width: 1px;
+             stroke-linejoin: miter;
+             stroke-linecap: butt;
+             stroke-miterlimit: 4;
+             shape-rendering: auto;
+         }
+         .kiosk_4-4 {
+             position: absolute;
+             overflow: visible;
+             width: 142px;
+             height: 151px;
+             left: 1115px;
+             top: 543px;
+         }
+         #kiosk_4-4_under {
+             fill: rgba(145,197,206,0.31);
+         }
+         .kiosk_4-4_under {
+             position: absolute;
+             overflow: visible;
+             width: 142px;
+             height: 48px;
+             left: 1115px;
+             top: 646px;
+         }
+         #bottom_left_btn {
+             fill: rgba(95,107,129,1);
+         }
+         .bottom_left_btn {
+             position: absolute;
+             overflow: visible;
+             width: 41px;
+             height: 41px;
+             left: 661px;
+             top: 702px;
+         }
+         #bottom_left_inner {
+             fill: rgba(255,255,255,1);
+         }
+         .bottom_left_inner {
+             overflow: visible;
+             position: absolute;
+             width: 16.374px;
+             height: 28.081px;
+             left: 672.313px;
+             top: 708.46px;
+             transform: matrix(1,0,0,1,0,0);
+         }
+         #bottom_right_btn{
+             fill: rgba(95,107,129,1);
+         }
+         .bottom_right_btn {
+             position: absolute;
+             overflow: visible;
+             width: 41px;
+             height: 41px;
+             left: 1218px;
+             top: 702px;
+         }
+         #bottom_right_inner {
+             fill: rgba(255,255,255,1);
+         }
+         .bottom_right_inner {
+             overflow: visible;
+             position: absolute;
+             width: 16.374px;
+             height: 28.081px;
+             transform: matrix(1,0,0,1,1231.3129,708.46) rotate(180deg);
+             transform-origin: center;
+             left: 0px;
+             top: 0px;
+         }
+         #first_page {
+             fill: rgba(70,113,255,1);
+         }
+         .first_page {
+             position: absolute;
+             overflow: visible;
+             width: 20px;
+             height: 20px;
+             left: 937px;
+             top: 710px;
+         }
+         #second_page {
+             fill: rgba(187,187,187,1);
+         }
+         .second_page {
+             position: absolute;
+             overflow: visible;
+             width: 20px;
+             height: 20px;
+             left: 963px;
+             top: 710px;
+         }
+         #kiosk_inner_under_base {
+             fill: rgba(69,69,101,1);
+         }
+         .kiosk_inner_under_base{
+             position: absolute;
+             overflow: visible;
+             width: 610px;
+             height: 102px;
+             left: 655px;
+             top: 877px;
+         }
+         #kiosk_menu {
+             fill: rgba(93,99,113,1);
+         }
+         .kiosk_menu {
+             position: absolute;
+             overflow: visible;
+             width: 52px;
+             height: 52px;
+             left: 665px;
+             top: 887px;
+         }
+         #kiosk_cancel_base {
+             fill: rgba(255,67,81,1);
+         }
+         .kiosk_cancel_base {
+             position: absolute;
+             overflow: visible;
+             width: 105px;
+             height: 89px;
+             left: 988px;
+             top: 884px;
+         }
+         #kiosk_card_base {
+             fill: rgba(37,123,255,1);
+         }
+         .kiosk_card_base {
+             position: absolute;
+             overflow: visible;
+             width: 167px;
+             height: 89px;
+             left: 1098px;
+             top: 884px;
+         }
+         #order_num {
+             left: 745px;
+             top: 893px;
+             position: absolute;
+             overflow: visible;
+             width: 21px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanTITGD2R;
+             font-size: 35px;
+             color: rgba(255,255,255,1);
+         }
+         #order_num_text {
+             left: 719px;
+             top: 947px;
+             position: absolute;
+             overflow: visible;
+             width: 69px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 18px;
+             color: rgba(255,255,255,1);
+         }
+         #total_price {
+             left: 950px;
+             top: 895px;
+             position: absolute;
+             overflow: visible;
+             width: 21px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanTITGD2R;
+             font-size: 35px;
+             color: rgba(134,240,232,1);
+         }
+ 
+         #total_price_after {
+             left: 890px;
+             top: 895px;
+             position: absolute;
+             overflow: visible;
+             width: 21px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanTITGD2R;
+             font-size: 35px;
+             color: rgba(134,240,232,1);
+         }
+ 
+         #total_price_text {
+             left: 895px;
+             top: 947px;
+             position: absolute;
+             overflow: visible;
+             width: 69px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 18px;
+             color: rgba(255,255,255,1);
+         }
+         #menu_1 {
+             fill: transparent;
+             stroke: rgba(255,255,255,1);
+             stroke-width: 4px;
+             stroke-linejoin: miter;
+             stroke-linecap: butt;
+             stroke-miterlimit: 4;
+             shape-rendering: auto;
+         }
+         .menu_1 {
+             overflow: visible;
+             position: absolute;
+             width: 27.646px;
+             height: 4px;
+             left: 677.177px;
+             top: 902.345px;
+             transform: matrix(1,0,0,1,0,0);
+         }
+         #menu_2 {
+             fill: transparent;
+             stroke:white;
+             stroke-width: 4px;
+             stroke-linejoin: miter;
+             stroke-linecap: butt;
+             stroke-miterlimit: 4;
+             shape-rendering: auto;
+         }
+         .menu_2 {
+             overflow: visible;
+             position: absolute;
+             width: 27.646px;
+             height: 4px;
+             left: 677.177px;
+             top: 912.5px;
+             transform: matrix(1,0,0,1,0,0);
+         }
+         #menu_3{
+             fill: transparent;
+             stroke: rgba(255,255,255,1);
+             stroke-width: 4px;
+             stroke-linejoin: miter;
+             stroke-linecap: butt;
+             stroke-miterlimit: 4;
+             shape-rendering: auto;
+         }
+         .menu_3 {
+             overflow: visible;
+             position: absolute;
+             width: 27.646px;
+             height: 4px;
+             left: 677.177px;
+             top: 922.656px;
+             transform: matrix(1,0,0,1,0,0);
+         }
+         #cancel_btn {
+             left: 1007px;
+             top: 947px;
+             position: absolute;
+             width: 69px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 18px;
+             color: rgba(255,255,255,1);
+         }
+         #card_btn {
+             left: 1165px;
+             top: 947px;
+             position: absolute;
+             width: 35px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 18px;
+             color: rgba(255,255,255,1);
+         }
+         #card {
+             position: absolute;
+             width: 46px;
+             height: 36px;
+             left: 1159px;
+             top: 902px;
+             overflow: visible;
+         }
+         #card_1 {
+             fill: transparent;
+             stroke: rgba(255,255,255,1);
+             stroke-width: 2px;
+             stroke-linejoin: miter;
+             stroke-linecap: butt;
+             stroke-miterlimit: 4;
+             shape-rendering: auto;
+         }
+         .card_1 {
+             position: absolute;
+             overflow: visible;
+             width: 46px;
+             height: 36px;
+             left: 0px;
+             top: 0px;
+         }
+         #card_2 {
+             fill: rgba(255,255,255,1);
+         }
+         .card_2 {
+             position: absolute;
+             overflow: visible;
+             width: 45px;
+             height: 7px;
+             left: 0px;
+             top: 7px;
+         }
+         #cancel {
+             position: absolute;
+             width: 29px;
+             height: 40px;
+             left: 1026px;
+             top: 900px;
+             overflow: visible;
+         }
+         #cancel_1 {
+             fill: transparent;
+             stroke: rgba(255,255,255,1);
+             stroke-width: 2px;
+             stroke-linejoin: miter;
+             stroke-linecap: butt;
+             stroke-miterlimit: 4;
+             shape-rendering: auto;
+         }
+         .cancel_1 {
+             position: absolute;
+             overflow: visible;
+             width: 29px;
+             height: 37px;
+             left: 0px;
+             top: 3px;
+         }
+         #cancel_2 {
+             fill: rgba(255,67,81,1);
+             stroke: rgba(255,255,255,1);
+             stroke-width: 2px;
+             stroke-linejoin: miter;
+             stroke-linecap: butt;
+             stroke-miterlimit: 4;
+             shape-rendering: auto;
+         }
+         .cancel_2{
+             position: absolute;
+             overflow: visible;
+             width: 17px;
+             height: 8px;
+             left: 6px;
+             top: 0px;
+         }
+         #cancel_3 {
+             fill: transparent;
+             stroke: rgba(255,255,255,1);
+             stroke-width: 2px;
+             stroke-linejoin: miter;
+             stroke-linecap: butt;
+             stroke-miterlimit: 4;
+             shape-rendering: auto;
+         }
+         .cancel_3 {
+             overflow: visible;
+             position: absolute;
+             width: 18.49px;
+             height: 20.333px;
+             left: 6px;
+             top: 14px;
+             transform: matrix(1,0,0,1,0,0);
+         }
+         #cancel_4 {
+             fill: transparent;
+             stroke: rgba(255,255,255,1);
+             stroke-width: 2px;
+             stroke-linejoin: miter;
+             stroke-linecap: butt;
+             stroke-miterlimit: 4;
+             shape-rendering: auto;
+         }
+         .cancel_4 {
+             overflow: visible;
+             position: absolute;
+             width: 18.49px;
+             height: 20.333px;
+             left: 6px;
+             top: 14px;
+             transform: matrix(1,0,0,1,0,0);
+         }
+         #아메img {
+             position: absolute;
+             width: 64px;
+             height: 81px;
+             left: 705px;
+             top: 239px;
+             overflow: visible;
+         }
+         #꿀아메img {
+             position: absolute;
+             width: 64px;
+             height: 81px;
+             left: 853px;
+             top: 239px;
+             overflow: visible;
+         }
+         #마끼아또img {
+             position: absolute;
+             width: 64px;
+             height: 81px;
+             left: 1154px;
+             top: 239px;
+             overflow: visible;
+         }
+         #카푸치노img {
+             position: absolute;
+             width: 64px;
+             height: 81px;
+             left: 1154px;
+             top: 398px;
+             overflow: visible;
+         }
+         #민트카페모카img {
+             position: absolute;
+             width: 64px;
+             height: 81px;
+             left: 1003px;
+             top: 399px;
+             overflow: visible;
+         }
+         #카페모카img {
+             position: absolute;
+             width: 64px;
+             height: 81px;
+             left: 852px;
+             top: 398px;
+             overflow: visible;
+         }
+         #바닐라라떼img {
+             position: absolute;
+             width: 44px;
+             height: 80px;
+             left: 712px;
+             top: 399px;
+             overflow: visible;
+         }
+         #헤이즐넛아메리카노img {
+             position: absolute;
+             width: 64px;
+             height: 81px;
+             left: 1003px;
+             top: 558px;
+             overflow: visible;
+         }
+         #연유라떼img {
+             position: absolute;
+             width: 64px;
+             height: 81px;
+             left: 852px;
+             top: 558px;
+             overflow: visible;
+         }
+         #티라미수라떼img {
+             position: absolute;
+             width: 64px;
+             height: 81px;
+             left: 702px;
+             top: 555px;
+             overflow: visible;
+         }
+         #바닐라아메리카노img {
+             position: absolute;
+             width: 64px;
+             height: 81px;
+             left: 1154px;
+             top: 558px;
+             overflow: visible;
+         }
+         #아메text {
+             left: 700px;
+             top: 337px;
+             position: absolute;
+             overflow: visible;
+             width: 69px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 12px;
+             color: rgba(54,54,65,1);
+         }
+         #아메price {
+             left: 717px;
+             top: 355px;
+             position: absolute;
+             overflow: visible;
+             width: 35px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 12px;
+             color: rgba(54,54,65,1);
+         }
+         #꿀아메text {
+             left: 845px;
+             top: 337px;
+             position: absolute;
+             overflow: visible;
+             width: 81px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 12px;
+             color: rgba(54,54,65,1);
+         }
+         #꿀아메price {
+             left: 868px;
+             top: 355px;
+             position: absolute;
+             overflow: visible;
+             width: 35px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 12px;
+             color: rgba(54,54,65,1);
+         }
+         #카라멜마끼아또text{
+             left: 1141px;
+             top: 337px;
+             position: absolute;
+             overflow: visible;
+             width: 92px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 12px;
+             color: rgba(54,54,65,1);
+         }
+         #카라멜마끼아또price {
+             left: 1169px;
+             top: 355px;
+             position: absolute;
+             overflow: visible;
+             width: 35px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 12px;
+             color: rgba(54,54,65,1);
+         }
+         #바닐라라떼text {
+             left: 698px;
+             top: 496px;
+             position: absolute;
+             overflow: visible;
+             width: 69px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 12px;
+             color: rgba(54,54,65,1);
+         }
+         #바닐라라떼price {
+             left: 715px;
+             top: 514px;
+             position: absolute;
+             overflow: visible;
+             width: 35px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 12px;
+             color: rgba(54,54,65,1);
+         }
+         #카페모카text {
+             left: 856px;
+             top: 496px;
+             position: absolute;
+             overflow: visible;
+             width: 58px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 12px;
+             color: rgba(54,54,65,1);
+         }
+         #카페모카price {
+             left: 868px;
+             top: 514px;
+             position: absolute;
+             overflow: visible;
+             width: 35px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 12px;
+             color: rgba(54,54,65,1);
+         }
+         #민트카페모카text{
+             left: 996px;
+             top: 496px;
+             position: absolute;
+             overflow: visible;
+             width: 81px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 12px;
+             color: rgba(54,54,65,1);
+         }
+         #민트카페모카price {
+             left: 1019px;
+             top: 514px;
+             position: absolute;
+             overflow: visible;
+             width: 35px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 12px;
+             color: rgba(54,54,65,1);
+         }
+         #카푸치노text {
+             left: 1157px;
+             top: 496px;
+             position: absolute;
+             overflow: visible;
+             width: 58px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 12px;
+             color: rgba(54,54,65,1);
+         }
+         #카푸치노price {
+             left: 1169px;
+             top: 514px;
+             position: absolute;
+             overflow: visible;
+             width: 35px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 12px;
+             color: rgba(54,54,65,1);
+         }
+         #바닐라아메리카노text {
+             left: 1135px;
+             top: 658px;
+             position: absolute;
+             overflow: visible;
+             width: 103px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 12px;
+             color: rgba(54,54,65,1);
+         }
+         #바닐라아메리카노price {
+             left: 1169px;
+             top: 676px;
+             position: absolute;
+             overflow: visible;
+             width: 35px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 12px;
+             color: rgba(54,54,65,1);
+         }
+         #연유라떼text {
+             left: 856px;
+             top: 658px;
+             position: absolute;
+             overflow: visible;
+             width: 58px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 12px;
+             color: rgba(54,54,65,1);
+         }
+         #연유라떼price {
+             left: 868px;
+             top: 676px;
+             position: absolute;
+             overflow: visible;
+             width: 35px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 12px;
+             color: rgba(54,54,65,1);
+         }
+         #헤이즐넛아메리카노text {
+             left: 978px;
+             top: 658px;
+             position: absolute;
+             overflow: visible;
+             width: 115px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 12px;
+             color: rgba(54,54,65,1);
+         }
+         #헤이즐넛아메리카노price {
+             left: 1018px;
+             top: 676px;
+             position: absolute;
+             overflow: visible;
+             width: 35px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 12px;
+             color: rgba(54,54,65,1);
+         }
+         #티라미수라떼text {
+             left: 692px;
+             top: 658px;
+             position: absolute;
+             overflow: visible;
+             width: 81px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 12px;
+             color: rgba(54,54,65,1);
+         }
+         #티라미수라떼price {
+             left: 715px;
+             top: 676px;
+             position: absolute;
+             overflow: visible;
+             width: 35px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 12px;
+             color: rgba(54,54,65,1);
+         }
+         #left_speech_bubble_2 {
+             fill: rgba(255,255,255,1);
+         }
+         .left_speech_bubble_2{
+             filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+             overflow: visible;
+             position: absolute;
+             width: 631.521px;
+             height: 232.999px;
+             left: 26.48px;
+             top: 259.625px;
+             transform: matrix(1,0,0,1,0,0);
+         }
+         #left_speech_bubble_2_text {
+             left: 79px;
+             top: 306.624px;
+             position: absolute;
+             overflow: visible;
+             width: 388px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG4R;
+             font-size: 35px;
+             color: rgba(0,0,0,1);
+         }
+         #right_speech_bubble_2 {
+             fill: rgba(255,255,255,1);
+         }
+         .right_speech_bubble_2 {
+             filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+             overflow: visible;
+             position: absolute;
+             width: 688.401px;
+             height: 269.529px;
+             transform: matrix(1,0,0,1,1190.1171,199.4714) rotate(180deg);
+             transform-origin: center;
+             left: 0px;
+             top: 0px;
+         }
+         #right_speech_bubble_2_text {
+             left: 1424px;
+             top: 314px;
+             position: absolute;
+             overflow: visible;
+             width: 444px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG4R;
+             font-size: 35px;
+             color: rgba(0,0,0,1);
+         }
+         #right_speech_bubble_3 {
+             fill: rgba(255,255,255,1);
+         }
+         .right_speech_bubble_3 {
+             filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+             overflow: visible;
+             position: absolute;
+             width: 578.239px;
+             height: 227.242px;
+             transform: matrix(1,0,0,1,1300.2794,627.5234) rotate(180deg);
+             transform-origin: center;
+             left: 0px;
+             top: 0px;
+         }
+         #right_speech_bubble_3_text {
+             left: 1480px;
+             top: 687px;
+             position: absolute;
+             overflow: visible;
+             width: 366px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG4R;
+             font-size: 35px;
+             color: rgba(0,0,0,1);
+         }
+         #heart_1 {
+             fill: rgba(245,52,52,1);
+         }
+         .heart_1 {
+             overflow: visible;
+             position: absolute;
+             width: 29.102px;
+             height: 29.083px;
+             left: 670.313px;
+             top: 230.542px;
+             transform: matrix(1,0,0,1,0,0);
+         }
+         #heart_2 {
+             fill: rgba(245,52,52,1);
+         }
+         .heart_2 {
+             overflow: visible;
+             position: absolute;
+             width: 29.102px;
+             height: 29.083px;
+             left: 973px;
+             top: 390px;
+             transform: matrix(1,0,0,1,0,0);
+         }
+         #heart_3 {
+             fill: rgba(245,52,52,1);
+         }
+         .heart_3 {
+             overflow: visible;
+             position: absolute;
+             width: 37px;
+             height: 36.976px;
+             left: 1775px;
+             top: 732px;
+             transform: matrix(1,0,0,1,0,0);
+         }
+         #left_html {
+             fill: rgba(243,150,117,1);
+         }
+         .left_html {
+             overflow: visible;
+             position: absolute;
+             width: 79.156px;
+             height: 112.739px;
+             left: 76.48px;
+             top: 693.631px;
+             transform: matrix(1,0,0,1,0,0);
+             --web-animation: fadein 0.3s ease-out;
+             --web-action-type: page;
+             --web-action-target: __________1.html;
+             cursor: pointer;
+         }
+         #right_html {
+             fill: rgba(243,150,117,1);
+         }
+         .right_html {
+             overflow: visible;
+             position: absolute;
+             width: 79.156px;
+             height: 112.739px;
+             transform: matrix(1,0,0,1,1771.4224,483.6306) rotate(180deg);
+             transform-origin: center;
+             left: 0px;
+             top: 210px;
+             --web-animation: fadein 0.3s ease-out;
+             --web-action-type: page;
+             --web-action-target: __________3.html;
+             cursor: pointer;
+         }
+         #카페라떼_click {
+             position: absolute;
+             width: 142px;
+             height: 151px;
+             left: 964px;
+             top: 225px;
+             overflow: visible;
+             --web-animation: fadein 0.3s ease-out;
+             --web-action-type: page;
+             --web-action-target: kiosk_3.html;
+             cursor: pointer;
+         }
+         #카페라떼 {
+             position: absolute;
+             width: 142px;
+             height: 151px;
+             left: 0px;
+             top: 0px;
+             overflow: visible;
+         }
+         #kiosk_1-3 {
+             fill: rgba(255,255,255,1);
+             stroke: rgba(112,112,112,1);
+             stroke-width: 1px;
+             stroke-linejoin: miter;
+             stroke-linecap: butt;
+             stroke-miterlimit: 4;
+             shape-rendering: auto;
+         }
+         .kiosk_1-3 {
+             position: absolute;
+             overflow: visible;
+             width: 142px;
+             height: 151px;
+             left: 0px;
+             top: 0px;
+         }
+         #카페라떼img {
+             position: absolute;
+             width: 64px;
+             height: 81px;
+             left: 39px;
+             top: 15px;
+             overflow: visible;
+         }
+         #카페라떼text {
+             left: 43px;
+             top: 112px;
+             position: absolute;
+             overflow: visible;
+             width: 58px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 12px;
+             color: black;
+         }
+         #카페라떼price {
+             left: 54px;
+             top: 130px;
+             position: absolute;
+             overflow: visible;
+             width: 35px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 12px;
+             color: rgba(54,54,65,1);
+         }
+         #heart_4 {
+             fill: rgba(245,52,52,1);
+         }
+         .heart_4 {
+             overflow: visible;
+             position: absolute;
+             width: 29.102px;
+             height: 29.083px;
+             left: 9px;
+             top: 6px;
+             transform: matrix(1,0,0,1,0,0);
+         }
+         #kiosk_1-3_under {
+             fill: rgba(145,197,206,0.31);
+         }
+         .kiosk_1-3_under {
+             position: absolute;
+             overflow: visible;
+             width: 142px;
+             height: 48px;
+             left: 0px;
+             top: 103px;
+         }
+ 
+         /*kiosk_3.html*/
+ 
+         #information {
+             position: absolute;
+             width: 1013.5px;
+             height: 517px;
+             left: 443.25px;
+             top: 281.5px;
+             overflow: visible;
+         }
+         #information_base {
+             fill: rgba(255,255,255,1);
+             stroke: rgba(112,112,112,1);
+             stroke-width: 1px;
+             stroke-linejoin: miter;
+             stroke-linecap: butt;
+             stroke-miterlimit: 4;
+             shape-rendering: auto;
+         }
+         .information_base {
+             position: absolute;
+             overflow: visible;
+             width: 1013px;
+             height: 517px;
+             left: 0px;
+             top: 0px;
+         }
+         #information_name_base{
+             fill: rgba(216,225,231,1);
+         }
+         .information_name_base {
+             position: absolute;
+             overflow: visible;
+             width: 937px;
+             height: 112px;
+             left: 28px;
+             top: 28px;
+         }
+         #information_name {
+             left: 72px;
+             top: 58.5px;
+             position: absolute;
+             overflow: visible;
+             width: 823px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG4R;
+             font-size: 50px;
+             color: rgba(0,0,0,1);
+         }
+         #product_information {
+             left: 83.041px;
+             top: 225px;
+             position: absolute;
+             overflow: visible;
+             width: 720px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 35px;
+             color: rgba(0,0,0,1);
+         }
+         #information_line {
+             fill: transparent;
+             stroke: rgba(112,112,112,1);
+             stroke-width: 1px;
+             stroke-linejoin: miter;
+             stroke-linecap: butt;
+             stroke-miterlimit: 4;
+             shape-rendering: auto;
+         }
+         .information_line {
+             overflow: visible;
+             position: absolute;
+             width: 1013px;
+             height: 1px;
+             left: 0.5px;
+             top: 392.5px;
+             transform: matrix(1,0,0,1,0,0);
+         }
+         #add_click {
+             position: absolute;
+             width: 213.665px;
+             height: 89.601px;
+             left: 273.376px;
+             top: 409.699px;
+             overflow: visible;
+             --web-animation: fadein 0.3s ease-out;
+             --web-action-type: page;
+             --web-action-target: __________4.html;
+             cursor: pointer;
+         }
+         #information_add_base {
+             fill: rgba(37,123,255,0.82);
+         }
+         .information_add_base {
+             position: absolute;
+             overflow: visible;
+             width: 213.665px;
+             height: 89.601px;
+             left: 0px;
+             top: 0px;
+         }
+         #information_add_text {
+             left: 61.333px;
+             top: 20.801px;
+             position: absolute;
+             overflow: visible;
+             width: 92px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG4R;
+             font-size: 48px;
+             color: rgba(0,0,0,1);
+         }
+         #information_cancle {
+             position: absolute;
+             width: 213.665px;
+             height: 89.601px;
+             left: 546.458px;
+             top: 409.699px;
+             overflow: visible;
+         }
+         #information_cancle_base {
+             fill: rgba(255,67,81,0.859);
+         }
+         .information_cancle_base {
+             overflow: visible;
+             position: absolute;
+             width: 213.665px;
+             height: 89.601px;
+             left: 0px;
+             top: 0px;
+             transform: matrix(1,0,0,1,0,0);
+         }
+         #information_cancle_text {
+             left: 61.333px;
+             top: 20.801px;
+             position: absolute;
+             overflow: visible;
+             width: 92px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG4R;
+             font-size: 48px;
+             color: rgba(0,0,0,1);
+         }
+         #information_allergy{
+             left: 83px;
+             top: 166.801px;
+             position: absolute;
+             overflow: visible;
+             width: 388px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 35px;
+             color: rgba(255,0,0,1);
+         }
+         #left_speech_bubble_3{
+             fill: rgba(255,255,255,1);
+         }
+         .left_speech_bubble_3 {
+             filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+             overflow: visible;
+             position: absolute;
+             width: 700.886px;
+             height: 283.906px;
+             left: 34.552px;
+             top: 756.738px;
+             transform: matrix(1,0,0,1,0,0);
+         }
+         #left_speech_bubble_3_text {
+             left: 129px;
+             top: 878.5px;
+             position: absolute;
+             overflow: visible;
+             width: 289px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG4R;
+             font-size: 35px;
+             color: rgba(0,0,0,1);
+         }
+         #right_speech_bubble_4 {
+             fill: rgba(255,255,255,1);
+         }
+         .right_speech_bubble_4 {
+             filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+             overflow: visible;
+             position: absolute;
+             width: 688.401px;
+             height: 269.529px;
+             transform: matrix(1,0,0,1,1199.0004,772.5412) rotate(180deg);
+             transform-origin: center;
+             left: 0px;
+             top: 0px;
+         }
+         #right_speech_bubble_4_text {
+             left: 1480px;
+             top: 898.5px;
+             position: absolute;
+             overflow: visible;
+             width: 355px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG4R;
+             font-size: 35px;
+             color: rgba(0,0,0,1);
+         }
+         #right_speech_bubble_5 {
+             fill: rgba(255,255,255,1);
+         }
+         .right_speech_bubble_5 {
+             filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+             overflow: visible;
+             position: absolute;
+             width: 977.299px;
+             height: 218.731px;
+             transform: matrix(1,0,0,1,925.4147,236.6304) rotate(180deg);
+             transform-origin: center;
+             left: 0px;
+             top: 0px;
+         }
+         #right_speech_bubble_5_text {
+             left: 1496.578px;
+             top: 310.5px;
+             position: absolute;
+             overflow: visible;
+             width: 355px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG4R;
+             font-size: 35px;
+             color: rgba(0,0,0,1);
+         }
+ 
+         #bubble
+         {
+             position:relative;
+             top: 200px;
+         }
+ 
+         /*<kiosk_4.html>*/
+         
+         #option_base_1 {
+             fill: rgba(255,99,79,1);
+             stroke: rgba(112,112,112,1);
+             stroke-width: 1px;
+             stroke-linejoin: miter;
+             stroke-linecap: butt;
+             stroke-miterlimit: 4;
+             shape-rendering: auto;
+         }
+         .option_base_1 {
+             position: absolute;
+             overflow: visible;
+             width: 610px;
+             height: 883px;
+             left: 655px;
+             top: 96px;
+         }
+         #option_base_2 {
+             fill: rgba(255,255,255,0.949);
+         }
+         .option_base_2 {
+             position: absolute;
+             overflow: visible;
+             width: 610px;
+             height: 245px;
+             left: 655px;
+             top: 181px;
+         }
+         #option_base_3 {
+             fill: rgba(204,209,219,1);
+         }
+         .option_base_3 {
+             position: absolute;
+             overflow: visible;
+             width: 610px;
+             height: 207px;
+             left: 655px;
+             top: 426px;
+         }
+         #option_base_4 {
+             fill: rgba(139,150,172,1);
+         }
+         .option_base_4 {
+             position: absolute;
+             overflow: visible;
+             width: 610px;
+             height: 210px;
+             left: 655px;
+             top: 633px;
+         }
+         #option_select_text {
+             left: 676px;
+             top: 131px;
+             position: absolute;
+             width: 467px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 22px;
+             color: rgba(255,255,255,1);
+         }
+         #option_x_btn {
+             position: absolute;
+             width: 23px;
+             height: 25px;
+             left: 1216px;
+             top: 131px;
+             overflow: visible;
+         }
+         #option_x_btn_1 {
+             fill: transparent;
+             stroke: rgba(255,255,255,1);
+             stroke-width: 4px;
+             stroke-linejoin: miter;
+             stroke-linecap: butt;
+             stroke-miterlimit: 4;
+             shape-rendering: auto;
+         }
+         .option_x_btn_1 {
+             overflow: visible;
+             position: absolute;
+             width: 25.943px;
+             height: 27.708px;
+             left: 0px;
+             top: 0px;
+             transform: matrix(1,0,0,1,0,0);
+         }
+         #option_x_btn_2 {
+             fill: transparent;
+             stroke: rgba(255,255,255,1);
+             stroke-width: 4px;
+             stroke-linejoin: miter;
+             stroke-linecap: butt;
+             stroke-miterlimit: 4;
+             shape-rendering: auto;
+         }
+         .option_x_btn_2 {
+             overflow: visible;
+             position: absolute;
+             width: 25.943px;
+             height: 27.708px;
+             left: 0px;
+             top: 0px;
+             transform: matrix(1,0,0,1,0,0);
+         }
+         #option_카페라떼_img {
+             position: absolute;
+             width: 132px;
+             height: 167px;
+             left: 706px;
+             top: 220px;
+             overflow: visible;
+         }
+         #option_카페라떼_text {
+             left: 852px;
+             top: 242px;
+             position: absolute;
+             width: 151px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 22px;
+             color: rgba(0,0,0,1);
+         }
+         #option_카페라떼_price {
+             left: 858px;
+             top: 353px;
+             position: absolute;
+             width: 85px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 22px;
+             color: rgba(255,0,0,1);
+         }
+         #option_density_base_1 {
+             fill: rgba(255,255,255,1);
+         }
+         .option_density_base_1 {
+             position: absolute;
+             overflow: visible;
+             width: 148px;
+             height: 150px;
+             left: 690px;
+             top: 436px;
+         }
+         #option_density_base_2 {
+             fill: rgba(35,38,52,1);
+         }
+         .option_density_base_2 {
+             position: absolute;
+             overflow: visible;
+             width: 90px;
+             height: 90px;
+             left: 719px;
+             top: 448px;
+         }
+         #option_density_base {
+             position: absolute;
+             width: 51px;
+             height: 54px;
+             left: 739px;
+             top: 466px;
+             overflow: visible;
+         }
+         #option_density_base_3 {
+             fill: transparent;
+             stroke: rgba(129,142,181,1);
+             stroke-width: 8px;
+             stroke-linejoin: miter;
+             stroke-linecap: butt;
+             stroke-miterlimit: 4;
+             shape-rendering: auto;
+         }
+         .option_density_base_3 {
+             overflow: visible;
+             position: absolute;
+             width: 56.816px;
+             height: 59.493px;
+             left: 0px;
+             top: 0px;
+             transform: matrix(1,0,0,1,0,0);
+         }
+         #option_density_base_4 {
+             fill: transparent;
+             stroke: rgba(129,142,181,1);
+             stroke-width: 8px;
+             stroke-linejoin: miter;
+             stroke-linecap: butt;
+             stroke-miterlimit: 4;
+             shape-rendering: auto;
+         }
+         .option_density_base_4 {
+             overflow: visible;
+             position: absolute;
+             width: 56.816px;
+             height: 59.493px;
+             left: 0px;
+             top: 0px;
+             transform: matrix(1,0,0,1,0,0);
+         }
+         #option_density_text {
+             left: 744px;
+             top: 550px;
+             position: absolute;
+             width: 43px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 22px;
+             color: rgba(0,0,0,1);
+         }
+         #option_detail {
+             fill: rgba(139,150,172,1);
+         }
+         .option_detail {
+             overflow: visible;
+             position: absolute;
+             width: 71px;
+             height: 37px;
+             left: 729px;
+             top: 596px;
+             transform: matrix(1,0,0,1,0,0);
+         }
+         #option_select_base_1 {
+             fill: rgba(255,255,255,1);
+         }
+         .option_select_base_1 {
+             position: absolute;
+             overflow: visible;
+             width: 148px;
+             height: 157px;
+             left: 685px;
+             top: 657px;
+         }
+         #option_select_base_1-2 {
+             fill: rgba(35,38,52,1);
+         }
+         .option_select_base_1-2 {
+             position: absolute;
+             overflow: visible;
+             width: 90px;
+             height: 90px;
+             left: 714px;
+             top: 669px;
+         }
+         #option_select_base_1-3 {
+             position: absolute;
+             width: 51px;
+             height: 54px;
+             left: 734px;
+             top: 689px;
+             overflow: visible;
+         }
+         #option_select_base_1-3-1 {
+             fill: transparent;
+             stroke: rgba(129,142,181,1);
+             stroke-width: 8px;
+             stroke-linejoin: miter;
+             stroke-linecap: butt;
+             stroke-miterlimit: 4;
+             shape-rendering: auto;
+         }
+         .option_select_base_1-3-1 {
+             overflow: visible;
+             position: absolute;
+             width: 56.816px;
+             height: 59.493px;
+             left: 0px;
+             top: 0px;
+             transform: matrix(1,0,0,1,0,0);
+         }
+         #option_select_base_1-3-2 {
+             fill: transparent;
+             stroke: rgba(129,142,181,1);
+             stroke-width: 8px;
+             stroke-linejoin: miter;
+             stroke-linecap: butt;
+             stroke-miterlimit: 4;
+             shape-rendering: auto;
+         }
+         .option_select_base_1-3-2 {
+             overflow: visible;
+             position: absolute;
+             width: 56.816px;
+             height: 59.493px;
+             left: 0px;
+             top: 0px;
+             transform: matrix(1,0,0,1,0,0);
+         }
+         #option_select_base_1-text {
+             left: 739px;
+             top: 767px;
+             position: absolute;
+             width: 43px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 22px;
+             color: rgba(0,0,0,1);
+         }
+         #option_select_base_2 {
+             fill: rgba(255,255,255,1);
+         }
+         .option_select_base_2 {
+             position: absolute;
+             overflow: visible;
+             width: 148px;
+             height: 157px;
+             left: 865px;
+             top: 657px;
+         }
+         #option_select_base_2_img {
+             position: absolute;
+             width: 90px;
+             height: 90px;
+             left: 894px;
+             top: 669px;
+             overflow: visible;
+         }
+         #option_select_base_3 {
+             fill: rgba(255,255,255,1);
+         }
+         .option_select_base_3 {
+             position: absolute;
+             overflow: visible;
+             width: 148px;
+             height: 157px;
+             left: 1045px;
+             top: 657px;
+         }
+         #option_select_base_3_img {
+             position: absolute;
+             width: 90px;
+             height: 90px;
+             left: 1074px;
+             top: 669px;
+             overflow: visible;
+         }
+         #option_select_base_4 {
+             fill: rgba(255,255,255,1);
+         }
+         .option_select_base_4 {
+             position: absolute;
+             overflow: visible;
+             width: 40px;
+             height: 157px;
+             left: 1225px;
+             top: 657px;
+         }
+         #option_select_base_1_price {
+             left: 745px;
+             top: 795px;
+             position: absolute;
+             width: 29px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 13px;
+             color: rgba(255,0,0,1);
+         }
+         #option_select_base_2_text {
+             left: 911px;
+             top: 767px;
+             position: absolute;
+             width: 64px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 22px;
+             color: rgba(0,0,0,1);
+         }
+         #option_select_base_2_price {
+             left: 924px;
+             top: 795px;
+             position: absolute;
+             width: 29px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 13px;
+             color: rgba(255,0,0,1);
+         }
+         #option_under {
+             fill: rgba(255,255,255,1);
+         }
+         .option_under {
+             position: absolute;
+             overflow: visible;
+             width: 610px;
+             height: 138px;
+             left: 655px;
+             top: 841px;
+         }
+         #option_select_base_3_text {
+             left: 1088px;
+             top: 767px;
+             position: absolute;
+             width: 64px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 22px;
+             color: rgba(0,0,0,1);
+         }
+         #option_select_base_3_price {
+             left: 1097px;
+             top: 795px;
+             position: absolute;
+             width: 46px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 13px;
+             color: rgba(255,0,0,1);
+         }
+         #option_next_text{
+             left: 971px;
+             top: 822px;
+             position: absolute;
+             width: 272px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-size: 13px;
+             color: rgba(255,0,0,1);
+         }
+         #option_next_btn {
+             fill: rgba(255,111,0,1);
+         }
+         .option_next_btn {
+             overflow: visible;
+             position: absolute;
+             width: 13.482px;
+             height: 19.202px;
+             transform: matrix(1,0,0,1,1244.9995,818.8991) rotate(180deg);
+             transform-origin: center;
+             left: 0px;
+             top: 0px;
+         }
+         #option_cancel_base {
+             fill: rgba(36,36,50,1);
+         }
+         .option_cancel_base {
+             position: absolute;
+             overflow: visible;
+             width: 253px;
+             height: 68px;
+             left: 702px;
+             top: 873px;
+         }
+         #option_cancel_text {
+             left: 808px;
+             top: 896px;
+             position: absolute;
+             width: 43px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG4R;
+             font-size: 22px;
+             color: rgba(255,255,255,1);
+         }
+         #option_add_click {
+             position: absolute;
+             width: 253px;
+             height: 68px;
+             left: 966px;
+             top: 873px;
+             overflow: visible;
+             --web-animation: fadein 0.3s ease-out;
+             --web-action-type: page;
+             --web-action-target: __________5.html;
+             cursor: pointer;
+         }
+         #option_add_base {
+             fill: rgba(250,61,61,1);
+         }
+         .option_add_base {
+             position: absolute;
+             overflow: visible;
+             width: 253px;
+             height: 68px;
+             left: 0px;
+             top: 0px;
+         }
+         #option_add_text {
+             left: 86px;
+             top: 23px;
+             position: absolute;
+             width: 91px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG4R;
+             font-size: 22px;
+             color: rgba(255,255,255,1);
+         }
+         #right_speech_bybble_6 {
+             fill: rgba(255,255,255,1);
+         }
+         .right_speech_bybble_6 {
+             filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+             overflow: visible;
+             position: absolute;
+             width: 696.491px;
+             height: 215px;
+             transform: matrix(1,0,0,1,1190.9104,827.0704) rotate(180deg);
+             transform-origin: center;
+             left: 0px;
+             top: 0px;
+         }
+         #right_speech_bybble_6_text {
+             left: 1464.578px;
+             top: 902px;
+             position: absolute;
+             width: 387px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG4R;
+             font-size: 33px;
+             color: rgba(0,0,0,1);
+         }
+         #left_speech_bybble_4 {
+             fill: rgba(255,255,255,1);
+         }
+         .left_speech_bybble_4 {
+             filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+             overflow: visible;
+             position: absolute;
+             width: 687.311px;
+             height: 329.518px;
+             left: 11.552px;
+             top: 719.867px;
+             transform: matrix(1,0,0,1,0,0);
+         }
+         #left_speech_bybble_4_text {
+             left: 40px;
+             top: 862px;
+             position: absolute;
+             width: 485px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG4R;
+             font-size: 30px;
+             color: rgba(0,0,0,1);
+         }
+ 
+ 
+         /*<kiosk_5.html>*/
+ 
+         #카페라떼_after
+         {
+             position: absolute;
+             width: 142px;
+             height: 151px;
+             left: 964px;
+             top: 225px;
+ 
+         }
+         #left_speech_bubble_5 {
+             fill: rgba(255,255,255,1);
+         }
+         .left_speech_bubble_5 {
+             filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+             overflow: visible;
+             position: absolute;
+             width: 631.52px;
+             height: 232.999px;
+             left: 40.582px;
+             top: 259.625px;
+             transform: matrix(1,0,0,1,0,0);
+         }
+         #left_speech_bubble_5_text {
+             left: 89.102px;
+             top: 325.624px;
+             position: absolute;
+             width: 400px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG4R;
+             font-size: 35px;
+             color: rgba(0,0,0,1);
+         }
+         #right_speech_bubble_7 {
+             fill: rgba(255,255,255,1);
+         }
+         .right_speech_bubble_7{
+             filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+             overflow: visible;
+             position: absolute;
+             width: 645.868px;
+             height: 259.195px;
+             transform: matrix(1,0,0,1,1232.6507,639.7652) rotate(180deg);
+             transform-origin: center;
+             left: 0px;
+             top: 0px;
+         }
+         #right_speech_bubble_7_text{
+             left: 1436px;
+             top: 689px;
+             position: absolute;
+             width: 444px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG4R;
+             font-size: 35px;
+             color: rgba(0,0,0,1);
+         }
+         #left_speech_bubble_6 {
+             fill: rgba(255,255,255,1);
+         }
+         .left_speech_bubble_6 {
+             filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+             overflow: visible;
+             position: absolute;
+             width: 957.031px;
+             height: 232.999px;
+             left: 63.656px;
+             top: 755.542px;
+             transform: matrix(1,0,0,1,0,0);
+         }
+         #left_speech_bubble_6_text {
+             left: 110.35px;
+             top: 797.541px;
+             position: absolute;
+             width: 410px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG4R;
+             font-size: 35px;
+             color: rgba(0,0,0,1);
+         }
+ 
+ 
+         /*<kiosk_6.html>*/
+ 
+         #_420_d {
+             fill: rgba(255,99,79,1);
+             stroke: rgba(112,112,112,1);
+             stroke-width: 1px;
+             stroke-linejoin: miter;
+             stroke-linecap: butt;
+             stroke-miterlimit: 4;
+             shape-rendering: auto;
+         }
+         ._420_d {
+             position: absolute;
+             overflow: visible;
+             width: 520px;
+             height: 827px;
+             left: 693px;
+             top: 127px;
+         }
+         #_480 {
+             fill: rgba(255,255,255,0.949);
+         }
+         ._480 {
+             position: absolute;
+             overflow: visible;
+             width: 520px;
+             height: 747px;
+             left: 693px;
+             top: 207px;
+         }
+         #__d {
+             left: 717px;
+             top: 153px;
+             position: absolute;
+             overflow: visible;
+             width: 91px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-style: normal;
+             font-weight: normal;
+             font-size: 22px;
+             color: rgba(255,255,255,1);
+         }
+         #_609 {
+             position: absolute;
+             width: 24px;
+             height: 27px;
+             left: 1169.001px;
+             top: 153px;
+             overflow: visible;
+         }
+         #_4_d {
+             fill: transparent;
+             stroke: rgba(255,255,255,1);
+             stroke-width: 4px;
+             stroke-linejoin: miter;
+             stroke-linecap: butt;
+             stroke-miterlimit: 4;
+             shape-rendering: auto;
+         }
+         ._4_d {
+             overflow: visible;
+             position: absolute;
+             width: 26.99px;
+             height: 29.657px;
+             left: -0.001px;
+             top: 0px;
+             transform: matrix(1,0,0,1,0,0);
+         }
+         #_5_d {
+             fill: transparent;
+             stroke: rgba(255,255,255,1);
+             stroke-width: 4px;
+             stroke-linejoin: miter;
+             stroke-linecap: butt;
+             stroke-miterlimit: 4;
+             shape-rendering: auto;
+         }
+         ._5_d {
+             overflow: visible;
+             position: absolute;
+             width: 26.99px;
+             height: 29.657px;
+             left: -0.001px;
+             top: 0px;
+             transform: matrix(1,0,0,1,0,0);
+         }
+         #_483 {
+             fill: rgba(36,36,50,1);
+         }
+         ._483 {
+             position: absolute;
+             overflow: visible;
+             width: 108px;
+             height: 79px;
+             left: 751px;
+             top: 837px;
+         }
+         #_d {
+             left: 785px;
+             top: 866px;
+             position: absolute;
+             overflow: visible;
+             width: 41px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG4R;
+             font-style: normal;
+             font-weight: normal;
+             font-size: 21px;
+             color: rgba(255,255,255,1);
+         }
+         #_622 {
+             position: absolute;
+             width: 274px;
+             height: 81px;
+             left: 884px;
+             top: 837px;
+             overflow: visible;
+             --web-animation: fadein 0.3s ease-out;
+             --web-action-type: page;
+             --web-action-target: __________7.html;
+             cursor: pointer;
+         }
+         #_491 {
+             fill: rgba(250,61,61,1);
+         }
+         ._491 {
+             position: absolute;
+             overflow: visible;
+             width: 274px;
+             height: 81px;
+             left: 0px;
+             top: 0px;
+         }
+         #__ea {
+             left: 101px;
+             top: 30px;
+             position: absolute;
+             overflow: visible;
+             width: 83px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG4R;
+             font-style: normal;
+             font-weight: normal;
+             font-size: 20px;
+             color: rgba(255,255,255,1);
+         }
+         #_492 {
+             fill: rgba(235,240,241,1);
+         }
+         ._492 {
+             position: absolute;
+             overflow: visible;
+             width: 403px;
+             height: 216px;
+             left: 755px;
+             top: 321px;
+         }
+         #_493 {
+             fill: rgba(191,201,221,1);
+         }
+         ._493 {
+             position: absolute;
+             overflow: visible;
+             width: 403px;
+             height: 66px;
+             left: 755px;
+             top: 588px;
+         }
+         #_494 {
+             fill: rgba(255,247,246,1);
+         }
+         ._494 {
+             position: absolute;
+             overflow: visible;
+             width: 403px;
+             height: 67px;
+             left: 755px;
+             top: 654px;
+         }
+         #_495 {
+             fill: rgba(194,204,222,1);
+         }
+         ._495 {
+             position: absolute;
+             overflow: visible;
+             width: 403px;
+             height: 66px;
+             left: 756px;
+             top: 720px;
+         }
+         #____ {
+             left: 739px;
+             top: 269px;
+             position: absolute;
+             overflow: visible;
+             width: 446px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-style: normal;
+             font-weight: normal;
+             font-size: 22px;
+             color: rgba(0,0,0,1);
+         }
+         #_496 {
+             fill: rgba(178,190,214,1);
+         }
+         ._496 {
+             position: absolute;
+             overflow: visible;
+             width: 403px;
+             height: 11px;
+             left: 755px;
+             top: 455px;
+         }
+         #_497 {
+             fill: rgba(0,0,0,0.949);
+         }
+         ._497 {
+             position: absolute;
+             overflow: visible;
+             width: 403px;
+             height: 10px;
+             left: 755px;
+             top: 466px;
+         }
+         #_498 {
+             fill: rgba(178,190,214,1);
+         }
+         ._498 {
+             position: absolute;
+             overflow: visible;
+             width: 403px;
+             height: 11px;
+             left: 755px;
+             top: 476px;
+         }
+         #_499 {
+             opacity: 0.5;
+             fill: rgba(225,216,216,1);
+         }
+         ._499 {
+             position: absolute;
+             overflow: visible;
+             width: 264px;
+             height: 22px;
+             left: 824px;
+             top: 379px;
+         }
+         #_500 {
+             fill: rgba(12,12,12,1);
+         }
+         ._500 {
+             position: absolute;
+             overflow: visible;
+             width: 34px;
+             height: 21px;
+             left: 824px;
+             top: 380px;
+         }
+         #_501 {
+             fill: rgba(12,12,12,1);
+         }
+         ._501 {
+             position: absolute;
+             overflow: visible;
+             width: 34px;
+             height: 21px;
+             left: 1054px;
+             top: 380px;
+         }
+         #_502 {
+             fill: rgba(0,0,0,0.949);
+         }
+         ._502 {
+             position: absolute;
+             overflow: visible;
+             width: 229px;
+             height: 11px;
+             left: 848px;
+             top: 380px;
+         }
+         #_503 {
+             opacity: 0.5;
+             fill: rgba(255,255,255,1);
+         }
+         ._503 {
+             position: absolute;
+             overflow: visible;
+             width: 264px;
+             height: 22px;
+             left: 824px;
+             top: 401px;
+         }
+         #__eo {
+             left: 922px;
+             top: 346px;
+             position: absolute;
+             overflow: visible;
+             width: 127px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG3R;
+             font-style: normal;
+             font-weight: normal;
+             font-size: 16px;
+             color: rgba(0,0,0,1);
+         }
+         #_504 {
+             fill: transparent;
+             stroke: rgba(0,0,0,1);
+             stroke-width: 2px;
+             stroke-linejoin: miter;
+             stroke-linecap: butt;
+             stroke-miterlimit: 4;
+             shape-rendering: auto;
+         }
+         ._504 {
+             position: absolute;
+             overflow: visible;
+             width: 29px;
+             height: 38px;
+             left: 885px;
+             top: 333px;
+         }
+         #_10 {
+             fill: rgba(0,0,0,1);
+         }
+         ._10 {
+             overflow: visible;
+             position: absolute;
+             width: 12px;
+             height: 10px;
+             transform: matrix(1,0,0,1,864,347) rotate(180deg);
+             transform-origin: center;
+             left: 0px;
+             top: 0px;
+         }
+         #_505 {
+             fill: rgba(2,2,2,1);
+         }
+         ._505 {
+             position: absolute;
+             overflow: visible;
+             width: 4px;
+             height: 4px;
+             left: 898px;
+             top: 341px;
+         }
+         #_13_es {
+             fill: transparent;
+             stroke: rgba(0,0,0,1);
+             stroke-width: 2px;
+             stroke-linejoin: miter;
+             stroke-linecap: butt;
+             stroke-miterlimit: 4;
+             shape-rendering: auto;
+         }
+         ._13_es {
+             overflow: visible;
+             position: absolute;
+             width: 257px;
+             height: 2px;
+             left: 827.5px;
+             top: 509px;
+             transform: matrix(1,0,0,1,0,0);
+         }
+         #_2170 {
+             position: absolute;
+             width: 145.248px;
+             height: 150.5px;
+             left: 887.376px;
+             top: 400.75px;
+             overflow: visible;
+         }
+         #_2171 {
+             fill: rgba(0,0,0,1);
+         }
+         ._2171 {
+             overflow: visible;
+             position: absolute;
+             width: 8.181px;
+             height: 11.999px;
+             transform: matrix(1,0,0,1,826.4072,506.0917) rotate(90deg);
+             transform-origin: center;
+             left: 0px;
+             top: 0px;
+         }
+         #_2172 {
+             fill: rgba(0,0,0,1);
+         }
+         ._2172 {
+             overflow: visible;
+             position: absolute;
+             width: 8.181px;
+             height: 11.998px;
+             transform: matrix(1,0,0,1,1077.4098,506.092) rotate(90deg);
+             transform-origin: center;
+             left: 0px;
+             top: 0px;
+         }
+         #_ew {
+             left: 776px;
+             top: 610px;
+             position: absolute;
+             overflow: visible;
+             width: 84px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG4R;
+             font-style: normal;
+             font-weight: normal;
+             font-size: 22px;
+             color: rgba(0,0,0,1);
+         }
+         #_ex {
+             left: 776px;
+             top: 677px;
+             position: absolute;
+             overflow: visible;
+             width: 84px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG4R;
+             font-style: normal;
+             font-weight: normal;
+             font-size: 22px;
+             color: rgba(0,0,0,1);
+         }
+         #_ey {
+             left: 776px;
+             top: 744px;
+             position: absolute;
+             overflow: visible;
+             width: 84px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG4R;
+             font-style: normal;
+             font-weight: normal;
+             font-size: 22px;
+             color: rgba(0,0,0,1);
+         }
+         #ID2700_ez {
+             left: 1043px;
+             top: 610px;
+             position: absolute;
+             overflow: visible;
+             width: 85px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG4R;
+             font-style: normal;
+             font-weight: normal;
+             font-size: 22px;
+             color: rgba(255,0,0,1);
+         }
+         #_e {
+             left: 1064px;
+             top: 677px;
+             position: absolute;
+             overflow: visible;
+             width: 64px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG4R;
+             font-style: normal;
+             font-weight: normal;
+             font-size: 22px;
+             color: rgba(0,0,0,1);
+         }
+         #_16 {
+             fill: rgba(255,255,255,1);
+         }
+         ._16 {
+             filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+             overflow: visible;
+             position: absolute;
+             width: 713.139px;
+             height: 373.095px;
+             left: 44.166px;
+             top: 518.404px;
+             transform: matrix(1,0,0,1,0,0);
+         }
+         #___ {
+             left: 136px;
+             top: 726.467px;
+             position: absolute;
+             overflow: visible;
+             width: 289px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG4R;
+             font-style: normal;
+             font-weight: normal;
+             font-size: 35px;
+             color: rgba(0,0,0,1);
+         }
+         #_28 {
+             fill: rgba(255,255,255,1);
+         }
+         ._28 {
+             filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+             overflow: visible;
+             position: absolute;
+             width: 745.555px;
+             height: 215px;
+             transform: matrix(1,0,0,1,1151.8097,742.5413) rotate(180deg);
+             transform-origin: center;
+             left: 0px;
+             top: 0px;
+         }
+         #_________ {
+             left: 1445.5px;
+             top: 800.5px;
+             position: absolute;
+             overflow: visible;
+             width: 438px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG4R;
+             font-style: normal;
+             font-weight: normal;
+             font-size: 30px;
+             color: rgba(0,0,0,1);
+         }
+         #_18 {
+             fill: rgba(255,255,255,1);
+         }
+         ._18 {
+             filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+             overflow: visible;
+             position: absolute;
+             width: 760.73px;
+             height: 611.572px;
+             transform: matrix(1,0,0,1,1134.9992,256.4278) rotate(180deg);
+             transform-origin: center;
+             left: 0px;
+             top: 0px;
+         }
+         #_____ {
+             left: 1493px;
+             top: 326.5px;
+             position: absolute;
+             overflow: visible;
+             width: 366px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG4R;
+             font-style: normal;
+             font-weight: normal;
+             font-size: 35px;
+             color: rgba(0,0,0,1);
+         }
+         
+         /*<kiosk_7.html>*/
+ 
+         #receipt {
+             position: absolute;
+             width: 563.722px;
+             height: 287.704px;
+             left: 678.139px;
+             top: 387.001px;
+             overflow: visible;
+         }
+         #receipt_base_1 {
+             fill: rgba(255,255,255,1);
+             stroke: rgba(112,112,112,1);
+             stroke-width: 1px;
+             stroke-linejoin: miter;
+             stroke-linecap: butt;
+             stroke-miterlimit: 4;
+             shape-rendering: auto;
+         }
+         .receipt_base_1 {
+             position: absolute;
+             overflow: visible;
+             width: 563.722px;
+             height: 287.704px;
+             left: 0px;
+             top: 0px;
+         }
+         #receipt_ok {
+             position: absolute;
+             width: 118.902px;
+             height: 49.862px;
+             left: 140.41px;
+             top: 216.992px;
+             overflow: visible;
+         }
+         #receipt_ok_base {
+             fill: rgba(0,0,0,1);
+         }
+         .receipt_ok_base {
+             position: absolute;
+             overflow: visible;
+             width: 118.901px;
+             height: 49.862px;
+             left: 0px;
+             top: 0px;
+         }
+         #receipt_ok_text {
+             left: 34.13px;
+             top: 11.575px;
+             position: absolute;
+             width: 50px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG4R;
+             font-size: 26px;
+             color: rgba(255,255,255,1);
+         }
+         #receipt_base_2 {
+             fill: rgba(255,99,79,1);
+         }
+         .receipt_base_2 {
+             position: absolute;
+             overflow: visible;
+             width: 563.722px;
+             height: 56.704px;
+             left: 0px;
+             top: 0px;
+         }
+         #receipt_x {
+             position: absolute;
+             width: 118.902px;
+             height: 49.862px;
+             left: 304.41px;
+             top: 216.992px;
+             overflow: visible;
+         }
+         #receipt_x_base {
+             fill: rgba(255,99,79,1);
+         }
+         .receipt_x_base {
+             position: absolute;
+             overflow: visible;
+             width: 118.901px;
+             height: 49.862px;
+             left: 0px;
+             top: 0px;
+         }
+         #receipt_x_text {
+             left: 22.451px;
+             top: 11.931px;
+             position: absolute;
+             width: 75px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG4R;
+             font-size: 26px;
+             color: rgba(255,255,255,1);
+         }
+         #left_speech_bubble_7 {
+             fill: rgba(255,255,255,1);
+         }
+         .left_speech_bubble_7 {
+             filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+             overflow: visible;
+             position: absolute;
+             width: 785.446px;
+             height: 251.876px;
+             transform: matrix(1,0,0,1,36.2726,641.1246) rotate(180deg);
+             transform-origin: center;
+             left: 0px;
+             top: 0px;
+         }
+         #left_speech_bubble_7_text {
+             left: 87.598px;
+             top: 722.5px;
+             position: absolute;
+             width: 388px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG4R;
+             font-size: 35px;
+             color: rgba(0,0,0,1);
+         }
+         #receipt_text {
+             left: 824.139px;
+             top: 486px;
+             position: absolute;
+             width: 273px;
+             white-space: nowrap;
+             text-align: center;
+             font-family: KoreanYNSJG4R;
+             font-size: 22px;
+             color: rgba(54,54,65,1);
+         }
+         #receipt_time {
+             left: 946.139px;
+             top: 558px;
+             position: absolute;
+             width: 29px;
+             white-space: nowrap;
+             text-align: center;
+             font-family: KoreanYNSJG4R;
+             font-size: 22px;
+             color: rgba(54,54,65,1);
+         }
+         #right_speech_bubble_8 {
+             fill: rgba(255,255,255,1);
+         }
+         .right_speech_bubble_8 {
+             filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+             overflow: visible;
+             position: absolute;
+             width: 676.42px;
+             height: 306.97px;
+             transform: matrix(1,0,0,1,1220.9441,650.5712) rotate(180deg);
+             transform-origin: center;
+             left: 0px;
+             top: 0px;
+         }
+         #right_speech_bubble_8_text{
+             left: 1492px;
+             top: 800px;
+             position: absolute;
+             width: 346px;
+             white-space: nowrap;
+             text-align: left;
+             font-family: KoreanYNSJG4R;
+             font-size: 33px;
+             color: rgba(0,0,0,1);
+         }

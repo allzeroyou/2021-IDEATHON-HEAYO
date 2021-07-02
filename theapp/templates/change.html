@@ -1,6 +1,6 @@
 {% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <title>change</title>
@@ -8,9 +8,12 @@
 
 </head>
 <body>
+  <a href="{% url 'main' %}">
     <div id = "haeyo">
         <span>해요</span>
     </div>
+  </a>
+
     <nav>
         <a id="nav1" href="{% url 'about' %}">소개</a> 
         <a id="nav2" href="{% url 'cafe' %}">매장찾기</a> 
@@ -44,11 +47,13 @@
       </div>
   </div>
 
+    <a href="{% url 'main' %}">
+      <svg class="house_icon" viewBox="0 0 55 55">
+          <path id="house_icon" d="M 55 55 L 54.99899291992188 55 L 37.99961471557617 54.9990348815918 L 37.99961471557617 35.70121383666992 L 17.9994068145752 35.70121383666992 L 17.9994068145752 54.9990348815918 L 0 54.9990348815918 L 0 22.84613800048828 L 27.5 -1.13686837721616e-13 L 55 22.84613800048828 L 55 54.9990348815918 L 55 55 Z">
+          </path>
+        </svg>
+    </a>
 
-    <svg class="house_icon" viewBox="0 0 55 55">
-        <path id="house_icon" d="M 55 55 L 54.99899291992188 55 L 37.99961471557617 54.9990348815918 L 37.99961471557617 35.70121383666992 L 17.9994068145752 35.70121383666992 L 17.9994068145752 54.9990348815918 L 0 54.9990348815918 L 0 22.84613800048828 L 27.5 -1.13686837721616e-13 L 55 22.84613800048828 L 55 54.9990348815918 L 55 55 Z">
-        </path>
-    </svg>
     <div id="profile_img">
         <img src = https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzO6wlUE3xt9U7LbJa4qi3_siXBnkrrNxVLl2V_itSdGFwLlw_rlEpHV3oWhVU6x9tS7c&usqp=CAU width="50" height="50">
     </div>

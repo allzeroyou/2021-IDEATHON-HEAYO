@@ -796,12 +796,13 @@ element.style {
   margin-top: 410px;
   margin-right: 566px;
   margin-left: 600px;
+  padding-right: 90px;
   height: 60px;
   margin-bottom: 20px;
 }
 #main-navigation a {
   margin-left: 10px;
-  padding-right: 90px;
+
   font-size: 32px;
   text-decoration: none;
   font-family: KoreanYNSJG4R;
@@ -829,10 +830,10 @@ element.style {
 }
 
 .inner-menu { 
-  display: none;
+  display: block; /*수정*/
   position: absolute;
   top: 50px; left: 0px;
-  width: 200px; 
+  width: auto; /*수정*/
   background: white;
   z-index: 1000;
   text-align: left;
@@ -840,7 +841,7 @@ element.style {
 
 }
 .inner-menu-item > a {
-  display: inline-block;
+  display: block;
   padding: 10px 5px;
   color: white;
   width: 190px;
