@@ -9,9 +9,12 @@
     <link rel="stylesheet" href="{% static 'css/Third.css' %}">
 </head>
 <body>
-    <div id = "haeyo">
-        <span>해요</span>
-    </div>
+    <a href="{% url 'main' %}">  
+        <div id = "haeyo">
+            <span>해요</span>
+        </div>
+      </a>
+      
     <nav>
         <a id="nav1" href="{% url 'about' %}">소개</a> 
         <a id="nav2" href="{% url 'cafe' %}">매장찾기</a> 

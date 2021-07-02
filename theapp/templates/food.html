@@ -49,17 +49,20 @@
             <span>김수아 님</span>
     </div>
 
-    <div class="text1" > 
-        <button id="cafe1">카페</button>
-    </div>
-    <div class="text2">
-       <button id="food1">음식</button>
-    </div>
-    <div class="text3">
-        <button id="movie1">영화관</button>
-    </div>
+    <a href="{% url 'cafe' %}">
+        <div class="text1" > 
+        <button id="cafe1"> 카페 </button>
+        </div></a>
+    <a href="{% url 'food' %}">
+        <div class="text2">
+            <button id="food1">음식</button> 
+        </div></a>
+    <a href="{% url 'movie' %}">
+        <div class="text3">
+            <button id="movie1">영화관</button> 
+        </div> </a>
 
-    </div>
+    
     <div class="box2"> &nbsp 
     </div>
 
