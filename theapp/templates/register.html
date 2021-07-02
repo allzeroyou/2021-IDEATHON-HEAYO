@@ -1,8 +1,9 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="first.css">
+  <link rel="stylesheet" href="{% static 'css/first.css' %}">
   <title>해요 회원가입</title>
 </head>
 <body>
@@ -19,7 +20,7 @@
     </nav>
     <div class="box">
         <div class="container-1">
-            <span><img id ="search_icon" src="{% static 'image/search.png' %}"></span>
+            <span><img id ="search_icon" src="{% static '/image/search.png' %}"></span>
             <input type="search" id="search" placeholder="매장명을 검색해보세요." />
         </div>
     </div>

@@ -4,8 +4,8 @@ from django.shortcuts import render
 def main(request):
     return render(request, 'main.html')
 
-def logged(request):
-    return render(request, 'logged.html')
+def login(request):
+    return render(request, 'login.html')
 
 def register(request):
     return render(request, 'register.html')
@@ -29,7 +29,7 @@ def about(request):
     return render(request, 'About.html')
 
 def kiosk_1(request):
-    return render(request, 'kiosok_1.html')
+    return render(request, 'kiosk_1.html')
 
 def kiosk_2(request):
     return render(request, 'kiosk_2.html')
@@ -47,4 +47,5 @@ def kiosk_6(request):
     return render(request, 'kiosk_6.html')
 
 def kiosk_7(request):
-    return render(request, 'kiosk_7.html')        
+    return render(request, 'kiosk_7.html')
+    
