@@ -57,23 +57,25 @@
 
     <div id="followquick">
     <div>
+    
+    
     <label for="변경">
         <img id="변경" src="{% static '/image/change.png' %}" alt="변경" height="196px" width="196px"> &emsp;
-        <p id="mypage_change">내 정보 변경</p>
-    </label>
+        <a href="{% url 'change' %}"><p id="mypage_change">내 정보 변경</p> </a>
+    </label> 
     </div>
 
     <div>
         <label for="찾기">
             <img id="찾기" src="{% static '/image/find.png' %}" alt="찾기" height="196px" width="196px"> &emsp;
-            <p id="mypage_find">주변 매장 찾기</p>
+            <a href="{% url 'mypage' %}"><p id="mypage_find">주변 매장 찾기</p></a>
         </label>
     </div>
 
     <div>
         <label for="목록">
             <img id="목록" src="{% static '/image/heart.png' %}" alt="목록" height="196px" width="196px"> &emsp;
-            <p id="mypage_list">즐겨찾기 목록</p>
+            <a href="{% url 'mypage' %}"><p id="mypage_list">즐겨찾기 목록</p></a>
         </label>
     </div>
     </div>
