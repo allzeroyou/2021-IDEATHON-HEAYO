@@ -25,31 +25,35 @@
           저희 웹사이트에 나와있는 주문 방법을 따라하면서 주문해보세요!<br>
           보다 쉽고 빠르게 주문이 가능해집니다.
         </span>
-    </div>   
-        <div id = "haeyo">
-          <span>해요</span>
+    </div>
+    <a href="{% url 'main' %}"> 
+      <div id = "haeyo">
+        <span>해요</span>
       </div>
-      <nav>
-        <a id="nav1" href="{% url 'about' %}">소개</a> 
-        <a id="nav2" href="{% url 'cafe' %}">매장찾기</a> 
-        <a id="nav3" href="{% url 'mypage' %}">마이페이지</a>
-      </nav>
-      <div class="box">
-          <div class="container-1">
-              <span><img id ="search_icon" src="{% static 'image/search.png' %}"></span>
-              <input type="search" id="search" placeholder="매장명을 검색해보세요." />
-          </div>
-      </div>
+    </a>  
+    <nav>
+      <a id="nav1" href="{% url 'about' %}">소개</a> 
+      <a id="nav2" href="{% url 'cafe' %}">매장찾기</a> 
+      <a id="nav3" href="{% url 'mypage' %}">마이페이지</a>
+    </nav>
+    <div class="box">
+        <div class="container-1">
+            <span><img id ="search_icon" src="{% static 'image/search.png' %}"></span>
+            <input type="search" id="search" placeholder="매장명을 검색해보세요." />
+        </div>
+    </div>
+    <a href="{% url 'main' %}">
       <svg class="house_icon" viewBox="0 0 55 55">
       <path id="house_icon" d="M 55 55 L 54.99899291992188 55 L 37.99961471557617 54.9990348815918 L 37.99961471557617 35.70121383666992 L 17.9994068145752 35.70121383666992 L 17.9994068145752 54.9990348815918 L 0 54.9990348815918 L 0 22.84613800048828 L 27.5 -1.13686837721616e-13 L 55 22.84613800048828 L 55 54.9990348815918 L 55 55 Z">
       </path>
       </svg>
-      <div id="profile_img">
-          <img src = https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzO6wlUE3xt9U7LbJa4qi3_siXBnkrrNxVLl2V_itSdGFwLlw_rlEpHV3oWhVU6x9tS7c&usqp=CAU width="50" height="50">
-      </div>
-      <div id="profile_name">
-          <span>김수아 님</span>
-      </div>
-      </div>
+    </a>
+    <div id="profile_img">
+        <img src = https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzO6wlUE3xt9U7LbJa4qi3_siXBnkrrNxVLl2V_itSdGFwLlw_rlEpHV3oWhVU6x9tS7c&usqp=CAU width="50" height="50">
+    </div>
+    <div id="profile_name">
+        <span>김수아 님</span>
+    </div>
+  </div>
 </body>
 </html>

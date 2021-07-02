@@ -19,7 +19,7 @@ from theapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',views.main, name="main"),
+    path('main/',views.main, name="main"),
     path('login/',views.login,name="login"),
     path('cafe/',views.cafe, name="cafe"),
     path('food/',views.food, name="food"),
@@ -27,5 +27,14 @@ urlpatterns = [
     path('mypage/',views.mypage, name="mypage"),
     path('change/',views.change, name="change"),
     path('about/',views.about, name="about"),
+    path('register/',views.register, name="register"),
+    path('logged/',views.logged, name="logged"),
+    path('kiosk_1/',views.kiosk_1, name="kiosk_1"),
+    path('kiosk_2/',views.kiosk_2, name="kiosk_2"),
+    path('kiosk_3/',views.kiosk_3, name="kiosk_3"),
+    path('kiosk_4/',views.kiosk_4, name="kiosk_4"),
+    path('kiosk_5/',views.kiosk_5, name="kiosk_5"),
+    path('kiosk_6/',views.kiosk_6, name="kiosk_6"),
+    path('kiosk_7/',views.kiosk_7, name="kiosk_7"),
     
 ]

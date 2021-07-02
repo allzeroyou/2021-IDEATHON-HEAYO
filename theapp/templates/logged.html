@@ -21,7 +21,10 @@
 <body>
   <div id="page-wrapper" style="transform-origin: 0px 0px;">
     <!--메인로고-->
+    <a href="{% url 'main' %}">
       <img id="main-logo" src="{% static 'image/logo.png' %}">
+    </a> 
+
     <!--로그인박스-->
     <div id="login-box">
       <svg class="login-box-one">
@@ -54,7 +57,7 @@
       <svg class ="search-bar-box">
         <rect id="search-bar-box" rx="10" ry="10" x="0" y="0" width="425" height="62"></rect>
       </svg>
-      <img id="search-bar" src="image/search.png">
+      <img id="search-bar" src="{% static 'image/search.png' %}">
       <div id="search-bar-text">
         <span>매장명을 검색해보세요</span>
       </div>
