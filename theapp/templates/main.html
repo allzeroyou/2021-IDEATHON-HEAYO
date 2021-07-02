@@ -20,7 +20,8 @@
 <body>
   <div id="page-wrapper" style="transform-origin: 0px 0px;">
     <!--메인로고-->
-      <img id="main-logo" src="{% static 'image/logo.png' %}">
+      <a href="{% url 'main' %}">
+      <img id="main-logo" src="{% static 'image/logo.png' %}"></a>
     <!--로그인박스-->
       <div onClick="application.goToTargetView(event)" id="login-form">
         <svg class="login-box-1">
@@ -48,7 +49,7 @@
           <span>비밀번호</span>
         </div>
         <div id="login-link-1">
-          <span>회원가입</span>
+          <span><a href="{% url 'register' %}">회원가입</a></span>
         </div>
         <div id="login-link-2">
           <span>아이디/비밀번호 찾기</span>
@@ -96,7 +97,12 @@
             </ul>
           </li>
           <li class="outer-menu-item">
-            <span class="menu-title"><a href="{% url 'mypage' %}">마이페이지</a></span>
+            <span class="menu-title"><a href="{% url 'cafe' %}">마이페이지</a></span>
+            <ul class="inner-menu">
+              <li class="inner-menu-item"><a href="{% url 'change' %}">내 정보 변경</a></li>
+              <li class="inner-menu-item"><a href="{% url 'mypage' %}">주변 매장 찾기</a></li>
+              <li class="inner-menu-item"><a href="{% url 'mypage' %}">즐겨찾기 목록</a></li>
+            </ul>
           </li>
         </ul>
       </nav>

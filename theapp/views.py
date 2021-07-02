@@ -4,10 +4,12 @@ from django.shortcuts import render
 def main(request):
     return render(request, 'main.html')
 
-def login(request):
-    return render(request, 'Login_page.html')
-    
+def logged(request):
+    return render(request, 'logged.html')
 
+def register(request):
+    return render(request, 'register.html')
+    
 def cafe(request):
     return render(request, 'cafe.html')
 
