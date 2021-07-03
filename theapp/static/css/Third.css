@@ -2735,7 +2735,7 @@
             left: 693px;
             top: 207px;
         }
-        #__d {
+        #card_buy_text {
             left: 717px;
             top: 153px;
             position: absolute;
@@ -2744,8 +2744,6 @@
             white-space: nowrap;
             text-align: left;
             font-family: 'S-CoreDream-4Regular';
-            font-style: normal;
-            font-weight: normal;
             font-size: 22px;
             color: rgba(255,255,255,1);
         }
@@ -2804,7 +2802,7 @@
             left: 751px;
             top: 837px;
         }
-        #card_buy_text {
+        #card_cancel_text {
             left: 785px;
             top: 866px;
             position: absolute;
