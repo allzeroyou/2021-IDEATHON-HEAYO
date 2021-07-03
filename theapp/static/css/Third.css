@@ -2804,7 +2804,7 @@
             left: 751px;
             top: 837px;
         }
-        #_d {
+        #card_buy_text {
             left: 785px;
             top: 866px;
             position: absolute;
@@ -2813,8 +2813,6 @@
             white-space: nowrap;
             text-align: left;
             font-family: 'S-CoreDream-6Bold';
-            font-style: normal;
-            font-weight: normal;
             font-size: 21px;
             color: rgba(255,255,255,1);
         }
