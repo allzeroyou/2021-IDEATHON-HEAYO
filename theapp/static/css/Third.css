@@ -2837,7 +2837,7 @@
             left: 0px;
             top: 0px;
         }
-        #__ea {
+        #approve_text {
             left: 101px;
             top: 30px;
             position: absolute;
@@ -2846,8 +2846,6 @@
             white-space: nowrap;
             text-align: left;
             font-family: 'S-CoreDream-6Bold';
-            font-style: normal;
-            font-weight: normal;
             font-size: 20px;
             color: rgba(255,255,255,1);
         }
