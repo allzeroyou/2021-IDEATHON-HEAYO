@@ -180,16 +180,19 @@
         #cafe1{
             background-color: #E7DBDB;
             border: none;
+            font-family: 'S-CoreDream-6Bold';
         }
 
         #food1{
             background-color: #F2D6BC;
             border: none;
+            font-family: 'S-CoreDream-6Bold';
         }
 
         #movie1{
             background-color: #F5C8A1;
             border: none;
+            font-family: 'S-CoreDream-6Bold';
         }
 
 
@@ -219,7 +222,7 @@
             left: 754px;
             top: 590px;
             position: absolute;
-            font-family: KoreanYNSJG2R;
+            font-family: 'S-CoreDream-6Bold';
             font-style: normal;
             font-weight: normal;
             font-size: 35px;
@@ -591,6 +594,7 @@
              position: absolute;
              font-size: 30px;
              color: black;
+             font-family: 'S-CoreDream-6Bold';
             }
     
             #mypage_box1{
@@ -671,6 +675,7 @@
                 font-size: 30px;
                 border-radius: 15px;
                 z-index: 0;
+                font-family: 'S-CoreDream-6Bold';
             }
     
     
@@ -758,6 +763,7 @@
                 border: none;
                 font-size: 25px;
                 color: white;
+                font-family: 'S-CoreDream-6Bold';
             }
     
             .register2{
@@ -780,6 +786,7 @@
                 font-size: 25px;
                 color: white;
                 overflow: visible;
+                font-family: 'S-CoreDream-6Bold';
             }
     
             .register3{
@@ -801,6 +808,7 @@
                 border: none;
                 font-size: 25px;
                 color: white;
+                font-family: 'S-CoreDream-6Bold';
             }
     
             .kiosk1{
@@ -822,6 +830,7 @@
                 border: none;
                 font-size: 25px;
                 color: white;
+                font-family: 'S-CoreDream-6Bold';
             }
     
     
@@ -844,6 +853,7 @@
                 border: none;
                 font-size: 25px;
                 color: white;
+                font-family: 'S-CoreDream-6Bold';
             }
     
             .kiosk3{
@@ -865,6 +875,7 @@
                 border: none;
                 font-size: 25px;
                 color: white;
+                font-family: 'S-CoreDream-6Bold';
             }
     
             #mypage_mega{
@@ -1457,4 +1468,8 @@
                 position: absolute;
 
             }
+            a {
+                text-decoration: none; 
+                color: rgba(123,113,113,1);
+              }
         
