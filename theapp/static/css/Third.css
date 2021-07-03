@@ -1,4 +1,28 @@
-         /*<공통>*/
+/*<폰트 - 에스코어, 배스킨라빈스체>*/
+@font-face 
+{
+    font-family: 'S-CoreDream-4Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+     
+@font-face 
+{
+    font-family: 'S-CoreDream-6Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face 
+{
+    font-family: 'BRBA_B';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/BRBA_B.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+        /*<공통>*/
         body
         {
             background: #FFF0D6;
@@ -12,7 +36,7 @@
             width: 145px;
             white-space: nowrap;
             text-align: left;
-            font-family: BR B;
+            font-family: 'BRBA_B';
             font-size: 80px;
             color: rgba(255,186,0,1);
 	    }
@@ -24,7 +48,7 @@
             width: 58px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG4R;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 30px;
             color: rgba(0,0,0,1);
             text-decoration:none 
@@ -38,7 +62,7 @@
             width: 58px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG4R;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 30px;
             color: rgba(0,0,0,1);
             text-decoration:none 
@@ -52,7 +76,7 @@
             width: 58px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG4R;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 30px;
             color: rgba(0,0,0,1);
             text-decoration:none 
@@ -72,7 +96,7 @@
             background: #09090921;
             border: none;
             font-size: 15pt;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-4Regular';
             padding-left: 65px;
             -webkit-border-radius: 5px;
             -moz-border-radius: 5px;
@@ -116,7 +140,7 @@
             width: 100px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 24px;
             color: rgb(0, 0, 0);
 	    }
@@ -179,7 +203,7 @@
             width: 134px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG4R;
+            font-family: 'S-CoreDream-6Bold';
             font-style: normal;
             font-weight: normal;
             font-size: 35px;
@@ -251,9 +275,7 @@
             width: 126px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
-            font-style: normal;
-            font-weight: normal;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 33px;
             color: rgba(255,255,255,1);
         }
@@ -265,9 +287,7 @@
             width: 126px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
-            font-style: normal;
-            font-weight: normal;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 33px;
             color: rgba(255,255,255,1);
         }
@@ -318,9 +338,8 @@
             width: 333px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG4R;
-            font-style: normal;
-            font-weight: normal;
+            font-family: 'S-CoreDream-6Bold';
+        
             font-size: 35px;
             color: rgba(0,0,0,1);
         }
@@ -346,7 +365,7 @@
             width: 333px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG4R;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 35px;
             color: rgba(0,0,0,1);
         }
@@ -492,7 +511,7 @@
             width: 62px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 16px;
             color: rgba(255,255,255,1);
         }
@@ -504,7 +523,7 @@
             width: 84px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG5R;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 18px;
             color: rgba(54,54,65,1);
         }
@@ -516,7 +535,7 @@
             width: 76px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG5R;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 18px;
             color: rgba(255,255,255,1);
         }
@@ -528,7 +547,7 @@
             width: 96px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG5R;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 18px;
             color: rgba(255,255,255,1);
         }
@@ -540,7 +559,7 @@
             width: 103px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG5R;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 18px;
             color: rgba(255,255,255,1);
         }
@@ -973,7 +992,7 @@
             width: 21px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanTITGD2R;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 35px;
             color: rgba(255,255,255,1);
         }
@@ -985,7 +1004,7 @@
             width: 69px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 18px;
             color: rgba(255,255,255,1);
         }
@@ -997,7 +1016,7 @@
             width: 21px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanTITGD2R;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 35px;
             color: rgba(134,240,232,1);
         }
@@ -1010,7 +1029,7 @@
             width: 21px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanTITGD2R;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 35px;
             color: rgba(134,240,232,1);
         }
@@ -1023,7 +1042,7 @@
             width: 69px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 18px;
             color: rgba(255,255,255,1);
         }
@@ -1088,7 +1107,7 @@
             width: 69px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 18px;
             color: rgba(255,255,255,1);
         }
@@ -1099,7 +1118,7 @@
             width: 35px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 18px;
             color: rgba(255,255,255,1);
         }
@@ -1313,7 +1332,7 @@
             width: 69px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 12px;
             color: rgba(54,54,65,1);
         }
@@ -1325,7 +1344,7 @@
             width: 35px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 12px;
             color: rgba(54,54,65,1);
         }
@@ -1337,7 +1356,7 @@
             width: 81px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 12px;
             color: rgba(54,54,65,1);
         }
@@ -1349,7 +1368,7 @@
             width: 35px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 12px;
             color: rgba(54,54,65,1);
         }
@@ -1361,7 +1380,7 @@
             width: 92px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 12px;
             color: rgba(54,54,65,1);
         }
@@ -1373,7 +1392,7 @@
             width: 35px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 12px;
             color: rgba(54,54,65,1);
         }
@@ -1385,7 +1404,7 @@
             width: 69px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 12px;
             color: rgba(54,54,65,1);
         }
@@ -1397,7 +1416,7 @@
             width: 35px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 12px;
             color: rgba(54,54,65,1);
         }
@@ -1409,7 +1428,7 @@
             width: 58px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 12px;
             color: rgba(54,54,65,1);
         }
@@ -1421,7 +1440,7 @@
             width: 35px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 12px;
             color: rgba(54,54,65,1);
         }
@@ -1433,7 +1452,7 @@
             width: 81px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 12px;
             color: rgba(54,54,65,1);
         }
@@ -1445,7 +1464,7 @@
             width: 35px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 12px;
             color: rgba(54,54,65,1);
         }
@@ -1457,7 +1476,7 @@
             width: 58px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 12px;
             color: rgba(54,54,65,1);
         }
@@ -1469,7 +1488,7 @@
             width: 35px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 12px;
             color: rgba(54,54,65,1);
         }
@@ -1481,7 +1500,7 @@
             width: 103px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 12px;
             color: rgba(54,54,65,1);
         }
@@ -1493,7 +1512,7 @@
             width: 35px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 12px;
             color: rgba(54,54,65,1);
         }
@@ -1505,7 +1524,7 @@
             width: 58px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 12px;
             color: rgba(54,54,65,1);
         }
@@ -1517,7 +1536,7 @@
             width: 35px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 12px;
             color: rgba(54,54,65,1);
         }
@@ -1529,7 +1548,7 @@
             width: 115px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 12px;
             color: rgba(54,54,65,1);
         }
@@ -1541,7 +1560,7 @@
             width: 35px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 12px;
             color: rgba(54,54,65,1);
         }
@@ -1553,7 +1572,7 @@
             width: 81px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 12px;
             color: rgba(54,54,65,1);
         }
@@ -1565,7 +1584,7 @@
             width: 35px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 12px;
             color: rgba(54,54,65,1);
         }
@@ -1590,7 +1609,7 @@
             width: 388px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG4R;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 35px;
             color: rgba(0,0,0,1);
         }
@@ -1616,7 +1635,7 @@
             width: 444px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG4R;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 35px;
             color: rgba(0,0,0,1);
         }
@@ -1642,7 +1661,7 @@
             width: 366px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG4R;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 35px;
             color: rgba(0,0,0,1);
         }
@@ -1768,7 +1787,7 @@
             width: 58px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 12px;
             color: black;
         }
@@ -1780,7 +1799,7 @@
             width: 35px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 12px;
             color: rgba(54,54,65,1);
         }
@@ -1854,7 +1873,7 @@
             width: 823px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG4R;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 50px;
             color: rgba(0,0,0,1);
         }
@@ -1866,7 +1885,7 @@
             width: 720px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 35px;
             color: rgba(0,0,0,1);
         }
@@ -1919,7 +1938,7 @@
             width: 92px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG4R;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 48px;
             color: rgba(0,0,0,1);
         }
@@ -1951,7 +1970,7 @@
             width: 92px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG4R;
+             font-family: 'S-CoreDream-6Bold';
             font-size: 48px;
             color: rgba(0,0,0,1);
         }
@@ -1963,7 +1982,7 @@
             width: 388px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 35px;
             color: rgba(255,0,0,1);
         }
@@ -1988,7 +2007,7 @@
             width: 289px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG4R;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 35px;
             color: rgba(0,0,0,1);
         }
@@ -2014,7 +2033,7 @@
             width: 355px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG4R;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 35px;
             color: rgba(0,0,0,1);
         }
@@ -2040,7 +2059,7 @@
             width: 355px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG4R;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 35px;
             color: rgba(0,0,0,1);
         }
@@ -2110,7 +2129,7 @@
             width: 467px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 22px;
             color: rgba(255,255,255,1);
         }
@@ -2173,7 +2192,7 @@
             width: 151px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 22px;
             color: rgba(0,0,0,1);
         }
@@ -2184,7 +2203,7 @@
             width: 85px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 22px;
             color: rgba(255,0,0,1);
         }
@@ -2261,7 +2280,7 @@
             width: 43px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 22px;
             color: rgba(0,0,0,1);
         }
@@ -2350,7 +2369,7 @@
             width: 43px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 22px;
             color: rgba(0,0,0,1);
         }
@@ -2410,7 +2429,7 @@
             width: 29px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 13px;
             color: rgba(255,0,0,1);
         }
@@ -2421,7 +2440,7 @@
             width: 64px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 22px;
             color: rgba(0,0,0,1);
         }
@@ -2432,7 +2451,7 @@
             width: 29px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 13px;
             color: rgba(255,0,0,1);
         }
@@ -2454,7 +2473,7 @@
             width: 64px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 22px;
             color: rgba(0,0,0,1);
         }
@@ -2465,7 +2484,7 @@
             width: 46px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 13px;
             color: rgba(255,0,0,1);
         }
@@ -2476,7 +2495,7 @@
             width: 272px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 13px;
             color: rgba(255,0,0,1);
         }
@@ -2511,7 +2530,7 @@
             width: 43px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG4R;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 22px;
             color: rgba(255,255,255,1);
         }
@@ -2545,7 +2564,7 @@
             width: 91px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG4R;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 22px;
             color: rgba(255,255,255,1);
         }
@@ -2570,7 +2589,7 @@
             width: 387px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG4R;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 33px;
             color: rgba(0,0,0,1);
         }
@@ -2594,7 +2613,7 @@
             width: 485px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG4R;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 30px;
             color: rgba(0,0,0,1);
         }
@@ -2631,7 +2650,7 @@
             width: 400px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG4R;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 35px;
             color: rgba(0,0,0,1);
         }
@@ -2656,7 +2675,7 @@
             width: 444px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG4R;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 35px;
             color: rgba(0,0,0,1);
         }
@@ -2680,7 +2699,7 @@
             width: 410px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG4R;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 35px;
             color: rgba(0,0,0,1);
         }
@@ -2716,7 +2735,7 @@
             left: 693px;
             top: 207px;
         }
-        #__d {
+        #card_buy_text {
             left: 717px;
             top: 153px;
             position: absolute;
@@ -2724,9 +2743,7 @@
             width: 91px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
-            font-style: normal;
-            font-weight: normal;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 22px;
             color: rgba(255,255,255,1);
         }
@@ -2785,7 +2802,7 @@
             left: 751px;
             top: 837px;
         }
-        #_d {
+        #card_cancel_text {
             left: 785px;
             top: 866px;
             position: absolute;
@@ -2793,9 +2810,7 @@
             width: 41px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG4R;
-            font-style: normal;
-            font-weight: normal;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 21px;
             color: rgba(255,255,255,1);
         }
@@ -2830,7 +2845,7 @@
             width: 83px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG4R;
+            font-family: 'S-CoreDream-6Bold';
             font-style: normal;
             font-weight: normal;
             font-size: 20px;
@@ -2888,9 +2903,7 @@
             width: 446px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
-            font-style: normal;
-            font-weight: normal;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 22px;
             color: rgba(0,0,0,1);
         }
@@ -2992,9 +3005,7 @@
             width: 127px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG3R;
-            font-style: normal;
-            font-weight: normal;
+            font-family: 'S-CoreDream-4Regular';
             font-size: 16px;
             color: rgba(0,0,0,1);
         }
@@ -3099,9 +3110,7 @@
             width: 84px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG4R;
-            font-style: normal;
-            font-weight: normal;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 22px;
             color: rgba(0,0,0,1);
         }
@@ -3113,9 +3122,7 @@
             width: 84px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG4R;
-            font-style: normal;
-            font-weight: normal;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 22px;
             color: rgba(0,0,0,1);
         }
@@ -3127,9 +3134,7 @@
             width: 84px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG4R;
-            font-style: normal;
-            font-weight: normal;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 22px;
             color: rgba(0,0,0,1);
         }
@@ -3141,9 +3146,7 @@
             width: 85px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG4R;
-            font-style: normal;
-            font-weight: normal;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 22px;
             color: rgba(255,0,0,1);
         }
@@ -3155,9 +3158,7 @@
             width: 64px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG4R;
-            font-style: normal;
-            font-weight: normal;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 22px;
             color: rgba(0,0,0,1);
         }
@@ -3182,9 +3183,7 @@
             width: 289px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG4R;
-            font-style: normal;
-            font-weight: normal;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 35px;
             color: rgba(0,0,0,1);
         }
@@ -3210,9 +3209,7 @@
             width: 438px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG4R;
-            font-style: normal;
-            font-weight: normal;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 30px;
             color: rgba(0,0,0,1);
         }
@@ -3238,9 +3235,7 @@
             width: 366px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG4R;
-            font-style: normal;
-            font-weight: normal;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 35px;
             color: rgba(0,0,0,1);
         }
@@ -3298,7 +3293,7 @@
             width: 50px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG4R;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 26px;
             color: rgba(255,255,255,1);
         }
@@ -3339,7 +3334,7 @@
             width: 75px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG4R;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 26px;
             color: rgba(255,255,255,1);
         }
@@ -3364,7 +3359,7 @@
             width: 388px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG4R;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 35px;
             color: rgba(0,0,0,1);
         }
@@ -3375,7 +3370,7 @@
             width: 273px;
             white-space: nowrap;
             text-align: center;
-            font-family: KoreanYNSJG4R;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 22px;
             color: rgba(54,54,65,1);
         }
@@ -3386,7 +3381,7 @@
             width: 29px;
             white-space: nowrap;
             text-align: center;
-            font-family: KoreanYNSJG4R;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 22px;
             color: rgba(54,54,65,1);
         }
@@ -3411,7 +3406,7 @@
             width: 346px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG4R;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 33px;
             color: rgba(0,0,0,1);
         }
@@ -3423,7 +3418,7 @@
              background: #09090921;
              border: none;
              font-size: 15pt;
-             font-family: KoreanYNSJG3R;
+             font-family: 'S-CoreDream-4Regular';
              padding-left: 65px;
              -webkit-border-radius: 5px;
              -moz-border-radius: 5px;
@@ -3467,7 +3462,7 @@
              width: 100px;
              white-space: nowrap;
              text-align: left;
-             font-family: KoreanYNSJG3R;
+             font-family: 'S-CoreDream-4Regular';
              font-size: 24px;
              color: rgb(0, 0, 0);
        }
