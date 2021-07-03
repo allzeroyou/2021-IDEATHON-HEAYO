@@ -114,29 +114,29 @@
       position: absolute;
       width: 44px;
       height: 44px;
-      left: 1454px;
-      top: 155px;
+      left: 1554px;
+      top: 130px;
       transform: matrix(1,0,0,1,0,0);
   }
 
   #profile_img
   {
-      left: 1519px;
-      top: 156px;
+      left: 1619px;
+      top: 130px;
       position: absolute;
   }
 
   #profile_name
   {
-      left: 1575px;
-      top: 167px;
+      left: 1680px;
+      top: 135px;
       position: absolute;
       overflow: visible;
       width: 100px;
       white-space: nowrap;
       text-align: left;
       font-family: 'S-CoreDream-4Regular';
-      font-size: 24px;
+      font-size: 26px;
       color: rgb(0, 0, 0);
 }
 
@@ -656,6 +656,7 @@
                 overflow: visible;
                 width: 130px;
                 height: 130px;
+            
             }
     
             #mypage_map{
@@ -1112,6 +1113,7 @@
                 left: 32px;
                 top: 5.001px;
             }
+
             #profile-image-position {
                 fill: rgba(60,60,60,0.8);
             }
