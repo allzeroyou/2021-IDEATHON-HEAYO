@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="{% static 'css/first.css' %}">
   <script src="script.js"></script>
-  <title>해요 메뉴-로그인된 상태</title>
+  <title>해요</title>
   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
   <script>
       $(document).ready(function () {
@@ -96,10 +96,14 @@
           </li>
           <li class="outer-menu-item">
             <span class="menu-title"><a href="{% url 'mypage' %}">마이페이지</a></span>
+              <ul class="inner-menu">
+                <li class="inner-menu-item"><a href="{% url 'change' %}">내 정보 변경</a></li>
+                <li class="inner-menu-item"><a href="{% url 'mypage' %}">주변 매장 찾기</a></li>
+                <li class="inner-menu-item"><a href="{% url 'mypage' %}">즐겨찾기 목록</a></li>
+              </ul>
           </li>
         </ul>
       </nav>
-
   </div>
 </body>
 
