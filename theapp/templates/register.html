@@ -46,7 +46,7 @@
         <img src = https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzO6wlUE3xt9U7LbJa4qi3_siXBnkrrNxVLl2V_itSdGFwLlw_rlEpHV3oWhVU6x9tS7c&usqp=CAU width="50" height="50">
     </div>
     <div id="profile_name">
-        <span>김수아 님</span>
+        <span>로그인하기</span>
     </div>
     <!--회원가입 박스-->
     <div class="register-form">
@@ -55,6 +55,12 @@
         <input type="password" name="password" class="text-field" placeholder="비밀번호">
         <input type="password" name="password-check" class="text-field" placeholder="비밀번호 확인">
         <a href="login.html"><input type="button" value="가입하기" class="submit-btn"></a>
+        <input type="text" name="email" class="text-field" >
+        <input type="password" name="password" class="text-field">
+        <input type="password" name="password-check" class="text-field-3">
+        <a class="submit-btn" href="{% url 'login' %}">
+        가입하기
+        </a>
       </form>
       <svg class="register-title">
         <rect id="register-title" rx="43.5" ry="43.5" x="0" y="0" width="463" height="87"></rect>
