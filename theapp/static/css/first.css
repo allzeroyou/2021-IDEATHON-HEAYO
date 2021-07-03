@@ -84,18 +84,18 @@ body
 
         .box
         {
-            left: 1376px;
-            top: 90px;
+            left: 1430px;
+            top: 40px;
             position: absolute;
         }
 
         .container-1 input#search
         {
-            width: 300px;
+            width: 420px;
             height: 50px;
             background: #09090921;
             border: none;
-            font-size: 15pt;
+            font-size: 32px;
             font-family: 'S-CoreDream-4Regular';
             padding-left: 65px;
             -webkit-border-radius: 5px;
@@ -259,7 +259,7 @@ element.style {
   white-space: nowrap;
   text-align: left;
   font-family: 'S-CoreDream-4Regular';
-  font-size: 24px;
+  font-size: 28px;
   color: rgba(123,113,113,1);
 }
 
@@ -272,7 +272,7 @@ element.style {
   white-space: nowrap;
   text-align: left;
   font-family: 'S-CoreDream-4Regular';
-  font-size: 24px;
+  font-size: 28px;
   color: rgba(123,113,113,1);
 }
 
@@ -805,11 +805,12 @@ element.style {
   text-align: center;
   margin-top: 410px;
   margin-right: 566px;
-  margin-left: 550px;
+  margin-left: 650px;
 
   height: 60px;
   margin-bottom: 20px;
   width: 900px;
+
 }
 #main-navigation a {
 
