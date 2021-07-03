@@ -1,4 +1,17 @@
-         /*<공통>*/
+@font-face {
+    font-family: 'S-CoreDream-4Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+     
+  @font-face {
+    font-family: 'S-CoreDream-6Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+        /*<공통>*/
         body
         {
             background: #FFF0D6;
@@ -24,7 +37,7 @@
             width: 58px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG4R;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 30px;
             color: rgba(0,0,0,1);
             text-decoration:none 
@@ -38,7 +51,7 @@
             width: 58px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG4R;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 30px;
             color: rgba(0,0,0,1);
             text-decoration:none 
@@ -52,7 +65,7 @@
             width: 58px;
             white-space: nowrap;
             text-align: left;
-            font-family: KoreanYNSJG4R;
+            font-family: 'S-CoreDream-6Bold';
             font-size: 30px;
             color: rgba(0,0,0,1);
             text-decoration:none 
