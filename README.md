@@ -10,7 +10,7 @@
   2. 서비스 2
 
 # 중앙 아이디어톤 참가 링크
-(제출한 youtube 주소 링크)
+https://www.youtube.com/watch?v=amBEFPSFxj4
 
 # 아이디어톤 일정
 - 아이디어톤 파일 제출 : 6월 28일 ~ 7월 4일
